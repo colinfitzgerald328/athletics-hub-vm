@@ -307,7 +307,7 @@ def return_results_dict(compiled_results):
 
 def get_top_competitors(athlete_id): 
     time.sleep(1)
-    response_data = requests.get(f"https://python.colinfitzgeral8.repl.co/athletes/results?athlete_id={athlete_id}").json()
+    response_data = requests.get(f"https://athletics-hub.uc.r.appspot.com/athletes/results?athlete_id={athlete_id}").json()
     results = response_data["athlete_data"]
     gender = response_data["athlete_gender"]
     name = response_data["athlete_name"]

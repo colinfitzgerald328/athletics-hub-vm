@@ -1,0 +1,114 @@
+Traceback (most recent call last):
+  File "/home/ec2-user/autojobs/top_competitors.py", line 350, in <module>
+    top_competitors = get_top_competitors(document["aaAthleteId"])
+  File "/home/ec2-user/autojobs/top_competitors.py", line 312, in get_top_competitors
+    gender = response_data["athlete_gender"]
+KeyError: 'athlete_gender'
+Traceback (most recent call last):
+  File "/home/ec2-user/autojobs/top_competitors.py", line 350, in <module>
+    top_competitors = get_top_competitors(document["aaAthleteId"])
+  File "/home/ec2-user/autojobs/top_competitors.py", line 312, in get_top_competitors
+    gender = response_data["athlete_gender"]
+KeyError: 'athlete_gender'
+/home/ec2-user/autojobs/top_competitors.py:332: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+/home/ec2-user/autojobs/top_competitors.py:332: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+/home/ec2-user/autojobs/top_competitors.py:332: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+/home/ec2-user/autojobs/top_competitors.py:332: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+/home/ec2-user/autojobs/top_competitors.py:332: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+/home/ec2-user/autojobs/top_competitors.py:332: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+/home/ec2-user/autojobs/top_competitors.py:332: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+/home/ec2-user/autojobs/top_competitors.py:332: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+/home/ec2-user/autojobs/top_competitors.py:332: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+/home/ec2-user/autojobs/top_competitors.py:332: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+/home/ec2-user/autojobs/top_competitors.py:332: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+/home/ec2-user/autojobs/top_competitors.py:332: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+/home/ec2-user/autojobs/top_competitors.py:332: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+/home/ec2-user/autojobs/top_competitors.py:332: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+/home/ec2-user/autojobs/top_competitors.py:332: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+/home/ec2-user/autojobs/top_competitors.py:332: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+/home/ec2-user/autojobs/top_competitors.py:332: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
