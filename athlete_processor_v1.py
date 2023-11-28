@@ -36,38 +36,8 @@ openai.api_base = "https://api.deepinfra.com/v1/openai"
 
 os.environ["DB_PWD"] = "N6BnA4O5nmvEATsl"
 
-settings = {'uuids': {'phone_id': '087ed1fa-29d0-48eb-93a5-ad12a40ece89',
-  'uuid': 'c62b6d71-29e7-4a1d-9dfe-b1ab91086458',
-  'client_session_id': '6a96f697-fed5-4f8a-aa59-afdb223aeb36',
-  'advertising_id': '43d24504-4ebb-4a8a-b9fd-ba407df4f333',
-  'android_device_id': 'android-135af3dcae1ce037',
-  'request_id': '2854631d-9071-44c9-a56a-9644977a325b',
-  'tray_session_id': 'e7050bcb-cf0a-442e-83ae-9b862c4db905'},
- 'mid': 'ZWN64gABAAFF0OyDtUrW300pN16v',
- 'ig_u_rur': None,
- 'ig_www_claim': None,
- 'authorization_data': {'ds_user_id': '63418584772',
-  'sessionid': '63418584772%3AtVJNJyDpjBR6Hp%3A16%3AAYe3HJrXyEpG4hoBokOEba6oAwQbhOgCmTEaT9ofgA'},
- 'cookies': {},
- 'last_login': 1701018346.2482922,
- 'device_settings': {'app_version': '269.0.0.18.75',
-  'android_version': 26,
-  'android_release': '8.0.0',
-  'dpi': '480dpi',
-  'resolution': '1080x1920',
-  'manufacturer': 'OnePlus',
-  'device': 'devitron',
-  'model': '6T Dev',
-  'cpu': 'qcom',
-  'version_code': '314665256'},
- 'user_agent': 'Instagram 269.0.0.18.75 Android (26/8.0.0; 480dpi; 1080x1920; OnePlus; 6T Dev; devitron; qcom; en_US; 314665256)',
- 'country': 'US',
- 'country_code': 1,
- 'locale': 'en_US',
- 'timezone_offset': -14400}
-
-cl = Client(settings)
-cl.login("jimmy_neutron22", "Jimmyneutron1!")
+cl = Client()
+cl.login("jam_esmason22", "Jimmyneutron1!")
 
 
 def connect_to_db():
@@ -472,8 +442,8 @@ def return_athletes_with_codes_and_images(athlete_name):
         wiki_url = get_wiki(athlete["givenName"] + " " + athlete["familyName"].lower().capitalize())
         athlete["wikipedia_url"] = wiki_url
         if athlete["wikipedia_url"]: 
-            nickname = get_nickname(wiki_url)
-            athlete["nickname"] = nickname
+            #nickname = get_nickname(wiki_url)
+            #athlete["nickname"] = nickname
             # get an upgraded image
             athlete["hq_image_url"] = get_hq_image_for_athlete(athlete["givenName"] + "-" + athlete["familyName"].lower().capitalize() + "-" + "track and field")
         if nickname: 
