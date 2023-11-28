@@ -380,6 +380,7 @@ def summarize_instagram(instagram_username):
     }
 
     response = requests.post('https://api.deepinfra.com/v1/openai/chat/completions', headers=headers, json=json_data)
+    print(response.text)
     return response.json()["choices"][0]["message"]["content"]
 
 
