@@ -132,7 +132,7 @@ def get_image_for_athlete(athlete_name_with_country_code):
     except Exception as e:
         print(f"An error occurred: {str(e)}")
     else: 
-        return results[0]
+        results[0] if results else None
 
 
 # In[11]:
@@ -490,7 +490,7 @@ formatted_names = [format_item(item) for item in athletes]
                      
                      
 for name in formatted_names: 
-    time.sleep(10)
+    time.sleep(random.uniform(6, 15))
     existing_record = collection.find_one({"full_name": name})
     if not existing_record:
         pipeline_results = return_athletes_with_codes_and_images(name)
