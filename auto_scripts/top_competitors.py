@@ -6,6 +6,11 @@ import time
 import pandas as pd
 import pymongo
 
+# set up logging 
+import logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
 os.environ["DB_PWD"] = "N6BnA4O5nmvEATsl"
 
 import json
@@ -285,7 +290,8 @@ def get_compiled_results(gender, competitor_results):
     for item in competitor_results: 
         try: 
             event_results = get_results(item["competition"], item["date"], gender, item["disciplineCode"])
-        except: 
+        except Exception as e: 
+            logger.error("An exception occurred: %s", str(e), exc_info=True)
             pass
         if event_results["operation"] == "success": 
             compiled_results.append(event_results["results"])
@@ -348,6 +354,6 @@ documents = collection.find({})
 for document in documents:
     time.sleep(1)
     top_competitors = get_top_competitors(document["aaAthleteId"])
-    print("got top competitors")
+    logger.info("got top competitors \n\n =====")
     document["top_competitors"] = top_competitors
     collection.update_one({"_id": document["_id"]}, {"$set": {"top_competitors": top_competitors}})

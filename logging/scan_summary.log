@@ -27,3 +27,72 @@ likely key error on summary for document so passing
 likely key error on summary for document so passing
 got summary, now updating
 got summary, now updating
+0it [00:00, ?it/s]1it [00:00,  3.16it/s]4it [00:05,  1.35s/it]4it [00:05,  1.28s/it]
+likely key error on summary for document so passing
+likely key error on summary for document so passing
+likely key error on summary for document so passing
+got summary, now updating
+0it [00:00, ?it/s]1it [00:00,  3.26it/s]4it [00:06,  1.73s/it]4it [00:06,  1.62s/it]
+likely key error on summary for document so passing
+likely key error on summary for document so passing
+likely key error on summary for document so passing
+got summary, now updating
+0it [00:00, ?it/s]ERROR:root:An exception occurred: 'summary'
+Traceback (most recent call last):
+  File "/home/ec2-user/autojobs/auto_scripts/scan_summary.py", line 31, in <module>
+    prompt = "Can you summarize who this athlete is? \n\nContext:\n" + document["summary"]
+KeyError: 'summary'
+1it [00:00,  3.18it/s]ERROR:root:An exception occurred: 'summary'
+Traceback (most recent call last):
+  File "/home/ec2-user/autojobs/auto_scripts/scan_summary.py", line 31, in <module>
+    prompt = "Can you summarize who this athlete is? \n\nContext:\n" + document["summary"]
+KeyError: 'summary'
+ERROR:root:An exception occurred: 'summary'
+Traceback (most recent call last):
+  File "/home/ec2-user/autojobs/auto_scripts/scan_summary.py", line 31, in <module>
+    prompt = "Can you summarize who this athlete is? \n\nContext:\n" + document["summary"]
+KeyError: 'summary'
+INFO:__main__:got summary, now updating 
+
+ =====
+4it [00:12,  3.40s/it]4it [00:12,  3.17s/it]
+0it [00:00, ?it/s]ERROR:__main__:An exception occurred: 'summary'
+Traceback (most recent call last):
+  File "/home/ec2-user/autojobs/auto_scripts/scan_summary.py", line 31, in <module>
+    prompt = "Can you summarize who this athlete is? \n\nContext:\n" + document["summary"]
+KeyError: 'summary'
+1it [00:00,  2.85it/s]ERROR:__main__:An exception occurred: 'summary'
+Traceback (most recent call last):
+  File "/home/ec2-user/autojobs/auto_scripts/scan_summary.py", line 31, in <module>
+    prompt = "Can you summarize who this athlete is? \n\nContext:\n" + document["summary"]
+KeyError: 'summary'
+ERROR:__main__:An exception occurred: 'summary'
+Traceback (most recent call last):
+  File "/home/ec2-user/autojobs/auto_scripts/scan_summary.py", line 31, in <module>
+    prompt = "Can you summarize who this athlete is? \n\nContext:\n" + document["summary"]
+KeyError: 'summary'
+INFO:__main__:got summary, now updating 
+
+ =====
+4it [00:07,  2.02s/it]INFO:__main__:got summary, now updating 
+
+ =====
+5it [00:17,  4.28s/it]INFO:__main__:got summary, now updating 
+
+ =====
+6it [00:28,  6.07s/it]6it [00:28,  4.71s/it]
+0it [00:00, ?it/s]ERROR:__main__:An exception occurred: 'summary'
+Traceback (most recent call last):
+  File "/home/ec2-user/autojobs/auto_scripts/scan_summary.py", line 31, in <module>
+    prompt = "Can you summarize who this athlete is? \n\nContext:\n" + document["summary"]
+KeyError: 'summary'
+1it [00:00,  3.08it/s]ERROR:__main__:An exception occurred: 'summary'
+Traceback (most recent call last):
+  File "/home/ec2-user/autojobs/auto_scripts/scan_summary.py", line 31, in <module>
+    prompt = "Can you summarize who this athlete is? \n\nContext:\n" + document["summary"]
+KeyError: 'summary'
+ERROR:__main__:An exception occurred: 'summary'
+Traceback (most recent call last):
+  File "/home/ec2-user/autojobs/auto_scripts/scan_summary.py", line 31, in <module>
+    prompt = "Can you summarize who this athlete is? \n\nContext:\n" + document["summary"]
+KeyError: 'summary'

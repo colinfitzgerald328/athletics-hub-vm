@@ -8,6 +8,12 @@ import time
 import pandas as pd
 import pymongo
 
+# set up logging 
+import logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+
 os.environ["DB_PWD"] = "N6BnA4O5nmvEATsl"
 
 def connect_to_db():
@@ -38,5 +44,6 @@ for document in tqdm(documents):
     url_slug = document["urlSlug"]
     time.sleep(2)
     accomplishments = get_accomplishments(url_slug)
+    logger.info("got accomplishments, now updating DB \n\n ======")
     document["accomplishments"] = accomplishments
     collection.update_one({"_id": document["_id"]}, {"$set": {"accomplishments": accomplishments}})

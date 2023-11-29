@@ -5,8 +5,12 @@ import os
 import random
 import time
 import json
-
 import os
+
+# set up logging
+import logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 # Get the directory of the current script
 current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -133,6 +137,6 @@ documents = collection.find({})
 for document in documents:
     time.sleep(1)
     personal_bests = get_pbs_for_athlete(document["aaAthleteId"])
-    print("got personal bests")
+    logger.info("got personal bests, now updating DB \n\n =====")
     document["personal_bests"] = personal_bests
     collection.update_one({"_id": document["_id"]}, {"$set": {"personal_bests": personal_bests}})

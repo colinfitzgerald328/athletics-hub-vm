@@ -6,6 +6,11 @@ import pinecone
 from langchain.embeddings import CohereEmbeddings
 embeddings = CohereEmbeddings(cohere_api_key="wdlGUm5xd4xK4xP4HCEcJ4Ow68atOAdUr37ABR6Y")
 
+# set up logging 
+import logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
 os.environ["DB_PWD"] = "N6BnA4O5nmvEATsl"
 
 client = pymongo.MongoClient('mongodb+srv://colinfitzgerald:' + os.environ["DB_PWD"] + '@trackathletes.tqfgaze.mongodb.net/?retryWrites=true&w=majority')
@@ -47,13 +52,12 @@ for document in documents:
         if summary != document["summary"]:
             new_embeddings = embeddings.embed_query(document["summary"])
             index.update(match[0]["id"], values=new_embeddings, set_metadata={'summary': document["summary"]})
-            print("item updated")
+            logger.info("item updated \n\n =====")
         else: 
-            print("summary is already updated")
+            logger.info("summary is already updated \n\n =====")
     elif len(match) == 0: 
         summary_embeddings = embeddings.embed_query(document["summary"])
         current_max_id += 1
-        print(current_max_id)
         index.upsert(
             vectors=[
                 {
@@ -62,4 +66,4 @@ for document in documents:
                 'metadata':{'summary': document["summary"], "aaAthleteId": document["aaAthleteId"]}
                 }]
         )
-        print("added item")
+        logger.info("added new item \n\n =====")

@@ -28,6 +28,11 @@ import openai
 import tiktoken
 
 
+# set up logging 
+import logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
 text_splitter = TokenTextSplitter(chunk_size=2800, chunk_overlap=0)
 
 # Point OpenAI client to our endpoint
@@ -490,9 +495,9 @@ for name in formatted_names:
     if not existing_record:
         pipeline_results = return_athletes_with_codes_and_images(name)
         result = collection.insert_one(pipeline_results[0])
-        print("Record inserted successfully!")
+        logger.info("Record inserted successfully! \n\n =====")
     else: 
-        print("found record and skipping")
+        logger.info("found record and skipping \n\n =====")
 
 
 # In[ ]:

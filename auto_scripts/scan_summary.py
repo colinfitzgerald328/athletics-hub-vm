@@ -8,6 +8,11 @@ import time
 import pandas as pd
 import pymongo
 
+# set up logging
+import logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
 os.environ["DB_PWD"] = "N6BnA4O5nmvEATsl"
 
 def connect_to_db():
@@ -45,9 +50,10 @@ for document in tqdm(documents):
         response = requests.post('https://api.deepinfra.com/v1/openai/chat/completions', headers=headers, json=json_data)
         summary = response.json()["choices"][0]["message"]["content"]
 
-        print("got summary, now updating")
+        logger.info("got summary, now updating \n\n =====")
     
         # Update the summary field
         collection.update_one({"_id": document["_id"]}, {"$set": {"summary": summary, "summary_scanned": True}})
-    except: 
-        print("likely key error on summary for document so passing")
+    except Exception as e:
+        # Log the exception
+        logger.error("An exception occurred: %s", str(e), exc_info=True)
