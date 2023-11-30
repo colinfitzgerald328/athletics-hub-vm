@@ -26,7 +26,7 @@ import os
 import urllib
 import openai
 import tiktoken
-
+from instagram_util import login_user
 
 # set up logging 
 import logging
@@ -41,8 +41,8 @@ openai.api_base = "https://api.deepinfra.com/v1/openai"
 
 os.environ["DB_PWD"] = "N6BnA4O5nmvEATsl"
 
-cl = Client()
-cl.login("jam_esmason22", "Jimmyneutron1!")
+# log in to instagram 
+cl = login_user()
 
 
 def connect_to_db():
