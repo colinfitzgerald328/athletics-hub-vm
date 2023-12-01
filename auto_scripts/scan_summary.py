@@ -33,11 +33,11 @@ if len(list(documents)) == 0:
     sys.exit()
 
 
- for document in tqdm(documents):
-     try: 
-         prompt = "Can you summarize who this athlete is? \n\nContext:\n" + document["summary"]
+for document in tqdm(documents):
+    try:
+        prompt = "Can you summarize who this athlete is? \n\nContext:\n" + document["summary"]
 
-         headers = {
+        headers = {
             'Content-Type': 'application/json',
             'Authorization': 'Bearer fra0CxJkQ8wVn6N8bWmDLlQFaNWos0JD',
         }
