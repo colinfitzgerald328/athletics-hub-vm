@@ -7,6 +7,7 @@ import os
 import time 
 import pandas as pd
 import pymongo
+import sys 
 
 # set up logging
 import logging
@@ -26,11 +27,17 @@ collection = database.get_collection('athlete_profile_data')
 # Add the noCursorTimeout option to prevent cursor timeout
 documents = collection.find({"$expr": {"$and": [{"$ne": ["$summary", None]}, {"$not": ["$summary_scanned"]}]}}).limit(20)
 
-for document in tqdm(documents):
-    try: 
-        prompt = "Can you summarize who this athlete is? \n\nContext:\n" + document["summary"]
+# Check if the cursor result is None
+if len(list(documents)) == 0:
+    logger.info("===== No documents found. Exiting the script. =====")
+    sys.exit()
 
-        headers = {
+
+ for document in tqdm(documents):
+     try: 
+         prompt = "Can you summarize who this athlete is? \n\nContext:\n" + document["summary"]
+
+         headers = {
             'Content-Type': 'application/json',
             'Authorization': 'Bearer fra0CxJkQ8wVn6N8bWmDLlQFaNWos0JD',
         }

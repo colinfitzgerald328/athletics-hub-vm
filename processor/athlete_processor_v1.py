@@ -155,7 +155,7 @@ def get_socials(name):
     }
 
     params = {
-        'q': name,
+        'q': name + " track and field", 
         'client': 'safari',
         'sca_esv': '732430080e01cdcb',
         'sxsrf': 'AM9HkKnx4XkPmL66imEY5yvu0NP1Cscw5A:1700939572237',
@@ -200,7 +200,7 @@ def get_wiki(name):
     }
 
     params = {
-        'q': name,
+        'q': name + " track and field", 
         'client': 'safari',
         'sca_esv': '732430080e01cdcb',
         'sxsrf': 'AM9HkKnx4XkPmL66imEY5yvu0NP1Cscw5A:1700939572237',
@@ -317,6 +317,9 @@ def summarize_wikipedia(wikipedia_url):
     if not wikipedia_url: 
         return None 
     wiki_profile_text = get_wiki_profile(wikipedia_url)
+
+    if not wiki_profile_text: 
+        return None 
     
     chunk = text_splitter.split_text(wiki_profile_text)[0]
 
@@ -407,7 +410,8 @@ def summarize_information(wiki_url, instagram_username):
     elif instagram_summary is not None:
         information = instagram_summary
     else:
-        information = "No information available."
+        # in this case, there is no information, so we return nothing 
+        return None 
 
     
     prompt = """
