@@ -7353,3 +7353,552 @@ Traceback (most recent call last):
   File "/home/ec2-user/.local/lib/python3.9/site-packages/pymongo/helpers.py", line 221, in _check_command_response
     raise CursorNotFound(errmsg, code, response, max_wire_version)
 pymongo.errors.CursorNotFound: cursor id 1642080529221019668 not found, full error: {'ok': 0.0, 'errmsg': 'cursor id 1642080529221019668 not found', 'code': 43, 'codeName': 'CursorNotFound', '$clusterTime': {'clusterTime': Timestamp(1701797181, 1), 'signature': {'hash': b'\xf2N\xb4\x190\xd0\t5\xde\xfc\x02\x1dX\xd5H\x8f\x92\x18\x8a&', 'keyId': 7256046250988929031}}, 'operationTime': Timestamp(1701797181, 1)}
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+ERROR:__main__:An exception occurred: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/ec2-user/autojobs/auto_scripts/top_competitors.py", line 292, in get_compiled_results
+    event_results = get_results(item["competition"], item["date"], gender, item["disciplineCode"])
+  File "/home/ec2-user/autojobs/auto_scripts/top_competitors.py", line 228, in get_results
+    competition_id = get_competition_id(competition, date)
+  File "/home/ec2-user/autojobs/auto_scripts/top_competitors.py", line 223, in get_competition_id
+    return found_item["id"]
+TypeError: 'NoneType' object is not subscriptable
+ERROR:__main__:An exception occurred: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/ec2-user/autojobs/auto_scripts/top_competitors.py", line 292, in get_compiled_results
+    event_results = get_results(item["competition"], item["date"], gender, item["disciplineCode"])
+  File "/home/ec2-user/autojobs/auto_scripts/top_competitors.py", line 228, in get_results
+    competition_id = get_competition_id(competition, date)
+  File "/home/ec2-user/autojobs/auto_scripts/top_competitors.py", line 223, in get_competition_id
+    return found_item["id"]
+TypeError: 'NoneType' object is not subscriptable
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+ERROR:__main__:An exception occurred: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/ec2-user/autojobs/auto_scripts/top_competitors.py", line 292, in get_compiled_results
+    event_results = get_results(item["competition"], item["date"], gender, item["disciplineCode"])
+  File "/home/ec2-user/autojobs/auto_scripts/top_competitors.py", line 228, in get_results
+    competition_id = get_competition_id(competition, date)
+  File "/home/ec2-user/autojobs/auto_scripts/top_competitors.py", line 223, in get_competition_id
+    return found_item["id"]
+TypeError: 'NoneType' object is not subscriptable
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+ERROR:__main__:An exception occurred: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/ec2-user/autojobs/auto_scripts/top_competitors.py", line 292, in get_compiled_results
+    event_results = get_results(item["competition"], item["date"], gender, item["disciplineCode"])
+  File "/home/ec2-user/autojobs/auto_scripts/top_competitors.py", line 228, in get_results
+    competition_id = get_competition_id(competition, date)
+  File "/home/ec2-user/autojobs/auto_scripts/top_competitors.py", line 223, in get_competition_id
+    return found_item["id"]
+TypeError: 'NoneType' object is not subscriptable
+ERROR:__main__:An exception occurred: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/ec2-user/autojobs/auto_scripts/top_competitors.py", line 292, in get_compiled_results
+    event_results = get_results(item["competition"], item["date"], gender, item["disciplineCode"])
+  File "/home/ec2-user/autojobs/auto_scripts/top_competitors.py", line 228, in get_results
+    competition_id = get_competition_id(competition, date)
+  File "/home/ec2-user/autojobs/auto_scripts/top_competitors.py", line 223, in get_competition_id
+    return found_item["id"]
+TypeError: 'NoneType' object is not subscriptable
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+ERROR:__main__:An exception occurred: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/ec2-user/autojobs/auto_scripts/top_competitors.py", line 292, in get_compiled_results
+    event_results = get_results(item["competition"], item["date"], gender, item["disciplineCode"])
+  File "/home/ec2-user/autojobs/auto_scripts/top_competitors.py", line 228, in get_results
+    competition_id = get_competition_id(competition, date)
+  File "/home/ec2-user/autojobs/auto_scripts/top_competitors.py", line 223, in get_competition_id
+    return found_item["id"]
+TypeError: 'NoneType' object is not subscriptable
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+ERROR:__main__:An exception occurred: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/ec2-user/autojobs/auto_scripts/top_competitors.py", line 292, in get_compiled_results
+    event_results = get_results(item["competition"], item["date"], gender, item["disciplineCode"])
+  File "/home/ec2-user/autojobs/auto_scripts/top_competitors.py", line 228, in get_results
+    competition_id = get_competition_id(competition, date)
+  File "/home/ec2-user/autojobs/auto_scripts/top_competitors.py", line 223, in get_competition_id
+    return found_item["id"]
+TypeError: 'NoneType' object is not subscriptable
+ERROR:__main__:An exception occurred: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/ec2-user/autojobs/auto_scripts/top_competitors.py", line 292, in get_compiled_results
+    event_results = get_results(item["competition"], item["date"], gender, item["disciplineCode"])
+  File "/home/ec2-user/autojobs/auto_scripts/top_competitors.py", line 228, in get_results
+    competition_id = get_competition_id(competition, date)
+  File "/home/ec2-user/autojobs/auto_scripts/top_competitors.py", line 223, in get_competition_id
+    return found_item["id"]
+TypeError: 'NoneType' object is not subscriptable
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+ERROR:__main__:An exception occurred: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/ec2-user/autojobs/auto_scripts/top_competitors.py", line 292, in get_compiled_results
+    event_results = get_results(item["competition"], item["date"], gender, item["disciplineCode"])
+  File "/home/ec2-user/autojobs/auto_scripts/top_competitors.py", line 228, in get_results
+    competition_id = get_competition_id(competition, date)
+  File "/home/ec2-user/autojobs/auto_scripts/top_competitors.py", line 223, in get_competition_id
+    return found_item["id"]
+TypeError: 'NoneType' object is not subscriptable
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
+/home/ec2-user/autojobs/auto_scripts/top_competitors.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  plus_one["weighted_average"] = joined["score"] + 5*joined["count"]
+INFO:__main__:got top competitors 
+
+ =====
