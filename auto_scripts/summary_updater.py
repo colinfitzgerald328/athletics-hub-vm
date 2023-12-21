@@ -4,6 +4,7 @@ import requests
 import json
 import subprocess
 from bs4 import BeautifulSoup
+import time 
 
 # set up logging
 import logging
@@ -54,7 +55,7 @@ def summarize_athlete_wikipedia(wiki_url):
     location_id = "us-central1"
 
     # Authenticate and get the access token using gcloud (assuming gcloud is installed and configured)
-    access_token = subprocess.run(['gcloud', 'auth', 'print-access-token'], capture_output=True, text=True).stdout.strip()
+    access_token = subprocess.run(['/home/ec2-user/google-cloud-sdk/bin/gcloud', 'auth', 'print-access-token'], capture_output=True, text=True).stdout.strip()
 
     headers = {
         "Authorization": f"Bearer {access_token}",
@@ -72,13 +73,17 @@ def summarize_athlete_wikipedia(wiki_url):
 
 
 # find all documents that have wikipedia URLs
-wikipedia_documents = collection.find({"wikipedia_url": {"$ne": None}})
+wikipedia_documents = collection.find({"$expr": {"$and": [{"$not": ["$google_scanned"]}, {"$ne": ["$wikipedia_url", None]}]}})
 for document in wikipedia_documents: 
     try: 
+        time.sleep(5)
         new_summary = summarize_athlete_wikipedia(document["wikipedia_url"])
         logger.info("got summary, now updating \n\n =====")
         document["summary"] = new_summary 
-        collection.update_one({"_id": document["_id"]}, {"$set": {"summary": document["summary"]}})
+        collection.update_one(
+            {"_id": document["_id"]},
+            {"$set": {"summary": document["summary"], "google_scanned": True}}
+        )
     except Exception as e: 
         # Log the exception
         logger.error("An exception occurred: %s", str(e), exc_info=True)
