@@ -65,6 +65,7 @@ def summarize_athlete_wikipedia(wiki_url):
     url = f"https://{api_endpoint}/v1/projects/{project_id}/locations/{location_id}/publishers/google/models/{model_id}:streamGenerateContent"
 
     response = requests.post(url, headers=headers, data=json.dumps(request_data))
+    print(response.text)
 
     data = response.json()
     summary = "".join(item["candidates"][0]["content"]["parts"][0]["text"] for item in data)
@@ -73,7 +74,14 @@ def summarize_athlete_wikipedia(wiki_url):
 
 
 # find all documents that have wikipedia URLs
-wikipedia_documents = collection.find({"$expr": {"$and": [{"$not": ["$google_scanned"]}, {"$ne": ["$wikipedia_url", None]}]}})
+documents = wikipedia_documents = collection.find({
+    "$expr": {
+        "$and": [
+            {"$ne": ["$google_scanned", True]},  # Use $ne instead of $not
+            {"$ne": ["$wikipedia_url", None]}
+        ]
+    }
+}).limit(20)
 for document in wikipedia_documents: 
     try: 
         time.sleep(5)
