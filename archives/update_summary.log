@@ -1,64 +1,0 @@
-python3: can't open file '/home/ec2-user/autjobs/update_summaries.py': [Errno 2] No such file or directory
-0it [00:00, ?it/s]1it [02:05, 125.89s/it]2it [03:45, 110.52s/it]3it [06:32, 136.30s/it]4it [08:26, 127.27s/it]5it [09:22, 101.63s/it]6it [10:35, 92.06s/it] 7it [12:30, 99.34s/it]8it [14:31, 106.37s/it]9it [15:23, 89.31s/it] 10it [19:31, 138.36s/it]11it [21:02, 123.87s/it]11it [22:08, 120.73s/it]
-got summary, now updating document
-got summary, now updating document
-got summary, now updating document
-got summary, now updating document
-got summary, now updating document
-got summary, now updating document
-got summary, now updating document
-got summary, now updating document
-got summary, now updating document
-got summary, now updating document
-got summary, now updating document
-urllib3.exceptions.ResponseError: too many 429 error responses
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/requests/adapters.py", line 486, in send
-    resp = conn.urlopen(
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 945, in urlopen
-    return self.urlopen(
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 945, in urlopen
-    return self.urlopen(
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 945, in urlopen
-    return self.urlopen(
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 935, in urlopen
-    retries = retries.increment(method, url, response=response, _pool=self)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/util/retry.py", line 515, in increment
-    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
-urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/users/femke_bol/usernameinfo/ (Caused by ResponseError('too many 429 error responses'))
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/ec2-user/autojobs/update_summaries.py", line 220, in <module>
-    summary = summarize_information(wikipedia_url, ig_username)
-  File "/home/ec2-user/autojobs/update_summaries.py", line 179, in summarize_information
-    instagram_summary = summarize_instagram(instagram_username)
-  File "/home/ec2-user/autojobs/update_summaries.py", line 138, in summarize_instagram
-    ig_post_text = get_ig_caption_text(instagram_username)
-  File "/home/ec2-user/autojobs/update_summaries.py", line 81, in get_ig_caption_text
-    user_id = cl.user_id_from_username(ig_username)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/instagrapi/mixins/user.py", line 50, in user_id_from_username
-    return str(self.user_info_by_username(username).pk)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/instagrapi/mixins/user.py", line 200, in user_info_by_username
-    user = self.user_info_by_username_v1(username)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/instagrapi/mixins/user.py", line 163, in user_info_by_username_v1
-    result = self.private_request(f"users/{username}/usernameinfo/")
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/instagrapi/mixins/private.py", line 542, in private_request
-    raise e
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/instagrapi/mixins/private.py", line 527, in private_request
-    self._send_private_request(endpoint, **kwargs)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/instagrapi/mixins/private.py", line 346, in _send_private_request
-    response = self.private.get(
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/requests/sessions.py", line 602, in get
-    return self.request("GET", url, **kwargs)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/requests/sessions.py", line 589, in request
-    resp = self.send(prep, **send_kwargs)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/requests/sessions.py", line 703, in send
-    r = adapter.send(request, **kwargs)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/requests/adapters.py", line 510, in send
-    raise RetryError(e, request=request)
-requests.exceptions.RetryError: HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/users/femke_bol/usernameinfo/ (Caused by ResponseError('too many 429 error responses'))
