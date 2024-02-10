@@ -2,8 +2,9 @@ from openai import OpenAI
 client = OpenAI(api_key="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")
 
 import requests
-import subprocess
-import json
+import os
+import pymongo
+import datetime
 from typing import List, Dict 
 from bs4 import BeautifulSoup
 from tqdm import tqdm 
@@ -13,13 +14,23 @@ import logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+os.environ["DB_PWD"] = "N6BnA4O5nmvEATsl"
+
+def connect_to_db() -> pymongo.MongoClient:
+    client = pymongo.MongoClient('mongodb+srv://colinfitzgerald:' + os.environ["DB_PWD"] + '@trackathletes.tqfgaze.mongodb.net/?retryWrites=true&w=majority')
+    return client
+
+# Define a function to get the current date
+def get_current_date():
+    return datetime.datetime.now().strftime("%Y-%m-%d")
+
 def get_top_threads() -> List[str]:
     """
     Returns the links to the top threads currently on Letsrun
     """
     thread_links = []
     resp = requests.get("https://www.letsrun.com/").text
-    soup = BeautifulSoup(resp)
+    soup = BeautifulSoup(resp, 'html.parser')
     elements = soup.find_all("a", class_="on-the-boards-link")
     for element in elements:
         thread_links.append(element["href"])
@@ -97,5 +108,21 @@ def summarize_today_narrative(snippets: List[Dict[str, str]]) -> str:
     """
     return generic_ai_service(prompt)
 
-today_summaries = get_todays_summaries()
-md_doc = summarize_today_narrative(today_summaries)
+def log_today_summary():
+    client = connect_to_db()
+    database = client.get_database('track_athletes')
+    collection = database.get_collection('letsrun_summaries')
+    today_summaries = get_todays_summaries()
+    md_doc = summarize_today_narrative(today_summaries)
+    # now insert the document
+    # Create a dictionary with the document and the current date as keys
+    insert_doc = {
+        "document": md_doc,
+        "date": get_current_date()
+    }
+
+    # Insert the document into the collection
+    collection.insert_one(insert_doc) 
+    logger.info("SUCCESSFULLY INSERTED SUMMARY")
+
+log_today_summary()
