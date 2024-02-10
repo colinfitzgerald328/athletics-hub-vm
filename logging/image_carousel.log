@@ -1,1335 +1,0 @@
-0it [00:00, ?it/s]0it [00:01, ?it/s]
-Traceback (most recent call last):
-  File "/home/ec2-user/autojobs/auto_scripts/image_carousel.py", line 83, in <module>
-    document["hq_images"] = new_image_url
-NameError: name 'new_image_url' is not defined
-0it [00:00, ?it/s]1it [00:01,  1.39s/it]2it [00:02,  1.01it/s]3it [00:02,  1.26it/s]4it [00:03,  1.44it/s]5it [00:03,  1.50it/s]6it [00:04,  1.51it/s]7it [00:05,  1.59it/s]8it [00:05,  1.71it/s]9it [00:06,  1.45it/s]10it [00:07,  1.39it/s]11it [00:07,  1.37it/s]12it [00:08,  1.44it/s]13it [00:09,  1.55it/s]14it [00:09,  1.65it/s]15it [00:10,  1.70it/s]16it [00:10,  1.74it/s]17it [00:11,  1.69it/s]18it [00:12,  1.43it/s]19it [00:13,  1.38it/s]20it [00:13,  1.44it/s]21it [00:14,  1.54it/s]22it [00:14,  1.64it/s]23it [00:15,  1.72it/s]24it [00:15,  1.78it/s]25it [00:16,  1.80it/s]26it [00:16,  1.78it/s]27it [00:17,  1.75it/s]28it [00:18,  1.79it/s]29it [00:18,  1.79it/s]30it [00:19,  1.69it/s]31it [00:20,  1.55it/s]32it [00:20,  1.46it/s]33it [00:21,  1.37it/s]34it [00:22,  1.37it/s]35it [00:22,  1.47it/s]36it [00:23,  1.56it/s]37it [00:24,  1.66it/s]38it [00:24,  1.63it/s]39it [00:25,  1.58it/s]40it [00:25,  1.62it/s]41it [00:26,  1.67it/s]42it [00:26,  1.74it/s]43it [00:27,  1.60it/s]44it [00:28,  1.51it/s]45it [00:29,  1.41it/s]46it [00:29,  1.46it/s]47it [00:30,  1.52it/s]48it [00:31,  1.61it/s]49it [00:31,  1.70it/s]50it [00:32,  1.81it/s]51it [00:32,  1.73it/s]52it [00:33,  1.59it/s]53it [00:34,  1.59it/s]54it [00:34,  1.59it/s]55it [00:35,  1.55it/s]56it [00:35,  1.67it/s]57it [00:36,  1.73it/s]58it [00:36,  1.78it/s]59it [00:37,  1.80it/s]60it [00:38,  1.80it/s]61it [00:38,  1.85it/s]62it [00:39,  1.74it/s]63it [00:39,  1.77it/s]64it [00:40,  1.78it/s]65it [00:40,  1.80it/s]66it [00:41,  1.85it/s]67it [00:41,  1.85it/s]68it [00:42,  1.82it/s]69it [00:42,  1.82it/s]70it [00:43,  1.81it/s]71it [00:44,  1.63it/s]72it [00:45,  1.41it/s]73it [00:46,  1.30it/s]74it [00:47,  1.24it/s]75it [00:47,  1.34it/s]76it [00:48,  1.39it/s]77it [00:48,  1.45it/s]78it [00:49,  1.51it/s]79it [00:50,  1.53it/s]80it [00:50,  1.53it/s]81it [00:51,  1.66it/s]82it [00:51,  1.81it/s]83it [00:52,  1.99it/s]84it [00:52,  2.03it/s]85it [00:53,  2.03it/s]86it [00:53,  2.03it/s]87it [00:54,  1.93it/s]88it [00:54,  1.92it/s]89it [00:55,  1.92it/s]90it [00:55,  1.92it/s]91it [00:56,  1.79it/s]92it [00:56,  1.81it/s]93it [00:57,  1.72it/s]94it [00:58,  1.55it/s]95it [00:59,  1.41it/s]96it [01:00,  1.26it/s]97it [01:00,  1.28it/s]98it [01:01,  1.28it/s]99it [01:02,  1.25it/s]100it [01:03,  1.31it/s]101it [01:03,  1.40it/s]102it [01:05,  1.01s/it]103it [01:06,  1.10it/s]104it [01:06,  1.25it/s]105it [01:07,  1.34it/s]106it [01:08,  1.30it/s]107it [01:08,  1.43it/s]108it [01:09,  1.66it/s]109it [01:09,  1.77it/s]110it [01:10,  1.81it/s]111it [01:10,  1.80it/s]112it [01:11,  1.67it/s]113it [01:11,  1.68it/s]114it [01:12,  1.75it/s]115it [01:13,  1.50it/s]116it [01:13,  1.59it/s]117it [01:14,  1.68it/s]118it [01:14,  1.80it/s]119it [01:15,  1.81it/s]120it [01:16,  1.66it/s]121it [01:17,  1.48it/s]122it [01:17,  1.30it/s]123it [01:18,  1.38it/s]124it [01:19,  1.45it/s]125it [01:19,  1.57it/s]126it [01:20,  1.56it/s]127it [01:20,  1.70it/s]128it [01:21,  1.72it/s]129it [01:21,  1.77it/s]130it [01:22,  1.72it/s]131it [01:23,  1.55it/s]132it [01:24,  1.42it/s]133it [01:25,  1.34it/s]134it [01:25,  1.51it/s]135it [01:26,  1.60it/s]136it [01:26,  1.63it/s]137it [01:27,  1.72it/s]138it [01:27,  1.87it/s]139it [01:28,  1.90it/s]140it [01:28,  1.90it/s]141it [01:29,  1.96it/s]142it [01:29,  1.94it/s]143it [01:30,  1.85it/s]144it [01:30,  1.75it/s]145it [01:31,  1.63it/s]146it [01:32,  1.51it/s]147it [01:33,  1.41it/s]148it [01:33,  1.34it/s]149it [01:34,  1.35it/s]150it [01:35,  1.45it/s]151it [01:35,  1.53it/s]152it [01:36,  1.57it/s]153it [01:37,  1.57it/s]154it [01:37,  1.55it/s]155it [01:38,  1.61it/s]156it [01:38,  1.68it/s]157it [01:39,  1.51it/s]158it [01:40,  1.49it/s]159it [01:40,  1.59it/s]160it [01:41,  1.57it/s]161it [01:41,  1.73it/s]162it [01:42,  1.78it/s]163it [01:43,  1.74it/s]164it [01:43,  1.77it/s]165it [01:44,  1.79it/s]166it [01:44,  1.89it/s]167it [01:45,  1.89it/s]168it [01:45,  1.88it/s]169it [01:46,  1.87it/s]170it [01:47,  1.63it/s]171it [01:47,  1.64it/s]172it [01:48,  1.58it/s]173it [01:49,  1.55it/s]174it [01:49,  1.62it/s]175it [01:50,  1.76it/s]176it [01:50,  1.86it/s]177it [01:51,  1.75it/s]178it [01:51,  1.67it/s]179it [01:52,  1.62it/s]180it [01:53,  1.66it/s]181it [01:53,  1.70it/s]182it [01:54,  1.77it/s]183it [01:54,  1.82it/s]184it [01:55,  1.87it/s]185it [01:55,  1.89it/s]186it [01:56,  1.80it/s]187it [01:56,  1.93it/s]188it [01:57,  1.84it/s]189it [01:58,  1.49it/s]190it [01:58,  1.45it/s]191it [01:59,  1.40it/s]192it [02:00,  1.45it/s]193it [02:01,  1.48it/s]194it [02:01,  1.54it/s]195it [02:02,  1.61it/s]196it [02:03,  1.39it/s]197it [02:03,  1.46it/s]198it [02:04,  1.57it/s]199it [02:04,  1.78it/s]200it [02:05,  1.58it/s]201it [02:05,  1.67it/s]202it [02:06,  1.73it/s]203it [02:07,  1.68it/s]204it [02:07,  1.63it/s]205it [02:08,  1.68it/s]206it [02:08,  1.67it/s]207it [02:09,  1.83it/s]208it [02:09,  1.75it/s]209it [02:10,  1.64it/s]210it [02:11,  1.56it/s]211it [02:12,  1.50it/s]212it [02:12,  1.47it/s]213it [02:13,  1.52it/s]214it [02:14,  1.59it/s]215it [02:14,  1.61it/s]216it [02:15,  1.66it/s]217it [02:15,  1.74it/s]218it [02:16,  1.68it/s]219it [02:16,  1.75it/s]220it [02:17,  1.81it/s]221it [02:17,  1.80it/s]222it [02:18,  1.80it/s]223it [02:19,  1.78it/s]224it [02:19,  1.52it/s]225it [02:20,  1.56it/s]226it [02:21,  1.64it/s]227it [02:21,  1.72it/s]228it [02:22,  1.65it/s]229it [02:22,  1.71it/s]230it [02:23,  1.80it/s]231it [02:23,  1.87it/s]232it [02:24,  1.89it/s]233it [02:24,  1.88it/s]234it [02:25,  2.09it/s]235it [02:25,  1.97it/s]236it [02:26,  1.59it/s]237it [02:27,  1.66it/s]238it [02:27,  1.76it/s]239it [02:28,  1.80it/s]240it [02:28,  1.76it/s]241it [02:29,  1.49it/s]242it [02:30,  1.46it/s]243it [02:31,  1.40it/s]244it [02:31,  1.48it/s]245it [02:32,  1.59it/s]246it [02:32,  1.67it/s]247it [02:33,  1.73it/s]248it [02:33,  1.83it/s]249it [02:34,  1.80it/s]250it [02:35,  1.77it/s]251it [02:35,  1.71it/s]252it [02:36,  1.71it/s]253it [02:37,  1.52it/s]254it [02:37,  1.53it/s]255it [02:38,  1.60it/s]256it [02:38,  1.69it/s]257it [02:39,  1.72it/s]258it [02:39,  1.74it/s]259it [02:40,  1.79it/s]260it [02:40,  1.79it/s]261it [02:41,  1.75it/s]262it [02:42,  1.80it/s]263it [02:42,  1.82it/s]264it [02:43,  1.93it/s]265it [02:43,  1.76it/s]266it [02:44,  1.57it/s]267it [02:45,  1.51it/s]268it [02:45,  1.58it/s]269it [02:46,  1.58it/s]270it [02:47,  1.43it/s]271it [02:47,  1.51it/s]272it [02:48,  1.62it/s]273it [02:48,  1.69it/s]274it [02:49,  1.72it/s]275it [02:50,  1.74it/s]276it [02:50,  1.80it/s]277it [02:51,  1.91it/s]278it [02:51,  1.90it/s]279it [02:52,  1.82it/s]280it [02:52,  1.84it/s]281it [02:53,  1.85it/s]282it [02:53,  1.88it/s]283it [02:54,  1.92it/s]284it [02:54,  1.91it/s]285it [02:55,  1.90it/s]286it [02:55,  1.76it/s]287it [02:56,  1.66it/s]288it [02:57,  1.62it/s]289it [02:57,  1.69it/s]290it [02:58,  1.74it/s]291it [02:58,  1.81it/s]292it [02:59,  1.76it/s]293it [03:00,  1.68it/s]294it [03:00,  1.61it/s]295it [03:01,  1.57it/s]296it [03:01,  1.67it/s]297it [03:02,  1.57it/s]298it [03:03,  1.56it/s]299it [03:03,  1.62it/s]300it [03:04,  1.69it/s]301it [03:04,  1.75it/s]302it [03:05,  1.90it/s]303it [03:05,  1.91it/s]304it [03:06,  2.02it/s]305it [03:06,  1.88it/s]306it [03:07,  1.72it/s]307it [03:08,  1.73it/s]308it [03:08,  1.77it/s]309it [03:09,  1.77it/s]310it [03:09,  1.68it/s]311it [03:10,  1.70it/s]312it [03:11,  1.82it/s]313it [03:11,  1.83it/s]314it [03:12,  1.87it/s]315it [03:12,  1.75it/s]image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-316it [03:13,  1.84it/s]317it [03:13,  1.77it/s]318it [03:14,  1.80it/s]319it [03:14,  1.83it/s]320it [03:15,  1.85it/s]321it [03:15,  1.96it/s]322it [03:16,  2.02it/s]323it [03:16,  1.95it/s]324it [03:17,  1.88it/s]325it [03:18,  1.78it/s]326it [03:18,  1.66it/s]327it [03:19,  1.61it/s]328it [03:19,  1.68it/s]329it [03:20,  1.62it/s]330it [03:21,  1.62it/s]331it [03:21,  1.67it/s]332it [03:22,  1.75it/s]333it [03:22,  1.84it/s]334it [03:23,  1.82it/s]335it [03:23,  1.93it/s]336it [03:24,  2.06it/s]337it [03:24,  1.87it/s]338it [03:25,  2.00it/s]339it [03:25,  1.98it/s]340it [03:26,  2.14it/s]341it [03:26,  2.08it/s]342it [03:27,  1.91it/s]343it [03:27,  1.94it/s]344it [03:28,  1.94it/s]345it [03:28,  1.87it/s]346it [03:29,  1.77it/s]347it [03:30,  1.72it/s]348it [03:30,  1.75it/s]349it [03:31,  1.59it/s]350it [03:32,  1.53it/s]351it [03:32,  1.59it/s]352it [03:33,  1.77it/s]353it [03:33,  1.79it/s]354it [03:34,  1.75it/s]355it [03:34,  1.80it/s]356it [03:35,  1.93it/s]357it [03:35,  1.94it/s]358it [03:36,  1.73it/s]359it [03:36,  1.90it/s]360it [03:37,  1.96it/s]361it [03:37,  2.11it/s]362it [03:38,  2.05it/s]363it [03:38,  1.98it/s]364it [03:39,  1.73it/s]365it [03:40,  1.54it/s]366it [03:41,  1.38it/s]367it [03:41,  1.39it/s]368it [03:42,  1.27it/s]369it [03:43,  1.37it/s]370it [03:44,  1.49it/s]371it [03:44,  1.58it/s]372it [03:45,  1.76it/s]373it [03:45,  1.81it/s]374it [03:45,  1.91it/s]375it [03:46,  1.91it/s]376it [03:47,  1.92it/s]377it [03:47,  1.88it/s]378it [03:48,  1.95it/s]379it [03:48,  1.84it/s]380it [03:49,  1.91it/s]381it [03:49,  1.96it/s]382it [03:50,  1.90it/s]383it [03:50,  1.89it/s]384it [03:51,  1.90it/s]385it [03:51,  1.80it/s]386it [03:52,  1.75it/s]387it [03:52,  1.85it/s]388it [03:53,  1.78it/s]389it [03:54,  1.54it/s]390it [03:54,  1.67it/s]391it [03:55,  1.72it/s]392it [03:55,  1.77it/s]393it [03:56,  1.80it/s]394it [03:57,  1.73it/s]395it [03:57,  1.71it/s]396it [03:58,  1.59it/s]397it [03:58,  1.70it/s]398it [03:59,  1.82it/s]399it [03:59,  1.88it/s]400it [04:00,  1.82it/s]401it [04:00,  1.99it/s]402it [04:01,  2.01it/s]403it [04:01,  2.09it/s]404it [04:02,  2.03it/s]405it [04:02,  1.98it/s]406it [04:03,  1.85it/s]407it [04:03,  1.92it/s]408it [04:04,  1.88it/s]409it [04:05,  1.91it/s]410it [04:05,  1.83it/s]411it [04:06,  1.88it/s]412it [04:06,  1.98it/s]413it [04:07,  1.89it/s]414it [04:07,  1.76it/s]415it [04:08,  1.79it/s]416it [04:08,  1.82it/s]417it [04:09,  1.76it/s]418it [04:10,  1.50it/s]419it [04:11,  1.42it/s]420it [04:11,  1.52it/s]421it [04:12,  1.33it/s]422it [04:13,  1.45it/s]423it [04:13,  1.53it/s]424it [04:14,  1.64it/s]425it [04:14,  1.65it/s]426it [04:15,  1.75it/s]427it [04:15,  1.85it/s]428it [04:16,  2.04it/s]429it [04:16,  2.05it/s]430it [04:17,  1.94it/s]431it [04:17,  1.84it/s]432it [04:18,  1.99it/s]433it [04:18,  2.00it/s]434it [04:19,  1.97it/s]435it [04:19,  2.11it/s]436it [04:20,  2.06it/s]437it [04:20,  1.98it/s]438it [04:21,  1.90it/s]439it [04:21,  2.02it/s]440it [04:22,  1.97it/s]441it [04:22,  1.98it/s]442it [04:23,  1.96it/s]443it [04:23,  1.93it/s]444it [04:24,  1.71it/s]445it [04:25,  1.47it/s]446it [04:26,  1.41it/s]447it [04:27,  1.17it/s]448it [04:28,  1.26it/s]449it [04:28,  1.40it/s]450it [04:29,  1.52it/s]451it [04:29,  1.55it/s]452it [04:30,  1.56it/s]453it [04:30,  1.65it/s]454it [04:31,  1.71it/s]455it [04:32,  1.54it/s]456it [04:32,  1.71it/s]457it [04:33,  1.81it/s]458it [04:33,  1.73it/s]459it [04:34,  1.77it/s]460it [04:34,  1.85it/s]461it [04:35,  1.81it/s]462it [04:35,  1.82it/s]463it [04:36,  1.84it/s]464it [04:37,  1.83it/s]465it [04:37,  1.81it/s]466it [04:38,  1.99it/s]467it [04:38,  1.97it/s]468it [04:38,  2.07it/s]469it [04:39,  1.86it/s]470it [04:40,  1.90it/s]471it [04:40,  1.94it/s]472it [04:41,  1.98it/s]473it [04:41,  1.93it/s]474it [04:42,  1.94it/s]475it [04:42,  1.71it/s]476it [04:43,  1.65it/s]477it [04:44,  1.64it/s]478it [04:44,  1.69it/s]479it [04:45,  1.71it/s]480it [04:45,  1.76it/s]481it [04:46,  1.73it/s]482it [04:47,  1.62it/s]483it [04:47,  1.56it/s]484it [04:48,  1.63it/s]485it [04:48,  1.69it/s]486it [04:49,  1.81it/s]487it [04:49,  1.90it/s]488it [04:50,  1.89it/s]489it [04:50,  1.85it/s]490it [04:51,  1.74it/s]491it [04:52,  1.76it/s]492it [04:52,  1.85it/s]493it [04:53,  1.88it/s]494it [04:53,  1.80it/s]495it [04:54,  1.82it/s]496it [04:54,  1.88it/s]497it [04:55,  1.87it/s]498it [04:55,  1.88it/s]499it [04:56,  1.71it/s]500it [04:57,  1.65it/s]501it [04:57,  1.53it/s]502it [04:59,  1.03it/s]0it [00:00, ?it/s]503it [05:00,  1.06it/s]504it [05:01,  1.24it/s]1it [00:00,  1.15it/s]505it [05:01,  1.35it/s]2it [00:01,  1.26it/s]506it [05:02,  1.37it/s]3it [00:02,  1.38it/s]507it [05:02,  1.51it/s]4it [00:03,  1.31it/s]508it [05:03,  1.36it/s]5it [00:03,  1.23it/s]509it [05:04,  1.42it/s]6it [00:04,  1.23it/s]510it [05:05,  1.33it/s]7it [00:05,  1.34it/s]511it [05:05,  1.34it/s]8it [00:06,  1.24it/s]512it [05:06,  1.25it/s]9it [00:07,  1.28it/s]513it [05:07,  1.15it/s]10it [00:07,  1.28it/s]514it [05:08,  1.18it/s]11it [00:08,  1.32it/s]515it [05:09,  1.24it/s]12it [00:09,  1.41it/s]516it [05:10,  1.36it/s]13it [00:09,  1.49it/s]517it [05:10,  1.42it/s]14it [00:10,  1.57it/s]15it [00:10,  1.60it/s]518it [05:11,  1.46it/s]16it [00:11,  1.72it/s]519it [05:11,  1.52it/s]17it [00:12,  1.58it/s]520it [05:12,  1.44it/s]18it [00:12,  1.61it/s]521it [05:13,  1.50it/s]19it [00:13,  1.69it/s]522it [05:13,  1.50it/s]20it [00:13,  1.75it/s]21it [00:14,  1.68it/s]523it [05:14,  1.36it/s]22it [00:14,  1.78it/s]524it [05:15,  1.42it/s]23it [00:15,  1.77it/s]525it [05:16,  1.49it/s]24it [00:16,  1.79it/s]526it [05:16,  1.64it/s]25it [00:16,  1.93it/s]527it [05:17,  1.74it/s]26it [00:16,  2.10it/s]528it [05:17,  1.88it/s]27it [00:17,  2.09it/s]529it [05:17,  1.95it/s]28it [00:17,  2.06it/s]530it [05:18,  1.95it/s]29it [00:18,  2.15it/s]531it [05:18,  1.97it/s]30it [00:18,  2.10it/s]532it [05:19,  1.60it/s]31it [00:19,  1.66it/s]533it [05:20,  1.56it/s]32it [00:20,  1.37it/s]534it [05:21,  1.21it/s]33it [00:21,  1.36it/s]535it [05:22,  1.23it/s]34it [00:22,  1.30it/s]536it [05:23,  1.30it/s]35it [00:22,  1.32it/s]36it [00:23,  1.45it/s]537it [05:24,  1.18it/s]37it [00:23,  1.58it/s]38it [00:24,  1.62it/s]538it [05:24,  1.22it/s]39it [00:25,  1.52it/s]539it [05:25,  1.25it/s]540it [05:26,  1.32it/s]40it [00:26,  1.47it/s]541it [05:26,  1.46it/s]41it [00:26,  1.53it/s]42it [00:27,  1.71it/s]542it [05:27,  1.47it/s]43it [00:27,  1.88it/s]543it [05:28,  1.55it/s]44it [00:28,  1.88it/s]544it [05:28,  1.65it/s]45it [00:28,  1.92it/s]545it [05:29,  1.70it/s]46it [00:29,  1.91it/s]546it [05:29,  1.79it/s]47it [00:29,  1.87it/s]547it [05:30,  1.84it/s]48it [00:30,  1.75it/s]548it [05:30,  1.69it/s]49it [00:30,  1.75it/s]549it [05:31,  1.66it/s]50it [00:31,  1.88it/s]51it [00:31,  1.80it/s]550it [05:32,  1.55it/s]551it [05:33,  1.44it/s]52it [00:32,  1.56it/s]53it [00:33,  1.66it/s]552it [05:33,  1.49it/s]54it [00:33,  1.69it/s]553it [05:34,  1.55it/s]55it [00:34,  1.80it/s]554it [05:34,  1.62it/s]56it [00:34,  1.96it/s]555it [05:35,  1.64it/s]57it [00:35,  2.10it/s]58it [00:35,  2.00it/s]556it [05:36,  1.66it/s]59it [00:36,  1.86it/s]557it [05:36,  1.46it/s]60it [00:37,  1.57it/s]558it [05:37,  1.34it/s]61it [00:37,  1.58it/s]559it [05:38,  1.35it/s]62it [00:38,  1.60it/s]560it [05:39,  1.29it/s]63it [00:39,  1.52it/s]64it [00:39,  1.59it/s]561it [05:40,  1.34it/s]65it [00:40,  1.64it/s]562it [05:40,  1.32it/s]66it [00:40,  1.66it/s]563it [05:41,  1.41it/s]67it [00:41,  1.85it/s]564it [05:41,  1.54it/s]68it [00:41,  1.88it/s]69it [00:42,  1.86it/s]565it [05:42,  1.48it/s]70it [00:42,  1.95it/s]566it [05:43,  1.52it/s]71it [00:43,  1.86it/s]567it [05:43,  1.57it/s]72it [00:43,  1.75it/s]568it [05:44,  1.66it/s]73it [00:44,  1.83it/s]569it [05:45,  1.63it/s]74it [00:45,  1.72it/s]570it [05:45,  1.55it/s]75it [00:45,  1.64it/s]571it [05:46,  1.50it/s]76it [00:46,  1.59it/s]572it [05:47,  1.48it/s]77it [00:47,  1.55it/s]573it [05:47,  1.58it/s]78it [00:47,  1.69it/s]574it [05:48,  1.66it/s]79it [00:48,  1.76it/s]575it [05:48,  1.64it/s]80it [00:48,  1.86it/s]81it [00:49,  1.72it/s]576it [05:49,  1.49it/s]82it [00:49,  1.88it/s]577it [05:50,  1.62it/s]83it [00:50,  1.73it/s]578it [05:50,  1.63it/s]84it [00:50,  1.80it/s]579it [05:51,  1.62it/s]580it [05:52,  1.63it/s]85it [00:51,  1.50it/s]581it [05:53,  1.36it/s]86it [00:52,  1.34it/s]582it [05:53,  1.27it/s]87it [00:53,  1.22it/s]583it [05:55,  1.14it/s]88it [00:54,  1.08it/s]584it [05:56,  1.01it/s]89it [00:56,  1.03s/it]90it [00:57,  1.01it/s]585it [05:57,  1.08s/it]586it [05:58,  1.09it/s]91it [00:57,  1.09it/s]587it [05:58,  1.21it/s]92it [00:58,  1.25it/s]93it [00:58,  1.37it/s]588it [05:59,  1.30it/s]94it [00:59,  1.43it/s]589it [05:59,  1.38it/s]590it [06:00,  1.53it/s]95it [01:00,  1.42it/s]591it [06:01,  1.49it/s]96it [01:00,  1.41it/s]592it [06:01,  1.55it/s]97it [01:01,  1.53it/s]593it [06:02,  1.65it/s]98it [01:02,  1.61it/s]594it [06:02,  1.72it/s]99it [01:02,  1.72it/s]100it [01:03,  1.76it/s]595it [06:03,  1.63it/s]596it [06:04,  1.52it/s]101it [01:03,  1.56it/s]597it [06:04,  1.59it/s]598it [06:05,  1.65it/s]102it [01:05,  1.24it/s]599it [06:05,  1.80it/s]103it [01:05,  1.37it/s]600it [06:06,  1.84it/s]104it [01:06,  1.53it/s]601it [06:06,  1.93it/s]105it [01:06,  1.62it/s]602it [06:07,  1.86it/s]106it [01:07,  1.76it/s]603it [06:07,  1.88it/s]107it [01:07,  1.76it/s]604it [06:08,  1.74it/s]108it [01:08,  1.77it/s]109it [01:09,  1.55it/s]605it [06:09,  1.32it/s]110it [01:09,  1.39it/s]606it [06:10,  1.34it/s]111it [01:10,  1.35it/s]607it [06:11,  1.33it/s]112it [01:11,  1.35it/s]608it [06:12,  1.20it/s]113it [01:12,  1.27it/s]609it [06:12,  1.28it/s]114it [01:13,  1.27it/s]610it [06:13,  1.32it/s]115it [01:13,  1.39it/s]611it [06:14,  1.42it/s]116it [01:14,  1.60it/s]612it [06:14,  1.58it/s]117it [01:14,  1.72it/s]613it [06:15,  1.62it/s]614it [06:15,  1.57it/s]118it [01:15,  1.47it/s]615it [06:16,  1.38it/s]119it [01:16,  1.31it/s]616it [06:17,  1.37it/s]120it [01:17,  1.33it/s]121it [01:18,  1.30it/s]617it [06:18,  1.30it/s]122it [01:18,  1.44it/s]618it [06:19,  1.37it/s]123it [01:19,  1.53it/s]124it [01:19,  1.62it/s]619it [06:20,  1.24it/s]125it [01:20,  1.65it/s]620it [06:20,  1.35it/s]621it [06:21,  1.49it/s]126it [01:20,  1.66it/s]127it [01:21,  1.73it/s]622it [06:21,  1.47it/s]128it [01:21,  1.75it/s]623it [06:22,  1.56it/s]129it [01:22,  1.68it/s]624it [06:23,  1.58it/s]130it [01:23,  1.79it/s]625it [06:23,  1.66it/s]131it [01:23,  1.71it/s]626it [06:24,  1.54it/s]132it [01:24,  1.59it/s]133it [01:25,  1.55it/s]627it [06:25,  1.26it/s]134it [01:26,  1.31it/s]628it [06:26,  1.13it/s]135it [01:27,  1.21it/s]629it [06:27,  1.08it/s]136it [01:28,  1.17it/s]630it [06:28,  1.09it/s]137it [01:28,  1.32it/s]631it [06:29,  1.21it/s]138it [01:28,  1.53it/s]632it [06:29,  1.36it/s]139it [01:29,  1.63it/s]633it [06:30,  1.54it/s]140it [01:30,  1.62it/s]634it [06:30,  1.67it/s]635it [06:30,  1.84it/s]141it [01:30,  1.63it/s]636it [06:31,  1.79it/s]142it [01:31,  1.75it/s]143it [01:31,  1.67it/s]637it [06:32,  1.56it/s]638it [06:32,  1.68it/s]144it [01:32,  1.61it/s]639it [06:33,  1.60it/s]145it [01:33,  1.39it/s]640it [06:34,  1.30it/s]146it [01:34,  1.24it/s]147it [01:35,  1.25it/s]641it [06:35,  1.16it/s]148it [01:36,  1.18it/s]642it [06:36,  1.15it/s]643it [06:37,  1.31it/s]149it [01:36,  1.24it/s]644it [06:37,  1.48it/s]150it [01:37,  1.34it/s]645it [06:38,  1.56it/s]151it [01:38,  1.35it/s]646it [06:38,  1.50it/s]152it [01:38,  1.36it/s]647it [06:39,  1.63it/s]153it [01:39,  1.32it/s]648it [06:40,  1.40it/s]154it [01:40,  1.44it/s]649it [06:40,  1.49it/s]155it [01:40,  1.56it/s]650it [06:41,  1.64it/s]156it [01:41,  1.69it/s]651it [06:42,  1.66it/s]157it [01:41,  1.81it/s]652it [06:42,  1.71it/s]158it [01:42,  1.81it/s]653it [06:43,  1.75it/s]159it [01:42,  1.97it/s]160it [01:43,  2.02it/s]654it [06:43,  1.76it/s]655it [06:44,  1.73it/s]161it [01:43,  1.73it/s]656it [06:44,  1.83it/s]162it [01:44,  1.77it/s]657it [06:45,  1.91it/s]163it [01:45,  1.79it/s]658it [06:45,  1.91it/s]164it [01:45,  1.98it/s]165it [01:45,  2.03it/s]659it [06:46,  1.73it/s]166it [01:46,  2.02it/s]660it [06:46,  1.75it/s]167it [01:46,  1.97it/s]661it [06:47,  1.75it/s]168it [01:47,  2.16it/s]662it [06:48,  1.77it/s]169it [01:47,  2.09it/s]663it [06:48,  1.86it/s]170it [01:48,  2.07it/s]664it [06:49,  1.88it/s]171it [01:48,  1.88it/s]665it [06:49,  1.70it/s]172it [01:49,  1.52it/s]666it [06:50,  1.48it/s]667it [06:51,  1.34it/s]173it [01:51,  1.13it/s]174it [01:52,  1.04it/s]668it [06:53,  1.06s/it]175it [01:53,  1.01s/it]669it [06:54,  1.01s/it]670it [06:54,  1.10it/s]176it [01:54,  1.01s/it]177it [01:55,  1.06it/s]671it [06:55,  1.06it/s]178it [01:56,  1.08it/s]672it [06:56,  1.13it/s]673it [06:57,  1.25it/s]179it [01:57,  1.13it/s]674it [06:57,  1.36it/s]180it [01:57,  1.26it/s]675it [06:58,  1.44it/s]181it [01:58,  1.36it/s]676it [06:58,  1.59it/s]182it [01:58,  1.44it/s]image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-677it [06:59,  1.73it/s]183it [01:59,  1.62it/s]678it [07:00,  1.72it/s]184it [01:59,  1.67it/s]679it [07:00,  1.68it/s]185it [02:00,  1.59it/s]680it [07:01,  1.43it/s]186it [02:01,  1.53it/s]187it [02:01,  1.54it/s]681it [07:02,  1.44it/s]682it [07:02,  1.59it/s]188it [02:02,  1.60it/s]683it [07:03,  1.60it/s]189it [02:03,  1.64it/s]190it [02:03,  1.78it/s]684it [07:03,  1.63it/s]191it [02:03,  1.90it/s]685it [07:04,  1.66it/s]192it [02:04,  1.84it/s]686it [07:05,  1.72it/s]193it [02:05,  1.59it/s]687it [07:05,  1.57it/s]688it [07:06,  1.71it/s]194it [02:05,  1.62it/s]689it [07:06,  1.72it/s]195it [02:06,  1.61it/s]690it [07:07,  1.72it/s]196it [02:07,  1.65it/s]197it [02:07,  1.75it/s]691it [07:08,  1.61it/s]198it [02:08,  1.90it/s]692it [07:08,  1.70it/s]199it [02:08,  1.95it/s]693it [07:09,  1.75it/s]200it [02:08,  2.00it/s]694it [07:09,  1.82it/s]201it [02:09,  1.91it/s]695it [07:10,  1.72it/s]202it [02:10,  1.70it/s]696it [07:10,  1.69it/s]203it [02:10,  1.77it/s]697it [07:11,  1.73it/s]204it [02:11,  1.71it/s]698it [07:12,  1.82it/s]205it [02:11,  1.87it/s]699it [07:12,  1.74it/s]206it [02:12,  1.72it/s]207it [02:13,  1.73it/s]700it [07:13,  1.48it/s]701it [07:14,  1.53it/s]208it [02:13,  1.64it/s]209it [02:14,  1.68it/s]702it [07:14,  1.54it/s]210it [02:14,  1.75it/s]703it [07:15,  1.59it/s]211it [02:15,  1.69it/s]704it [07:16,  1.55it/s]212it [02:16,  1.60it/s]705it [07:16,  1.47it/s]213it [02:17,  1.44it/s]706it [07:17,  1.50it/s]214it [02:17,  1.46it/s]707it [07:18,  1.50it/s]708it [07:18,  1.50it/s]215it [02:18,  1.45it/s]216it [02:19,  1.50it/s]709it [07:19,  1.42it/s]217it [02:19,  1.63it/s]710it [07:20,  1.57it/s]218it [02:20,  1.72it/s]711it [07:20,  1.64it/s]219it [02:20,  1.74it/s]712it [07:21,  1.64it/s]220it [02:21,  1.83it/s]713it [07:21,  1.69it/s]221it [02:21,  1.89it/s]714it [07:22,  1.75it/s]222it [02:22,  1.96it/s]715it [07:22,  1.85it/s]223it [02:22,  1.93it/s]716it [07:23,  1.84it/s]224it [02:23,  1.75it/s]717it [07:23,  1.87it/s]225it [02:23,  1.61it/s]718it [07:24,  1.77it/s]226it [02:24,  1.42it/s]719it [07:25,  1.32it/s]227it [02:25,  1.35it/s]720it [07:26,  1.32it/s]228it [02:26,  1.32it/s]721it [07:27,  1.36it/s]229it [02:27,  1.34it/s]722it [07:27,  1.37it/s]230it [02:28,  1.31it/s]723it [07:28,  1.29it/s]231it [02:28,  1.34it/s]724it [07:29,  1.29it/s]232it [02:29,  1.36it/s]725it [07:30,  1.40it/s]726it [07:30,  1.53it/s]233it [02:30,  1.32it/s]727it [07:31,  1.68it/s]234it [02:31,  1.30it/s]728it [07:31,  1.71it/s]729it [07:32,  1.86it/s]235it [02:31,  1.36it/s]236it [02:32,  1.53it/s]730it [07:32,  1.67it/s]237it [02:32,  1.60it/s]731it [07:33,  1.71it/s]238it [02:33,  1.76it/s]732it [07:33,  1.84it/s]239it [02:33,  1.87it/s]733it [07:34,  1.90it/s]240it [02:34,  1.90it/s]734it [07:34,  2.00it/s]735it [07:35,  2.13it/s]241it [02:34,  1.73it/s]736it [07:35,  1.99it/s]242it [02:35,  1.79it/s]737it [07:36,  1.83it/s]243it [02:36,  1.67it/s]738it [07:36,  1.90it/s]244it [02:36,  1.55it/s]739it [07:37,  1.78it/s]245it [02:37,  1.51it/s]740it [07:38,  1.74it/s]246it [02:38,  1.57it/s]741it [07:38,  1.63it/s]247it [02:38,  1.68it/s]248it [02:39,  1.79it/s]742it [07:39,  1.48it/s]249it [02:39,  1.81it/s]743it [07:40,  1.65it/s]250it [02:40,  1.85it/s]744it [07:40,  1.65it/s]745it [07:41,  1.69it/s]251it [02:40,  1.63it/s]746it [07:41,  1.69it/s]252it [02:41,  1.48it/s]747it [07:42,  1.67it/s]748it [07:42,  1.76it/s]253it [02:42,  1.37it/s]749it [07:43,  1.87it/s]254it [02:43,  1.48it/s]750it [07:43,  1.92it/s]255it [02:43,  1.60it/s]256it [02:44,  1.79it/s]751it [07:44,  1.75it/s]257it [02:44,  1.53it/s]752it [07:45,  1.55it/s]753it [07:46,  1.46it/s]258it [02:45,  1.37it/s]754it [07:46,  1.48it/s]259it [02:46,  1.43it/s]755it [07:47,  1.46it/s]260it [02:47,  1.37it/s]756it [07:47,  1.58it/s]261it [02:47,  1.56it/s]757it [07:48,  1.75it/s]262it [02:48,  1.66it/s]758it [07:48,  1.88it/s]263it [02:48,  1.82it/s]759it [07:49,  1.89it/s]264it [02:49,  1.94it/s]760it [07:49,  1.94it/s]265it [02:49,  2.01it/s]761it [07:50,  1.91it/s]266it [02:50,  1.94it/s]762it [07:50,  1.96it/s]267it [02:50,  2.05it/s]763it [07:51,  1.95it/s]268it [02:51,  1.88it/s]764it [07:51,  1.97it/s]269it [02:51,  1.96it/s]765it [07:52,  2.08it/s]270it [02:52,  2.06it/s]766it [07:52,  2.09it/s]271it [02:52,  2.03it/s]767it [07:53,  2.08it/s]272it [02:53,  1.96it/s]768it [07:53,  2.03it/s]273it [02:53,  1.77it/s]769it [07:54,  1.99it/s]274it [02:54,  1.70it/s]770it [07:55,  1.77it/s]275it [02:54,  1.77it/s]771it [07:55,  1.80it/s]276it [02:55,  1.91it/s]772it [07:56,  1.86it/s]277it [02:55,  1.97it/s]278it [02:56,  1.88it/s]773it [07:56,  1.64it/s]279it [02:56,  1.81it/s]774it [07:57,  1.53it/s]280it [02:57,  1.76it/s]775it [07:58,  1.60it/s]281it [02:58,  1.66it/s]776it [07:58,  1.56it/s]282it [02:58,  1.57it/s]777it [07:59,  1.56it/s]283it [02:59,  1.58it/s]778it [08:00,  1.52it/s]284it [03:00,  1.68it/s]779it [08:00,  1.56it/s]285it [03:00,  1.83it/s]780it [08:01,  1.76it/s]286it [03:00,  2.00it/s]781it [08:01,  1.88it/s]287it [03:01,  2.06it/s]782it [08:02,  1.85it/s]288it [03:01,  1.95it/s]783it [08:02,  1.91it/s]289it [03:02,  2.03it/s]784it [08:03,  2.00it/s]290it [03:02,  2.06it/s]785it [08:03,  2.05it/s]291it [03:03,  1.99it/s]786it [08:04,  2.01it/s]292it [03:03,  2.05it/s]787it [08:04,  2.04it/s]293it [03:04,  2.09it/s]788it [08:04,  2.15it/s]294it [03:04,  1.94it/s]789it [08:05,  1.96it/s]295it [03:05,  1.50it/s]790it [08:06,  1.64it/s]791it [08:07,  1.62it/s]296it [03:06,  1.34it/s]792it [08:07,  1.58it/s]297it [03:07,  1.32it/s]793it [08:08,  1.58it/s]298it [03:08,  1.49it/s]794it [08:08,  1.73it/s]299it [03:08,  1.62it/s]795it [08:09,  1.62it/s]300it [03:09,  1.67it/s]301it [03:09,  1.83it/s]796it [08:10,  1.67it/s]302it [03:10,  1.91it/s]797it [08:10,  1.74it/s]303it [03:10,  1.97it/s]798it [08:11,  1.81it/s]304it [03:11,  1.76it/s]799it [08:11,  1.66it/s]305it [03:11,  1.78it/s]800it [08:12,  1.70it/s]306it [03:12,  1.80it/s]801it [08:12,  1.79it/s]802it [08:13,  1.75it/s]307it [03:13,  1.51it/s]803it [08:14,  1.72it/s]308it [03:14,  1.46it/s]804it [08:14,  1.71it/s]309it [03:14,  1.44it/s]805it [08:15,  1.68it/s]310it [03:15,  1.51it/s]806it [08:15,  1.64it/s]311it [03:15,  1.52it/s]807it [08:16,  1.63it/s]312it [03:16,  1.74it/s]808it [08:16,  1.79it/s]313it [03:16,  1.81it/s]809it [08:17,  1.88it/s]314it [03:17,  1.83it/s]810it [08:18,  1.73it/s]315it [03:17,  1.83it/s]811it [08:18,  1.73it/s]316it [03:18,  1.74it/s]812it [08:19,  1.78it/s]317it [03:19,  1.72it/s]813it [08:19,  1.94it/s]318it [03:19,  1.71it/s]814it [08:20,  1.79it/s]319it [03:20,  1.81it/s]815it [08:20,  1.81it/s]816it [08:21,  1.95it/s]320it [03:20,  1.64it/s]817it [08:21,  2.00it/s]321it [03:21,  1.78it/s]818it [08:22,  1.99it/s]322it [03:21,  1.77it/s]819it [08:22,  2.04it/s]323it [03:22,  1.88it/s]820it [08:23,  2.17it/s]324it [03:22,  1.95it/s]821it [08:23,  1.99it/s]325it [03:23,  1.98it/s]822it [08:24,  1.95it/s]326it [03:23,  1.90it/s]327it [03:24,  1.89it/s]823it [08:24,  1.72it/s]824it [08:25,  1.71it/s]328it [03:25,  1.71it/s]825it [08:26,  1.70it/s]329it [03:25,  1.72it/s]826it [08:26,  1.67it/s]330it [03:26,  1.72it/s]827it [08:27,  1.85it/s]331it [03:26,  1.74it/s]828it [08:27,  1.85it/s]332it [03:27,  1.83it/s]829it [08:28,  1.89it/s]333it [03:27,  1.87it/s]334it [03:28,  1.91it/s]830it [08:28,  1.69it/s]831it [08:29,  1.65it/s]335it [03:29,  1.66it/s]832it [08:30,  1.74it/s]336it [03:29,  1.68it/s]337it [03:30,  1.84it/s]833it [08:30,  1.70it/s]338it [03:30,  1.77it/s]834it [08:31,  1.74it/s]339it [03:31,  1.81it/s]835it [08:31,  1.80it/s]836it [08:32,  1.90it/s]340it [03:31,  1.85it/s]341it [03:32,  1.93it/s]837it [08:32,  1.87it/s]342it [03:32,  1.97it/s]838it [08:33,  1.80it/s]343it [03:33,  1.99it/s]839it [08:33,  1.90it/s]344it [03:33,  2.01it/s]840it [08:34,  1.91it/s]345it [03:34,  2.06it/s]841it [08:34,  1.96it/s]346it [03:34,  2.11it/s]842it [08:35,  1.99it/s]347it [03:35,  2.15it/s]843it [08:35,  2.03it/s]348it [03:35,  2.28it/s]844it [08:36,  2.16it/s]349it [03:36,  2.19it/s]845it [08:36,  2.16it/s]350it [03:36,  2.10it/s]846it [08:37,  1.74it/s]351it [03:37,  1.80it/s]847it [08:38,  1.77it/s]352it [03:37,  1.83it/s]848it [08:38,  1.63it/s]353it [03:38,  1.77it/s]849it [08:39,  1.72it/s]354it [03:38,  1.76it/s]850it [08:39,  1.79it/s]355it [03:39,  1.74it/s]851it [08:40,  1.77it/s]356it [03:40,  1.64it/s]852it [08:41,  1.67it/s]357it [03:41,  1.51it/s]853it [08:41,  1.45it/s]358it [03:41,  1.44it/s]854it [08:42,  1.41it/s]359it [03:42,  1.28it/s]855it [08:43,  1.21it/s]360it [03:43,  1.30it/s]856it [08:44,  1.32it/s]361it [03:44,  1.43it/s]857it [08:44,  1.50it/s]362it [03:44,  1.59it/s]363it [03:45,  1.68it/s]858it [08:45,  1.51it/s]364it [03:45,  1.72it/s]859it [08:46,  1.62it/s]365it [03:46,  1.88it/s]860it [08:46,  1.71it/s]366it [03:46,  1.98it/s]861it [08:46,  1.90it/s]367it [03:46,  1.96it/s]862it [08:47,  1.71it/s]368it [03:47,  2.07it/s]863it [08:48,  1.76it/s]369it [03:47,  2.06it/s]864it [08:48,  1.87it/s]370it [03:48,  2.06it/s]865it [08:49,  1.90it/s]371it [03:48,  2.02it/s]866it [08:49,  1.84it/s]372it [03:49,  1.93it/s]867it [08:50,  1.58it/s]373it [03:50,  1.74it/s]868it [08:51,  1.46it/s]374it [03:51,  1.45it/s]869it [08:52,  1.36it/s]375it [03:51,  1.44it/s]376it [03:52,  1.35it/s]870it [08:53,  1.19it/s]377it [03:53,  1.43it/s]871it [08:53,  1.30it/s]378it [03:53,  1.65it/s]872it [08:54,  1.48it/s]379it [03:54,  1.69it/s]873it [08:54,  1.51it/s]380it [03:54,  1.71it/s]874it [08:55,  1.52it/s]381it [03:55,  1.57it/s]875it [08:56,  1.60it/s]382it [03:56,  1.46it/s]876it [08:56,  1.55it/s]383it [03:56,  1.62it/s]877it [08:57,  1.57it/s]384it [03:57,  1.72it/s]878it [08:58,  1.64it/s]385it [03:57,  1.86it/s]879it [08:58,  1.76it/s]386it [03:58,  1.86it/s]880it [08:59,  1.71it/s]387it [03:58,  1.90it/s]881it [08:59,  1.74it/s]388it [03:59,  1.91it/s]882it [09:00,  1.81it/s]389it [03:59,  1.98it/s]883it [09:00,  1.75it/s]390it [04:00,  1.79it/s]884it [09:01,  1.83it/s]391it [04:00,  1.89it/s]885it [09:01,  1.88it/s]392it [04:01,  1.89it/s]393it [04:01,  1.92it/s]886it [09:02,  1.74it/s]887it [09:02,  1.86it/s]394it [04:02,  1.83it/s]888it [09:03,  1.63it/s]395it [04:03,  1.52it/s]889it [09:04,  1.53it/s]396it [04:04,  1.57it/s]890it [09:04,  1.60it/s]397it [04:04,  1.40it/s]891it [09:05,  1.55it/s]398it [04:05,  1.48it/s]892it [09:06,  1.61it/s]399it [04:06,  1.53it/s]893it [09:06,  1.68it/s]400it [04:06,  1.62it/s]894it [09:07,  1.76it/s]401it [04:07,  1.66it/s]895it [09:08,  1.59it/s]402it [04:08,  1.49it/s]896it [09:08,  1.61it/s]403it [04:08,  1.57it/s]897it [09:09,  1.52it/s]404it [04:09,  1.59it/s]898it [09:09,  1.58it/s]405it [04:09,  1.73it/s]899it [09:10,  1.65it/s]406it [04:10,  1.81it/s]407it [04:10,  1.97it/s]900it [09:11,  1.67it/s]408it [04:11,  2.07it/s]901it [09:11,  1.75it/s]409it [04:11,  1.92it/s]902it [09:12,  1.65it/s]410it [04:12,  2.00it/s]903it [09:12,  1.82it/s]411it [04:12,  2.17it/s]904it [09:13,  1.94it/s]412it [04:12,  2.13it/s]905it [09:13,  2.03it/s]413it [04:13,  2.21it/s]906it [09:14,  1.96it/s]414it [04:13,  2.17it/s]907it [09:14,  2.00it/s]415it [04:14,  2.21it/s]416it [04:15,  1.80it/s]908it [09:15,  1.55it/s]417it [04:15,  1.72it/s]909it [09:16,  1.63it/s]910it [09:16,  1.49it/s]418it [04:16,  1.51it/s]911it [09:17,  1.43it/s]419it [04:17,  1.35it/s]912it [09:18,  1.35it/s]420it [04:18,  1.28it/s]913it [09:19,  1.40it/s]421it [04:19,  1.34it/s]914it [09:19,  1.52it/s]422it [04:19,  1.34it/s]915it [09:20,  1.59it/s]423it [04:20,  1.46it/s]916it [09:20,  1.70it/s]424it [04:20,  1.65it/s]917it [09:21,  1.79it/s]425it [04:21,  1.79it/s]918it [09:21,  1.65it/s]426it [04:21,  1.86it/s]919it [09:22,  1.82it/s]427it [04:22,  1.85it/s]920it [09:22,  1.94it/s]428it [04:22,  1.98it/s]921it [09:23,  2.03it/s]429it [04:23,  1.96it/s]922it [09:23,  1.88it/s]430it [04:23,  1.98it/s]923it [09:24,  1.89it/s]431it [04:24,  1.93it/s]924it [09:25,  1.71it/s]432it [04:24,  1.90it/s]925it [09:25,  1.76it/s]433it [04:25,  1.79it/s]926it [09:26,  1.70it/s]434it [04:26,  1.73it/s]927it [09:26,  1.80it/s]435it [04:26,  1.75it/s]928it [09:27,  1.88it/s]436it [04:27,  1.86it/s]929it [09:27,  2.04it/s]437it [04:27,  1.88it/s]930it [09:28,  2.03it/s]438it [04:27,  2.00it/s]931it [09:28,  2.10it/s]439it [04:28,  1.77it/s]932it [09:29,  2.01it/s]440it [04:29,  1.74it/s]933it [09:29,  1.80it/s]441it [04:29,  1.66it/s]934it [09:30,  1.55it/s]442it [04:30,  1.62it/s]935it [09:31,  1.37it/s]443it [04:31,  1.52it/s]936it [09:32,  1.46it/s]444it [04:31,  1.58it/s]937it [09:32,  1.43it/s]445it [04:32,  1.48it/s]938it [09:33,  1.50it/s]446it [04:33,  1.57it/s]939it [09:34,  1.64it/s]447it [04:33,  1.60it/s]940it [09:34,  1.80it/s]448it [04:34,  1.79it/s]941it [09:34,  1.92it/s]449it [04:34,  1.87it/s]942it [09:35,  1.90it/s]450it [04:35,  2.00it/s]943it [09:35,  1.88it/s]451it [04:35,  2.03it/s]944it [09:36,  1.99it/s]452it [04:36,  1.98it/s]945it [09:36,  2.04it/s]453it [04:36,  2.13it/s]946it [09:37,  2.10it/s]454it [04:36,  2.22it/s]947it [09:37,  2.08it/s]455it [04:37,  2.03it/s]948it [09:38,  2.02it/s]456it [04:37,  2.13it/s]457it [04:38,  2.20it/s]949it [09:38,  1.86it/s]458it [04:39,  1.96it/s]949it [09:39,  1.64it/s]
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-Traceback (most recent call last):
-  File "/home/ec2-user/autojobs/auto_scripts/image_carousel.py", line 81, in <module>
-    images_list = get_hq_images_for_athlete(full_name + " track and field", last_name)
-  File "/home/ec2-user/autojobs/auto_scripts/image_carousel.py", line 67, in get_hq_images_for_athlete
-    if last_name in subject and "medical" not in result: 
-TypeError: argument of type 'NoneType' is not iterable
-459it [04:39,  1.71it/s]460it [04:40,  1.75it/s]461it [04:40,  1.76it/s]462it [04:41,  1.82it/s]463it [04:42,  1.70it/s]464it [04:42,  1.75it/s]465it [04:43,  1.90it/s]466it [04:43,  2.01it/s]467it [04:43,  2.00it/s]468it [04:44,  1.91it/s]469it [04:45,  1.75it/s]470it [04:45,  1.72it/s]470it [04:46,  1.64it/s]
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-image list update successful
-Traceback (most recent call last):
-  File "/home/ec2-user/autojobs/auto_scripts/image_carousel.py", line 81, in <module>
-    images_list = get_hq_images_for_athlete(full_name + " track and field", last_name)
-  File "/home/ec2-user/autojobs/auto_scripts/image_carousel.py", line 67, in get_hq_images_for_athlete
-    if last_name in subject and "medical" not in result: 
-TypeError: argument of type 'NoneType' is not iterable
-0it [00:00, ?it/s]1it [00:00,  1.14it/s]2it [00:01,  1.43it/s]3it [00:01,  1.60it/s]4it [00:02,  1.59it/s]5it [00:03,  1.74it/s]6it [00:03,  1.82it/s]7it [00:04,  1.88it/s]8it [00:04,  1.90it/s]9it [00:05,  1.94it/s]10it [00:05,  1.77it/s]11it [00:06,  1.68it/s]12it [00:07,  1.66it/s]13it [00:07,  1.73it/s]14it [00:08,  1.82it/s]15it [00:08,  1.88it/s]16it [00:09,  1.91it/s]17it [00:09,  1.73it/s]18it [00:10,  1.67it/s]19it [00:10,  1.80it/s]20it [00:11,  1.81it/s]21it [00:12,  1.67it/s]22it [00:12,  1.82it/s]23it [00:13,  1.86it/s]24it [00:13,  1.91it/s]25it [00:13,  2.06it/s]26it [00:14,  2.17it/s]27it [00:14,  2.13it/s]28it [00:15,  2.11it/s]29it [00:15,  2.17it/s]30it [00:16,  2.14it/s]31it [00:16,  2.09it/s]32it [00:17,  2.01it/s]33it [00:17,  2.05it/s]34it [00:18,  2.03it/s]35it [00:18,  2.06it/s]36it [00:19,  2.17it/s]37it [00:19,  2.27it/s]38it [00:20,  2.22it/s]39it [00:20,  1.89it/s]40it [00:21,  1.58it/s]41it [00:22,  1.66it/s]42it [00:22,  1.71it/s]43it [00:23,  1.46it/s]44it [00:24,  1.23it/s]45it [00:25,  1.21it/s]46it [00:26,  1.33it/s]47it [00:26,  1.49it/s]48it [00:27,  1.42it/s]49it [00:27,  1.61it/s]50it [00:28,  1.70it/s]51it [00:28,  1.75it/s]52it [00:29,  1.91it/s]53it [00:29,  1.85it/s]54it [00:30,  2.04it/s]55it [00:30,  2.20it/s]56it [00:30,  2.33it/s]57it [00:31,  2.16it/s]58it [00:32,  2.13it/s]59it [00:32,  1.89it/s]60it [00:33,  2.04it/s]61it [00:33,  2.19it/s]62it [00:33,  2.09it/s]63it [00:34,  2.19it/s]64it [00:34,  2.30it/s]65it [00:35,  2.20it/s]66it [00:35,  2.24it/s]67it [00:36,  2.06it/s]68it [00:36,  1.92it/s]69it [00:37,  1.93it/s]70it [00:38,  1.74it/s]71it [00:38,  1.77it/s]72it [00:39,  1.83it/s]73it [00:39,  1.79it/s]74it [00:40,  1.81it/s]75it [00:40,  1.85it/s]76it [00:41,  1.95it/s]77it [00:41,  1.99it/s]78it [00:42,  1.99it/s]79it [00:42,  2.05it/s]80it [00:43,  1.92it/s]81it [00:43,  1.84it/s]82it [00:44,  1.83it/s]83it [00:44,  1.84it/s]84it [00:45,  1.79it/s]85it [00:45,  1.92it/s]86it [00:46,  1.94it/s]87it [00:47,  1.62it/s]88it [00:47,  1.64it/s]89it [00:48,  1.75it/s]90it [00:48,  1.87it/s]91it [00:49,  1.94it/s]92it [00:49,  1.90it/s]93it [00:50,  2.09it/s]94it [00:50,  2.13it/s]95it [00:51,  2.09it/s]96it [00:51,  1.98it/s]97it [00:52,  1.79it/s]98it [00:52,  1.80it/s]99it [00:53,  1.92it/s]100it [00:53,  2.08it/s]101it [00:54,  2.01it/s]102it [00:55,  1.33it/s]103it [00:56,  1.42it/s]104it [00:56,  1.51it/s]105it [00:57,  1.73it/s]106it [00:57,  1.73it/s]107it [00:58,  1.84it/s]108it [00:58,  1.88it/s]109it [00:59,  1.73it/s]110it [01:00,  1.77it/s]111it [01:00,  1.92it/s]112it [01:01,  1.86it/s]113it [01:01,  2.00it/s]114it [01:01,  2.07it/s]115it [01:02,  2.01it/s]116it [01:02,  1.95it/s]117it [01:03,  1.89it/s]118it [01:04,  1.79it/s]119it [01:04,  1.80it/s]120it [01:05,  1.89it/s]121it [01:05,  1.91it/s]122it [01:06,  1.97it/s]123it [01:06,  2.11it/s]124it [01:06,  2.11it/s]125it [01:07,  1.78it/s]126it [01:08,  1.90it/s]127it [01:08,  1.94it/s]128it [01:09,  1.93it/s]129it [01:09,  1.99it/s]130it [01:10,  1.92it/s]131it [01:10,  2.05it/s]132it [01:11,  1.98it/s]133it [01:11,  1.96it/s]134it [01:12,  2.02it/s]135it [01:12,  2.11it/s]136it [01:13,  2.07it/s]137it [01:13,  1.99it/s]138it [01:14,  2.06it/s]139it [01:14,  2.21it/s]140it [01:14,  2.20it/s]141it [01:15,  2.21it/s]142it [01:15,  2.27it/s]143it [01:16,  2.23it/s]144it [01:16,  1.95it/s]145it [01:17,  1.98it/s]146it [01:17,  1.98it/s]147it [01:18,  2.06it/s]148it [01:18,  2.11it/s]149it [01:19,  2.15it/s]150it [01:19,  2.05it/s]151it [01:20,  2.03it/s]152it [01:20,  2.08it/s]153it [01:21,  2.18it/s]154it [01:21,  2.21it/s]155it [01:22,  2.27it/s]156it [01:22,  2.00it/s]157it [01:23,  1.96it/s]158it [01:23,  1.79it/s]159it [01:24,  1.72it/s]160it [01:25,  1.72it/s]161it [01:25,  1.80it/s]162it [01:26,  1.92it/s]163it [01:26,  1.90it/s]164it [01:26,  2.09it/s]165it [01:27,  2.03it/s]166it [01:28,  1.87it/s]167it [01:28,  1.81it/s]168it [01:29,  1.96it/s]169it [01:29,  2.05it/s]170it [01:30,  2.03it/s]171it [01:30,  2.08it/s]172it [01:31,  1.81it/s]173it [01:31,  1.95it/s]174it [01:32,  1.93it/s]175it [01:32,  1.98it/s]176it [01:33,  2.00it/s]177it [01:33,  2.02it/s]178it [01:34,  2.05it/s]179it [01:34,  2.06it/s]180it [01:35,  1.64it/s]181it [01:36,  1.69it/s]182it [01:36,  1.62it/s]183it [01:37,  1.51it/s]184it [01:38,  1.54it/s]185it [01:38,  1.47it/s]186it [01:39,  1.51it/s]187it [01:39,  1.62it/s]188it [01:40,  1.77it/s]189it [01:40,  1.86it/s]190it [01:41,  1.93it/s]191it [01:41,  1.94it/s]192it [01:42,  1.89it/s]193it [01:42,  1.95it/s]194it [01:43,  2.12it/s]195it [01:43,  2.25it/s]196it [01:44,  2.17it/s]197it [01:44,  2.29it/s]198it [01:45,  1.90it/s]199it [01:46,  1.67it/s]200it [01:46,  1.72it/s]201it [01:46,  1.87it/s]202it [01:47,  1.92it/s]203it [01:48,  1.80it/s]204it [01:48,  1.81it/s]205it [01:49,  1.88it/s]206it [01:49,  2.02it/s]207it [01:49,  2.17it/s]208it [01:50,  2.19it/s]209it [01:50,  2.12it/s]210it [01:51,  2.13it/s]211it [01:51,  2.16it/s]212it [01:52,  2.09it/s]213it [01:52,  2.15it/s]214it [01:53,  2.06it/s]215it [01:53,  2.04it/s]216it [01:54,  2.11it/s]216it [01:54,  1.88it/s]
-Traceback (most recent call last):
-  File "/home/ec2-user/autojobs/auto_scripts/image_carousel.py", line 81, in <module>
-    images_list = get_hq_images_for_athlete(full_name + " track and field", last_name)
-  File "/home/ec2-user/autojobs/auto_scripts/image_carousel.py", line 67, in get_hq_images_for_athlete
-    if last_name in subject and "medical" not in result: 
-TypeError: argument of type 'NoneType' is not iterable
-0it [00:00, ?it/s]1it [00:00,  1.09it/s]2it [00:01,  1.43it/s]3it [00:01,  1.64it/s]4it [00:02,  1.74it/s]5it [00:02,  1.85it/s]6it [00:03,  1.93it/s]7it [00:04,  1.75it/s]8it [00:04,  1.59it/s]9it [00:05,  1.58it/s]10it [00:06,  1.40it/s]11it [00:07,  1.32it/s]12it [00:08,  1.32it/s]13it [00:08,  1.34it/s]14it [00:09,  1.50it/s]15it [00:09,  1.64it/s]16it [00:10,  1.81it/s]17it [00:10,  1.89it/s]18it [00:11,  1.94it/s]19it [00:11,  2.07it/s]20it [00:11,  2.06it/s]21it [00:12,  1.81it/s]22it [00:13,  1.98it/s]23it [00:13,  2.01it/s]24it [00:14,  1.88it/s]25it [00:14,  1.85it/s]26it [00:15,  1.98it/s]27it [00:15,  2.01it/s]28it [00:16,  1.98it/s]29it [00:16,  1.72it/s]30it [00:17,  1.76it/s]31it [00:18,  1.70it/s]32it [00:18,  1.66it/s]33it [00:19,  1.79it/s]34it [00:19,  1.87it/s]35it [00:20,  1.65it/s]36it [00:20,  1.78it/s]37it [00:21,  1.87it/s]38it [00:21,  1.93it/s]39it [00:22,  1.97it/s]40it [00:22,  1.85it/s]41it [00:23,  1.93it/s]42it [00:23,  2.02it/s]43it [00:24,  2.06it/s]44it [00:24,  2.00it/s]45it [00:25,  2.03it/s]46it [00:25,  1.99it/s]47it [00:26,  1.84it/s]48it [00:27,  1.82it/s]49it [00:27,  1.99it/s]50it [00:27,  2.00it/s]51it [00:28,  1.81it/s]52it [00:29,  1.95it/s]53it [00:29,  1.94it/s]54it [00:30,  1.99it/s]55it [00:30,  2.05it/s]56it [00:30,  2.07it/s]57it [00:31,  2.16it/s]58it [00:31,  2.26it/s]59it [00:32,  2.04it/s]60it [00:32,  1.93it/s]61it [00:33,  1.83it/s]62it [00:34,  1.56it/s]63it [00:35,  1.54it/s]64it [00:35,  1.54it/s]65it [00:36,  1.53it/s]66it [00:36,  1.76it/s]67it [00:37,  1.85it/s]68it [00:37,  1.86it/s]69it [00:38,  2.00it/s]70it [00:38,  2.11it/s]71it [00:39,  2.08it/s]72it [00:39,  2.04it/s]73it [00:40,  1.87it/s]74it [00:40,  1.89it/s]75it [00:41,  2.04it/s]76it [00:41,  2.18it/s]77it [00:42,  2.17it/s]78it [00:42,  2.17it/s]79it [00:42,  2.15it/s]80it [00:43,  1.77it/s]81it [00:44,  1.87it/s]82it [00:44,  1.72it/s]83it [00:45,  1.74it/s]84it [00:46,  1.75it/s]85it [00:46,  1.83it/s]86it [00:47,  1.76it/s]87it [00:47,  1.76it/s]88it [00:48,  1.81it/s]89it [00:48,  1.91it/s]90it [00:49,  1.91it/s]91it [00:49,  1.71it/s]92it [00:50,  1.69it/s]93it [00:51,  1.77it/s]94it [00:51,  1.84it/s]95it [00:52,  1.92it/s]96it [00:52,  2.01it/s]97it [00:52,  2.19it/s]98it [00:53,  2.13it/s]99it [00:53,  2.05it/s]100it [00:54,  2.14it/s]101it [00:54,  2.24it/s]102it [00:55,  1.51it/s]103it [00:56,  1.74it/s]104it [00:56,  1.83it/s]105it [00:57,  2.01it/s]106it [00:57,  2.06it/s]107it [00:57,  2.11it/s]108it [00:58,  2.17it/s]109it [00:59,  1.97it/s]110it [00:59,  1.95it/s]111it [01:00,  1.99it/s]112it [01:00,  1.90it/s]113it [01:01,  1.89it/s]114it [01:01,  1.69it/s]115it [01:02,  1.41it/s]116it [01:03,  1.27it/s]117it [01:04,  1.40it/s]118it [01:04,  1.53it/s]119it [01:05,  1.58it/s]120it [01:06,  1.58it/s]121it [01:06,  1.65it/s]122it [01:07,  1.74it/s]123it [01:07,  1.92it/s]124it [01:07,  2.02it/s]125it [01:08,  1.90it/s]126it [01:08,  2.10it/s]127it [01:09,  2.12it/s]128it [01:09,  2.23it/s]129it [01:10,  2.25it/s]130it [01:10,  2.12it/s]131it [01:11,  2.21it/s]132it [01:11,  2.25it/s]133it [01:12,  2.18it/s]134it [01:12,  2.01it/s]135it [01:13,  2.04it/s]136it [01:13,  2.07it/s]137it [01:14,  1.74it/s]138it [01:15,  1.69it/s]139it [01:15,  1.73it/s]140it [01:16,  1.83it/s]141it [01:16,  1.94it/s]142it [01:16,  2.13it/s]143it [01:17,  2.10it/s]144it [01:18,  1.79it/s]145it [01:18,  1.74it/s]146it [01:19,  1.72it/s]147it [01:19,  1.79it/s]148it [01:20,  1.81it/s]149it [01:20,  2.02it/s]150it [01:21,  1.90it/s]151it [01:21,  1.96it/s]152it [01:22,  2.03it/s]153it [01:22,  2.21it/s]154it [01:23,  2.29it/s]155it [01:23,  2.36it/s]156it [01:24,  2.10it/s]157it [01:24,  2.13it/s]158it [01:24,  2.14it/s]159it [01:25,  2.22it/s]160it [01:25,  2.19it/s]161it [01:26,  2.25it/s]162it [01:26,  2.08it/s]163it [01:27,  1.90it/s]164it [01:27,  1.98it/s]165it [01:28,  1.88it/s]166it [01:29,  1.63it/s]167it [01:30,  1.54it/s]168it [01:30,  1.51it/s]169it [01:31,  1.48it/s]170it [01:32,  1.47it/s]171it [01:32,  1.53it/s]172it [01:33,  1.62it/s]173it [01:33,  1.75it/s]174it [01:34,  1.84it/s]175it [01:34,  1.93it/s]176it [01:35,  1.99it/s]177it [01:35,  2.02it/s]178it [01:36,  2.04it/s]179it [01:36,  2.15it/s]180it [01:36,  2.06it/s]181it [01:37,  2.11it/s]182it [01:37,  2.07it/s]183it [01:38,  2.12it/s]184it [01:38,  2.06it/s]185it [01:39,  1.94it/s]186it [01:40,  1.89it/s]187it [01:40,  1.91it/s]188it [01:41,  1.94it/s]189it [01:41,  1.93it/s]190it [01:42,  1.89it/s]191it [01:42,  1.70it/s]192it [01:43,  1.79it/s]193it [01:43,  1.98it/s]194it [01:44,  1.91it/s]195it [01:44,  1.87it/s]196it [01:45,  1.63it/s]197it [01:46,  1.71it/s]198it [01:46,  1.68it/s]199it [01:47,  1.76it/s]200it [01:47,  1.75it/s]201it [01:48,  1.92it/s]202it [01:48,  2.00it/s]203it [01:49,  2.16it/s]204it [01:49,  2.09it/s]205it [01:50,  2.12it/s]206it [01:50,  2.14it/s]207it [01:50,  2.23it/s]208it [01:51,  2.35it/s]209it [01:51,  2.32it/s]210it [01:52,  2.44it/s]211it [01:52,  2.46it/s]212it [01:53,  2.04it/s]213it [01:53,  1.94it/s]214it [01:54,  1.60it/s]215it [01:55,  1.60it/s]216it [01:55,  1.61it/s]216it [01:56,  1.86it/s]
-Traceback (most recent call last):
-  File "/home/ec2-user/autojobs/auto_scripts/image_carousel.py", line 81, in <module>
-    images_list = get_hq_images_for_athlete(full_name + " track and field", last_name)
-  File "/home/ec2-user/autojobs/auto_scripts/image_carousel.py", line 67, in get_hq_images_for_athlete
-    if last_name in subject and "medical" not in result: 
-TypeError: argument of type 'NoneType' is not iterable
-0it [00:00, ?it/s]1it [00:01,  1.11s/it]2it [00:02,  1.02s/it]3it [00:02,  1.23it/s]4it [00:03,  1.43it/s]5it [00:03,  1.62it/s]6it [00:04,  1.74it/s]7it [00:04,  1.82it/s]8it [00:05,  1.88it/s]9it [00:05,  1.94it/s]10it [00:06,  1.91it/s]11it [00:06,  1.78it/s]12it [00:07,  1.82it/s]13it [00:08,  1.65it/s]14it [00:08,  1.49it/s]15it [00:09,  1.38it/s]16it [00:10,  1.53it/s]17it [00:10,  1.64it/s]18it [00:11,  1.75it/s]19it [00:11,  1.94it/s]20it [00:12,  1.99it/s]21it [00:12,  1.76it/s]22it [00:13,  1.86it/s]23it [00:13,  1.88it/s]24it [00:14,  1.91it/s]25it [00:14,  2.06it/s]26it [00:15,  2.23it/s]27it [00:15,  2.11it/s]28it [00:16,  2.09it/s]29it [00:16,  2.22it/s]30it [00:16,  2.18it/s]31it [00:17,  2.16it/s]32it [00:17,  2.05it/s]33it [00:18,  1.88it/s]34it [00:19,  1.78it/s]35it [00:19,  1.81it/s]36it [00:20,  1.82it/s]37it [00:20,  1.86it/s]38it [00:21,  1.90it/s]39it [00:21,  1.89it/s]40it [00:22,  1.69it/s]41it [00:23,  1.74it/s]42it [00:23,  1.76it/s]43it [00:24,  1.74it/s]44it [00:24,  1.75it/s]45it [00:25,  1.85it/s]46it [00:25,  1.95it/s]47it [00:26,  2.00it/s]48it [00:26,  2.03it/s]49it [00:27,  2.15it/s]50it [00:27,  1.82it/s]51it [00:28,  1.64it/s]52it [00:29,  1.66it/s]53it [00:29,  1.61it/s]54it [00:30,  1.83it/s]55it [00:30,  1.96it/s]56it [00:31,  2.04it/s]57it [00:31,  2.00it/s]58it [00:31,  2.17it/s]59it [00:32,  2.15it/s]60it [00:32,  2.07it/s]61it [00:33,  2.24it/s]62it [00:33,  2.20it/s]63it [00:34,  1.93it/s]64it [00:34,  2.09it/s]65it [00:35,  1.92it/s]66it [00:35,  1.93it/s]67it [00:36,  1.69it/s]68it [00:37,  1.65it/s]69it [00:37,  1.69it/s]70it [00:38,  1.62it/s]71it [00:39,  1.70it/s]72it [00:39,  1.72it/s]73it [00:40,  1.80it/s]74it [00:40,  1.93it/s]75it [00:40,  2.11it/s]76it [00:41,  2.22it/s]77it [00:41,  2.18it/s]78it [00:42,  2.21it/s]79it [00:42,  2.21it/s]80it [00:43,  2.05it/s]81it [00:43,  1.93it/s]82it [00:44,  1.67it/s]83it [00:45,  1.63it/s]84it [00:45,  1.67it/s]85it [00:46,  1.72it/s]86it [00:46,  1.80it/s]87it [00:47,  1.81it/s]88it [00:48,  1.82it/s]89it [00:48,  1.88it/s]90it [00:49,  1.84it/s]91it [00:49,  1.86it/s]92it [00:50,  1.96it/s]93it [00:50,  2.09it/s]94it [00:51,  1.90it/s]95it [00:51,  1.96it/s]96it [00:52,  1.83it/s]97it [00:52,  1.72it/s]98it [00:53,  1.73it/s]99it [00:53,  1.79it/s]100it [00:54,  1.99it/s]101it [00:54,  2.10it/s]102it [00:56,  1.30it/s]103it [00:56,  1.46it/s]104it [00:57,  1.49it/s]105it [00:57,  1.64it/s]106it [00:58,  1.62it/s]107it [00:58,  1.68it/s]108it [00:59,  1.68it/s]109it [01:00,  1.58it/s]110it [01:00,  1.71it/s]111it [01:01,  1.84it/s]112it [01:01,  1.86it/s]113it [01:02,  1.98it/s]114it [01:02,  2.03it/s]115it [01:03,  1.86it/s]116it [01:04,  1.54it/s]117it [01:04,  1.51it/s]118it [01:05,  1.45it/s]119it [01:06,  1.49it/s]120it [01:06,  1.62it/s]121it [01:07,  1.69it/s]122it [01:07,  1.77it/s]123it [01:08,  1.96it/s]124it [01:08,  2.05it/s]125it [01:09,  2.07it/s]126it [01:09,  2.07it/s]127it [01:09,  2.15it/s]128it [01:10,  2.27it/s]129it [01:10,  2.39it/s]130it [01:11,  2.21it/s]131it [01:11,  2.10it/s]132it [01:12,  1.90it/s]133it [01:13,  1.81it/s]134it [01:13,  1.79it/s]135it [01:14,  1.83it/s]136it [01:14,  1.87it/s]137it [01:15,  1.80it/s]138it [01:15,  1.97it/s]139it [01:15,  2.14it/s]140it [01:16,  2.15it/s]141it [01:16,  2.05it/s]142it [01:17,  2.20it/s]143it [01:17,  2.08it/s]144it [01:18,  1.87it/s]145it [01:19,  1.60it/s]146it [01:20,  1.58it/s]147it [01:20,  1.65it/s]148it [01:21,  1.81it/s]149it [01:21,  2.02it/s]150it [01:21,  2.08it/s]151it [01:22,  2.12it/s]152it [01:22,  2.13it/s]153it [01:23,  2.27it/s]154it [01:23,  2.27it/s]155it [01:24,  2.21it/s]156it [01:24,  2.07it/s]157it [01:25,  2.15it/s]158it [01:25,  2.20it/s]159it [01:25,  2.29it/s]160it [01:26,  2.37it/s]161it [01:26,  2.38it/s]162it [01:27,  2.31it/s]163it [01:27,  2.10it/s]164it [01:28,  2.13it/s]165it [01:28,  2.01it/s]166it [01:29,  1.71it/s]167it [01:30,  1.65it/s]168it [01:30,  1.66it/s]169it [01:31,  1.72it/s]170it [01:31,  1.77it/s]171it [01:32,  1.97it/s]172it [01:32,  2.09it/s]173it [01:33,  2.06it/s]174it [01:33,  1.91it/s]175it [01:34,  1.62it/s]176it [01:35,  1.66it/s]177it [01:35,  1.66it/s]178it [01:36,  1.72it/s]179it [01:36,  1.90it/s]180it [01:37,  1.93it/s]181it [01:37,  1.82it/s]182it [01:38,  1.79it/s]183it [01:38,  1.91it/s]184it [01:39,  1.99it/s]185it [01:39,  1.98it/s]186it [01:40,  1.94it/s]187it [01:40,  1.89it/s]188it [01:41,  1.99it/s]189it [01:41,  2.02it/s]190it [01:42,  2.13it/s]191it [01:42,  2.11it/s]192it [01:43,  2.10it/s]193it [01:43,  2.24it/s]194it [01:43,  2.35it/s]195it [01:44,  2.34it/s]196it [01:44,  2.13it/s]197it [01:45,  2.05it/s]198it [01:47,  1.12it/s]199it [01:48,  1.05s/it]200it [01:49,  1.09s/it]201it [01:50,  1.02s/it]202it [01:51,  1.05it/s]203it [01:52,  1.09it/s]204it [01:52,  1.20it/s]205it [01:53,  1.38it/s]206it [01:53,  1.60it/s]207it [01:54,  1.82it/s]208it [01:54,  1.93it/s]209it [01:55,  1.98it/s]210it [01:55,  2.05it/s]211it [01:55,  2.20it/s]212it [01:56,  1.90it/s]213it [01:57,  1.81it/s]214it [01:57,  1.87it/s]215it [01:58,  1.85it/s]216it [01:58,  2.01it/s]216it [01:59,  1.81it/s]
-image list update successful
-Traceback (most recent call last):
-  File "/home/ec2-user/autojobs/auto_scripts/image_carousel.py", line 81, in <module>
-    images_list = get_hq_images_for_athlete(full_name + " track and field", last_name)
-  File "/home/ec2-user/autojobs/auto_scripts/image_carousel.py", line 67, in get_hq_images_for_athlete
-    if last_name in subject and "medical" not in result: 
-TypeError: argument of type 'NoneType' is not iterable
-0it [00:00, ?it/s]1it [00:01,  1.25s/it]2it [00:02,  1.19s/it]3it [00:03,  1.11s/it]4it [00:04,  1.04it/s]5it [00:04,  1.20it/s]6it [00:05,  1.37it/s]7it [00:05,  1.40it/s]8it [00:06,  1.41it/s]9it [00:07,  1.47it/s]10it [00:07,  1.58it/s]11it [00:08,  1.66it/s]12it [00:08,  1.72it/s]13it [00:09,  1.72it/s]14it [00:09,  1.77it/s]15it [00:10,  1.77it/s]16it [00:10,  1.92it/s]17it [00:11,  1.90it/s]18it [00:12,  1.85it/s]19it [00:12,  1.86it/s]20it [00:13,  1.80it/s]21it [00:13,  1.76it/s]22it [00:14,  1.61it/s]23it [00:15,  1.39it/s]24it [00:16,  1.24it/s]25it [00:17,  1.28it/s]26it [00:17,  1.38it/s]27it [00:18,  1.39it/s]28it [00:19,  1.48it/s]29it [00:19,  1.67it/s]30it [00:19,  1.78it/s]31it [00:20,  1.71it/s]32it [00:21,  1.52it/s]33it [00:21,  1.64it/s]34it [00:22,  1.70it/s]35it [00:23,  1.71it/s]36it [00:23,  1.76it/s]37it [00:24,  1.85it/s]38it [00:24,  1.95it/s]39it [00:25,  1.99it/s]40it [00:25,  1.92it/s]41it [00:25,  2.05it/s]42it [00:26,  2.21it/s]43it [00:26,  2.11it/s]44it [00:27,  1.63it/s]45it [00:28,  1.47it/s]46it [00:29,  1.46it/s]47it [00:30,  1.33it/s]48it [00:30,  1.34it/s]49it [00:31,  1.48it/s]50it [00:32,  1.58it/s]51it [00:32,  1.47it/s]52it [00:33,  1.58it/s]53it [00:33,  1.60it/s]54it [00:34,  1.76it/s]55it [00:34,  1.84it/s]56it [00:35,  2.00it/s]57it [00:35,  2.02it/s]58it [00:36,  2.12it/s]59it [00:36,  2.04it/s]60it [00:37,  2.02it/s]61it [00:37,  2.03it/s]62it [00:38,  1.90it/s]63it [00:38,  1.99it/s]64it [00:39,  2.07it/s]65it [00:39,  1.97it/s]66it [00:40,  2.12it/s]67it [00:40,  1.97it/s]68it [00:41,  1.90it/s]69it [00:41,  1.88it/s]70it [00:42,  1.85it/s]71it [00:42,  1.82it/s]72it [00:43,  1.85it/s]73it [00:44,  1.70it/s]74it [00:44,  1.59it/s]75it [00:45,  1.61it/s]76it [00:46,  1.61it/s]77it [00:47,  1.39it/s]78it [00:47,  1.41it/s]79it [00:48,  1.50it/s]80it [00:48,  1.54it/s]81it [00:49,  1.67it/s]82it [00:50,  1.66it/s]83it [00:50,  1.72it/s]84it [00:51,  1.75it/s]85it [00:51,  1.92it/s]86it [00:52,  1.81it/s]87it [00:52,  1.64it/s]88it [00:53,  1.55it/s]89it [00:54,  1.58it/s]90it [00:54,  1.63it/s]91it [00:55,  1.71it/s]92it [00:55,  1.70it/s]93it [00:56,  1.87it/s]94it [00:56,  1.91it/s]95it [00:57,  1.91it/s]96it [00:57,  1.98it/s]97it [00:58,  2.05it/s]98it [00:58,  2.07it/s]99it [00:59,  2.15it/s]100it [00:59,  1.75it/s]101it [01:00,  1.61it/s]102it [01:02,  1.02s/it]103it [01:03,  1.03it/s]104it [01:04,  1.14it/s]105it [01:04,  1.28it/s]106it [01:05,  1.26it/s]107it [01:06,  1.35it/s]108it [01:07,  1.31it/s]109it [01:07,  1.43it/s]110it [01:08,  1.59it/s]111it [01:08,  1.66it/s]112it [01:08,  1.82it/s]113it [01:09,  1.93it/s]114it [01:10,  1.74it/s]115it [01:10,  1.68it/s]116it [01:11,  1.80it/s]117it [01:11,  1.83it/s]118it [01:12,  1.82it/s]119it [01:12,  1.85it/s]120it [01:13,  1.85it/s]121it [01:13,  1.89it/s]122it [01:14,  1.92it/s]123it [01:14,  1.85it/s]124it [01:15,  1.70it/s]125it [01:16,  1.79it/s]126it [01:16,  1.60it/s]127it [01:17,  1.75it/s]128it [01:17,  1.81it/s]129it [01:18,  1.81it/s]130it [01:19,  1.80it/s]131it [01:19,  1.73it/s]132it [01:20,  1.69it/s]133it [01:20,  1.77it/s]134it [01:21,  1.91it/s]135it [01:21,  2.03it/s]136it [01:22,  1.83it/s]137it [01:22,  1.72it/s]138it [01:23,  1.76it/s]139it [01:24,  1.71it/s]140it [01:24,  1.75it/s]141it [01:25,  1.85it/s]142it [01:25,  1.81it/s]143it [01:26,  1.72it/s]144it [01:26,  1.76it/s]145it [01:27,  1.67it/s]146it [01:28,  1.79it/s]147it [01:28,  1.82it/s]148it [01:29,  1.91it/s]149it [01:29,  2.02it/s]150it [01:29,  2.01it/s]151it [01:30,  1.72it/s]152it [01:31,  1.93it/s]153it [01:31,  2.00it/s]154it [01:31,  2.08it/s]155it [01:32,  1.99it/s]156it [01:33,  1.89it/s]157it [01:33,  1.92it/s]158it [01:34,  2.09it/s]159it [01:34,  2.04it/s]160it [01:35,  2.02it/s]161it [01:35,  1.89it/s]162it [01:36,  1.90it/s]163it [01:36,  2.02it/s]164it [01:37,  1.72it/s]165it [01:38,  1.61it/s]166it [01:38,  1.71it/s]167it [01:38,  1.87it/s]168it [01:39,  1.86it/s]169it [01:40,  1.85it/s]170it [01:40,  1.79it/s]171it [01:41,  1.85it/s]172it [01:41,  1.85it/s]173it [01:42,  1.82it/s]174it [01:42,  1.95it/s]175it [01:43,  1.94it/s]176it [01:43,  1.94it/s]177it [01:44,  1.97it/s]178it [01:44,  2.13it/s]179it [01:45,  2.10it/s]180it [01:45,  2.11it/s]181it [01:46,  1.84it/s]182it [01:46,  1.76it/s]183it [01:47,  1.76it/s]184it [01:48,  1.78it/s]185it [01:48,  1.64it/s]186it [01:49,  1.57it/s]187it [01:50,  1.58it/s]188it [01:50,  1.59it/s]189it [01:51,  1.77it/s]190it [01:51,  1.79it/s]191it [01:52,  1.79it/s]192it [01:52,  1.75it/s]193it [01:53,  1.68it/s]194it [01:54,  1.69it/s]195it [01:54,  1.60it/s]196it [01:55,  1.66it/s]197it [01:55,  1.76it/s]198it [01:56,  1.73it/s]199it [01:57,  1.70it/s]200it [01:57,  1.86it/s]201it [01:57,  1.84it/s]202it [01:58,  1.89it/s]203it [01:59,  1.83it/s]204it [01:59,  1.82it/s]205it [02:00,  1.96it/s]206it [02:00,  2.09it/s]207it [02:00,  2.13it/s]208it [02:01,  2.04it/s]209it [02:01,  2.07it/s]210it [02:02,  2.19it/s]211it [02:02,  2.13it/s]212it [02:03,  2.06it/s]213it [02:04,  1.80it/s]214it [02:04,  1.67it/s]215it [02:05,  1.37it/s]215it [02:06,  1.70it/s]
-Traceback (most recent call last):
-  File "/home/ec2-user/autojobs/auto_scripts/image_carousel.py", line 81, in <module>
-    images_list = get_hq_images_for_athlete(full_name + " track and field", last_name)
-  File "/home/ec2-user/autojobs/auto_scripts/image_carousel.py", line 67, in get_hq_images_for_athlete
-    if last_name in subject and "medical" not in result: 
-TypeError: argument of type 'NoneType' is not iterable
-0it [00:00, ?it/s]1it [00:01,  1.25s/it]2it [00:02,  1.04it/s]3it [00:02,  1.30it/s]4it [00:03,  1.52it/s]5it [00:03,  1.70it/s]6it [00:04,  1.75it/s]7it [00:04,  1.80it/s]8it [00:05,  1.88it/s]9it [00:05,  1.82it/s]10it [00:06,  1.44it/s]11it [00:07,  1.45it/s]12it [00:07,  1.52it/s]13it [00:08,  1.65it/s]14it [00:08,  1.70it/s]15it [00:09,  1.86it/s]16it [00:09,  1.85it/s]17it [00:10,  1.88it/s]18it [00:10,  1.92it/s]19it [00:11,  1.86it/s]20it [00:12,  1.79it/s]21it [00:12,  1.82it/s]22it [00:13,  1.63it/s]23it [00:14,  1.37it/s]24it [00:15,  1.44it/s]25it [00:15,  1.52it/s]26it [00:16,  1.48it/s]27it [00:17,  1.35it/s]28it [00:17,  1.35it/s]29it [00:18,  1.21it/s]30it [00:21,  1.27s/it]31it [00:25,  2.18s/it]32it [00:39,  5.69s/it]33it [00:51,  7.46s/it]34it [01:02,  8.73s/it]35it [01:11,  8.68s/it]36it [01:17,  7.93s/it]37it [01:27,  8.63s/it]38it [01:38,  9.12s/it]39it [01:50, 10.10s/it]40it [01:54,  8.29s/it]41it [01:59,  7.17s/it]42it [02:09,  8.22s/it]43it [02:22,  9.55s/it]44it [02:39, 11.92s/it]45it [02:46, 10.42s/it]46it [02:59, 11.17s/it]47it [03:10, 10.97s/it]48it [03:15,  9.28s/it]49it [03:24,  9.23s/it]50it [03:33,  9.28s/it]51it [03:38,  7.81s/it]52it [03:45,  7.54s/it]53it [03:51,  7.27s/it]54it [03:58,  7.04s/it]55it [04:05,  6.98s/it]56it [04:14,  7.74s/it]57it [04:22,  7.71s/it]58it [04:37,  9.92s/it]59it [04:43,  8.74s/it]60it [04:50,  8.25s/it]61it [05:11, 11.99s/it]62it [05:21, 11.31s/it]63it [05:28, 10.06s/it]0it [00:00, ?it/s]64it [05:48, 13.09s/it]65it [05:59, 12.40s/it]1it [00:15, 15.81s/it]66it [06:21, 15.36s/it]2it [00:43, 22.75s/it]66it [07:24,  6.74s/it]
-Traceback (most recent call last):
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 467, in _make_request
-    self._validate_conn(conn)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1096, in _validate_conn
-    conn.connect()
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/connection.py", line 642, in connect
-    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/connection.py", line 782, in _ssl_wrap_socket_and_match_hostname
-    ssl_sock = ssl_wrap_socket(
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 470, in ssl_wrap_socket
-    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 514, in _ssl_wrap_socket_impl
-    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
-  File "/usr/lib64/python3.9/ssl.py", line 501, in wrap_socket
-    return self.sslsocket_class._create(
-  File "/usr/lib64/python3.9/ssl.py", line 1074, in _create
-    self.do_handshake()
-  File "/usr/lib64/python3.9/ssl.py", line 1343, in do_handshake
-    self._sslobj.do_handshake()
-ssl.SSLZeroReturnError: TLS/SSL connection has been closed (EOF) (_ssl.c:1129)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 790, in urlopen
-    response = self._make_request(
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 491, in _make_request
-    raise new_e
-urllib3.exceptions.SSLError: TLS/SSL connection has been closed (EOF) (_ssl.c:1129)
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/requests/adapters.py", line 486, in send
-    resp = conn.urlopen(
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 844, in urlopen
-    retries = retries.increment(
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/util/retry.py", line 515, in increment
-    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
-urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.gettyimages.com', port=443): Max retries exceeded with url: /photos/Susanne%20GOGL-WALLI%20track%20and%20field?family=editorial&assettype=image&sort=best (Caused by SSLError(SSLZeroReturnError(6, 'TLS/SSL connection has been closed (EOF) (_ssl.c:1129)')))
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/ec2-user/autojobs/auto_scripts/image_carousel.py", line 81, in <module>
-    images_list = get_hq_images_for_athlete(full_name + " track and field", last_name)
-  File "/home/ec2-user/autojobs/auto_scripts/image_carousel.py", line 57, in get_hq_images_for_athlete
-    response = requests.get(f'https://www.gettyimages.com/photos/{query}', params=params, headers=headers)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/requests/api.py", line 73, in get
-    return request("get", url, params=params, **kwargs)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/requests/api.py", line 59, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/requests/sessions.py", line 589, in request
-    resp = self.send(prep, **send_kwargs)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/requests/sessions.py", line 703, in send
-    r = adapter.send(request, **kwargs)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/requests/adapters.py", line 517, in send
-    raise SSLError(e, request=request)
-requests.exceptions.SSLError: HTTPSConnectionPool(host='www.gettyimages.com', port=443): Max retries exceeded with url: /photos/Susanne%20GOGL-WALLI%20track%20and%20field?family=editorial&assettype=image&sort=best (Caused by SSLError(SSLZeroReturnError(6, 'TLS/SSL connection has been closed (EOF) (_ssl.c:1129)')))
-2it [22:52, 686.26s/it]
-Traceback (most recent call last):
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 467, in _make_request
-    self._validate_conn(conn)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1096, in _validate_conn
-    conn.connect()
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/connection.py", line 642, in connect
-    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/connection.py", line 782, in _ssl_wrap_socket_and_match_hostname
-    ssl_sock = ssl_wrap_socket(
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 470, in ssl_wrap_socket
-    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 514, in _ssl_wrap_socket_impl
-    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
-  File "/usr/lib64/python3.9/ssl.py", line 501, in wrap_socket
-    return self.sslsocket_class._create(
-  File "/usr/lib64/python3.9/ssl.py", line 1074, in _create
-    self.do_handshake()
-  File "/usr/lib64/python3.9/ssl.py", line 1343, in do_handshake
-    self._sslobj.do_handshake()
-ssl.SSLZeroReturnError: TLS/SSL connection has been closed (EOF) (_ssl.c:1129)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 790, in urlopen
-    response = self._make_request(
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 491, in _make_request
-    raise new_e
-urllib3.exceptions.SSLError: TLS/SSL connection has been closed (EOF) (_ssl.c:1129)
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/requests/adapters.py", line 486, in send
-    resp = conn.urlopen(
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 844, in urlopen
-    retries = retries.increment(
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/util/retry.py", line 515, in increment
-    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
-urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.gettyimages.com', port=443): Max retries exceeded with url: /photos/Jasmine%20CAMACHO-QUINN%20track%20and%20field?family=editorial&assettype=image&sort=best (Caused by SSLError(SSLZeroReturnError(6, 'TLS/SSL connection has been closed (EOF) (_ssl.c:1129)')))
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/ec2-user/autojobs/auto_scripts/image_carousel.py", line 81, in <module>
-    images_list = get_hq_images_for_athlete(full_name + " track and field", last_name)
-  File "/home/ec2-user/autojobs/auto_scripts/image_carousel.py", line 57, in get_hq_images_for_athlete
-    response = requests.get(f'https://www.gettyimages.com/photos/{query}', params=params, headers=headers)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/requests/api.py", line 73, in get
-    return request("get", url, params=params, **kwargs)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/requests/api.py", line 59, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/requests/sessions.py", line 589, in request
-    resp = self.send(prep, **send_kwargs)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/requests/sessions.py", line 703, in send
-    r = adapter.send(request, **kwargs)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/requests/adapters.py", line 517, in send
-    raise SSLError(e, request=request)
-requests.exceptions.SSLError: HTTPSConnectionPool(host='www.gettyimages.com', port=443): Max retries exceeded with url: /photos/Jasmine%20CAMACHO-QUINN%20track%20and%20field?family=editorial&assettype=image&sort=best (Caused by SSLError(SSLZeroReturnError(6, 'TLS/SSL connection has been closed (EOF) (_ssl.c:1129)')))
-0it [00:00, ?it/s]1it [00:00,  1.09it/s]2it [00:01,  1.42it/s]3it [00:02,  1.53it/s]4it [00:02,  1.66it/s]5it [00:03,  1.79it/s]6it [00:03,  1.85it/s]7it [00:04,  1.93it/s]8it [00:04,  1.98it/s]9it [00:04,  2.11it/s]10it [00:05,  2.00it/s]11it [00:05,  2.00it/s]12it [00:06,  1.89it/s]13it [00:07,  1.87it/s]14it [00:07,  1.86it/s]15it [00:08,  1.96it/s]16it [00:08,  1.92it/s]17it [00:09,  1.90it/s]18it [00:09,  2.04it/s]19it [00:10,  2.06it/s]20it [00:10,  2.01it/s]21it [00:11,  2.06it/s]22it [00:11,  2.01it/s]23it [00:12,  2.02it/s]24it [00:12,  2.14it/s]25it [00:12,  2.18it/s]26it [00:13,  2.14it/s]27it [00:13,  2.05it/s]28it [00:14,  2.16it/s]29it [00:14,  2.19it/s]30it [00:15,  2.14it/s]31it [00:15,  2.10it/s]32it [00:16,  2.03it/s]33it [00:16,  1.95it/s]34it [00:17,  1.98it/s]35it [00:17,  2.10it/s]36it [00:18,  2.00it/s]37it [00:18,  2.01it/s]38it [00:19,  2.03it/s]39it [00:19,  2.02it/s]40it [00:20,  2.14it/s]41it [00:20,  2.19it/s]42it [00:21,  1.95it/s]43it [00:21,  1.87it/s]44it [00:22,  1.70it/s]45it [00:23,  1.76it/s]46it [00:23,  1.83it/s]47it [00:24,  1.90it/s]48it [00:24,  2.03it/s]49it [00:24,  2.13it/s]50it [00:25,  2.12it/s]51it [00:25,  2.09it/s]52it [00:26,  1.93it/s]53it [00:26,  2.11it/s]54it [00:27,  2.23it/s]55it [00:27,  2.30it/s]56it [00:28,  2.33it/s]57it [00:28,  2.37it/s]58it [00:29,  1.97it/s]59it [00:29,  2.03it/s]60it [00:30,  1.92it/s]61it [00:30,  1.98it/s]62it [00:31,  2.14it/s]63it [00:31,  2.26it/s]64it [00:31,  2.20it/s]65it [00:32,  2.31it/s]66it [00:32,  2.25it/s]67it [00:33,  2.28it/s]68it [00:33,  2.36it/s]69it [00:34,  2.11it/s]70it [00:34,  2.09it/s]71it [00:35,  2.05it/s]72it [00:35,  2.06it/s]73it [00:36,  2.15it/s]74it [00:36,  2.25it/s]75it [00:36,  2.36it/s]76it [00:37,  2.29it/s]77it [00:37,  2.21it/s]78it [00:38,  2.12it/s]79it [00:38,  2.13it/s]80it [00:39,  2.13it/s]81it [00:39,  2.05it/s]82it [00:40,  2.01it/s]83it [00:40,  2.03it/s]84it [00:41,  2.11it/s]85it [00:41,  2.10it/s]86it [00:42,  2.11it/s]87it [00:42,  2.07it/s]88it [00:43,  2.21it/s]89it [00:43,  2.16it/s]90it [00:44,  1.94it/s]91it [00:44,  1.86it/s]92it [00:45,  2.00it/s]93it [00:45,  1.99it/s]94it [00:46,  2.06it/s]95it [00:46,  2.00it/s]96it [00:47,  2.17it/s]97it [00:47,  2.22it/s]98it [00:47,  2.27it/s]99it [00:48,  2.28it/s]100it [00:48,  2.34it/s]101it [00:49,  2.37it/s]102it [00:50,  1.80it/s]103it [00:50,  1.81it/s]104it [00:50,  1.95it/s]105it [00:51,  1.94it/s]106it [00:51,  2.00it/s]107it [00:52,  1.97it/s]108it [00:53,  1.92it/s]109it [00:53,  1.97it/s]110it [00:54,  1.89it/s]111it [00:54,  1.72it/s]112it [00:55,  1.80it/s]113it [00:56,  1.65it/s]114it [00:56,  1.53it/s]115it [00:57,  1.47it/s]116it [00:58,  1.24it/s]117it [01:01,  1.46s/it]118it [01:06,  2.56s/it]119it [01:10,  2.87s/it]120it [01:12,  2.76s/it]121it [01:13,  2.28s/it]122it [01:15,  1.94s/it]123it [01:16,  1.92s/it]124it [01:18,  1.69s/it]125it [01:19,  1.55s/it]126it [01:20,  1.44s/it]127it [01:21,  1.38s/it]128it [01:23,  1.34s/it]129it [01:24,  1.29s/it]130it [01:25,  1.34s/it]131it [01:27,  1.53s/it]132it [01:32,  2.57s/it]133it [01:34,  2.44s/it]134it [01:37,  2.38s/it]135it [01:39,  2.37s/it]136it [01:42,  2.48s/it]137it [01:44,  2.38s/it]138it [01:46,  2.35s/it]139it [01:48,  2.32s/it]140it [01:50,  2.11s/it]141it [01:51,  1.85s/it]142it [01:52,  1.68s/it]143it [01:54,  1.60s/it]144it [01:55,  1.51s/it]145it [01:56,  1.41s/it]146it [01:58,  1.36s/it]147it [01:59,  1.29s/it]148it [02:00,  1.27s/it]149it [02:01,  1.24s/it]150it [02:03,  1.29s/it]151it [02:05,  1.61s/it]152it [02:08,  2.19s/it]153it [02:11,  2.20s/it]154it [02:13,  2.22s/it]155it [02:15,  2.23s/it]156it [02:18,  2.32s/it]157it [02:20,  2.28s/it]158it [02:22,  2.30s/it]159it [02:24,  2.29s/it]160it [02:27,  2.29s/it]161it [02:28,  2.11s/it]162it [02:30,  1.86s/it]163it [02:31,  1.70s/it]164it [02:33,  1.74s/it]165it [02:34,  1.62s/it]166it [02:35,  1.51s/it]167it [02:37,  1.45s/it]168it [02:38,  1.40s/it]169it [02:40,  1.53s/it]170it [02:41,  1.44s/it]171it [02:42,  1.37s/it]172it [02:44,  1.52s/it]173it [02:46,  1.70s/it]174it [02:49,  1.87s/it]175it [02:51,  1.99s/it]176it [02:53,  2.09s/it]177it [02:55,  2.11s/it]178it [02:57,  2.09s/it]179it [03:00,  2.18s/it]180it [03:02,  2.21s/it]181it [03:05,  2.40s/it]182it [03:07,  2.39s/it]183it [03:09,  2.11s/it]184it [03:10,  1.88s/it]185it [03:11,  1.70s/it]186it [03:13,  1.56s/it]187it [03:15,  1.68s/it]188it [03:16,  1.54s/it]189it [03:17,  1.45s/it]190it [03:18,  1.39s/it]191it [03:19,  1.30s/it]192it [03:21,  1.28s/it]193it [03:22,  1.25s/it]194it [03:23,  1.26s/it]195it [03:24,  1.26s/it]196it [03:26,  1.43s/it]197it [03:29,  1.75s/it]198it [03:32,  2.23s/it]199it [03:35,  2.33s/it]200it [03:37,  2.33s/it]201it [03:39,  2.26s/it]202it [03:41,  2.30s/it]203it [03:45,  2.72s/it]204it [03:47,  2.62s/it]205it [03:50,  2.55s/it]206it [03:52,  2.45s/it]207it [03:53,  2.11s/it]208it [03:55,  1.84s/it]209it [03:56,  1.65s/it]210it [03:58,  1.72s/it]211it [03:59,  1.58s/it]212it [04:00,  1.49s/it]213it [04:01,  1.43s/it]214it [04:03,  1.36s/it]215it [04:04,  1.30s/it]216it [04:06,  1.47s/it]217it [04:08,  1.73s/it]218it [04:11,  2.01s/it]219it [04:13,  2.08s/it]220it [04:15,  2.14s/it]221it [04:20,  2.97s/it]222it [04:22,  2.75s/it]223it [04:25,  2.61s/it]224it [04:26,  2.28s/it]225it [04:27,  1.97s/it]226it [04:29,  1.77s/it]227it [04:30,  1.61s/it]228it [04:31,  1.53s/it]229it [04:32,  1.42s/it]230it [04:34,  1.37s/it]231it [04:35,  1.33s/it]232it [04:36,  1.34s/it]233it [04:38,  1.38s/it]234it [04:40,  1.70s/it]235it [04:44,  2.25s/it]236it [04:46,  2.28s/it]237it [04:50,  2.68s/it]238it [04:53,  2.76s/it]239it [04:59,  3.73s/it]240it [04:59,  2.85s/it]241it [05:00,  2.21s/it]0it [00:00, ?it/s]242it [05:01,  1.72s/it]243it [05:01,  1.38s/it]1it [00:01,  1.01s/it]244it [05:02,  1.13s/it]2it [00:01,  1.31it/s]3it [00:02,  1.54it/s]245it [05:02,  1.03it/s]246it [05:03,  1.23it/s]4it [00:02,  1.59it/s]247it [05:03,  1.34it/s]5it [00:03,  1.66it/s]248it [05:04,  1.40it/s]6it [00:03,  1.68it/s]249it [05:05,  1.55it/s]7it [00:04,  1.72it/s]250it [05:05,  1.68it/s]8it [00:04,  1.86it/s]251it [05:06,  1.77it/s]9it [00:05,  1.96it/s]252it [05:06,  1.76it/s]10it [00:06,  1.71it/s]253it [05:07,  1.69it/s]11it [00:06,  1.62it/s]254it [05:07,  1.76it/s]12it [00:07,  1.63it/s]255it [05:08,  1.86it/s]13it [00:07,  1.74it/s]256it [05:08,  1.92it/s]257it [05:09,  1.82it/s]14it [00:08,  1.60it/s]15it [00:09,  1.65it/s]258it [05:10,  1.71it/s]16it [00:09,  1.65it/s]259it [05:10,  1.67it/s]17it [00:10,  1.63it/s]260it [05:11,  1.66it/s]18it [00:10,  1.75it/s]261it [05:11,  1.66it/s]19it [00:11,  1.82it/s]262it [05:12,  1.81it/s]20it [00:11,  1.78it/s]263it [05:12,  1.79it/s]21it [00:12,  1.76it/s]264it [05:13,  1.76it/s]22it [00:13,  1.62it/s]265it [05:14,  1.40it/s]23it [00:14,  1.22it/s]266it [05:15,  1.27it/s]24it [00:15,  1.15it/s]267it [05:16,  1.05it/s]25it [00:16,  1.16it/s]268it [05:18,  1.06s/it]26it [00:17,  1.04it/s]269it [05:19,  1.00s/it]27it [00:19,  1.15s/it]28it [00:21,  1.64s/it]270it [05:24,  2.21s/it]29it [00:25,  2.23s/it]271it [05:27,  2.52s/it]30it [00:31,  3.47s/it]272it [05:34,  3.79s/it]273it [05:38,  4.04s/it]31it [00:38,  4.43s/it]274it [05:43,  4.13s/it]275it [05:47,  4.24s/it]32it [00:46,  5.62s/it]276it [05:51,  4.22s/it]33it [00:54,  6.04s/it]277it [05:56,  4.25s/it]278it [06:00,  4.22s/it]34it [01:00,  6.27s/it]279it [06:05,  4.61s/it]35it [01:06,  6.06s/it]280it [06:09,  4.42s/it]36it [01:09,  5.24s/it]281it [06:13,  4.24s/it]37it [01:12,  4.64s/it]282it [06:16,  3.89s/it]38it [01:17,  4.71s/it]283it [06:19,  3.73s/it]284it [06:23,  3.63s/it]39it [01:23,  4.99s/it]285it [06:26,  3.48s/it]40it [01:26,  4.40s/it]286it [06:29,  3.36s/it]41it [01:29,  4.00s/it]287it [06:33,  3.53s/it]42it [01:35,  4.71s/it]288it [06:37,  3.72s/it]289it [06:41,  3.90s/it]43it [01:44,  5.88s/it]290it [06:45,  3.90s/it]291it [06:49,  3.90s/it]44it [01:51,  6.26s/it]292it [06:56,  4.65s/it]45it [01:55,  5.55s/it]293it [07:00,  4.60s/it]46it [02:02,  5.90s/it]294it [07:04,  4.26s/it]295it [07:07,  3.96s/it]47it [02:08,  5.90s/it]296it [07:11,  3.98s/it]48it [02:12,  5.44s/it]297it [07:14,  3.64s/it]49it [02:16,  5.12s/it]298it [07:18,  3.89s/it]299it [07:21,  3.67s/it]50it [02:22,  5.19s/it]300it [07:25,  3.61s/it]51it [02:26,  4.75s/it]301it [07:28,  3.42s/it]52it [02:29,  4.40s/it]302it [07:32,  3.55s/it]53it [02:33,  4.32s/it]303it [07:36,  3.76s/it]54it [02:37,  4.25s/it]304it [07:41,  4.07s/it]55it [02:42,  4.30s/it]305it [07:44,  3.98s/it]56it [02:46,  4.24s/it]306it [07:48,  3.95s/it]307it [07:52,  4.01s/it]57it [02:53,  5.14s/it]308it [07:56,  3.97s/it]309it [08:00,  3.92s/it]58it [03:00,  5.61s/it]59it [03:04,  5.20s/it]310it [08:06,  4.44s/it]60it [03:08,  4.78s/it]311it [08:12,  5.01s/it]61it [03:13,  5.05s/it]312it [08:17,  4.90s/it]62it [03:18,  4.75s/it]313it [08:19,  4.21s/it]63it [03:20,  4.05s/it]314it [08:22,  3.63s/it]315it [08:24,  3.22s/it]64it [03:23,  3.89s/it]316it [08:27,  3.19s/it]65it [03:27,  3.67s/it]317it [08:31,  3.37s/it]66it [03:34,  4.64s/it]318it [08:35,  3.60s/it]67it [03:38,  4.60s/it]319it [08:39,  3.80s/it]320it [08:46,  4.63s/it]68it [03:45,  5.42s/it]69it [03:49,  4.94s/it]321it [08:50,  4.57s/it]322it [08:55,  4.71s/it]70it [03:56,  5.42s/it]323it [08:59,  4.47s/it]324it [09:03,  4.39s/it]71it [04:03,  5.95s/it]325it [09:08,  4.29s/it]72it [04:09,  6.03s/it]326it [09:14,  4.99s/it]73it [04:15,  5.86s/it]327it [09:17,  4.33s/it]74it [04:17,  4.85s/it]328it [09:20,  3.92s/it]75it [04:19,  4.06s/it]76it [04:23,  3.90s/it]329it [09:26,  4.70s/it]77it [04:29,  4.41s/it]330it [09:30,  4.37s/it]78it [04:33,  4.50s/it]331it [09:34,  4.32s/it]79it [04:37,  4.31s/it]332it [09:38,  4.29s/it]80it [04:41,  4.14s/it]333it [09:43,  4.34s/it]334it [09:47,  4.36s/it]81it [04:47,  4.91s/it]82it [04:54,  5.25s/it]335it [09:58,  6.30s/it]336it [10:05,  6.39s/it]83it [05:06,  7.36s/it]337it [10:12,  6.54s/it]84it [05:15,  7.85s/it]338it [10:19,  6.82s/it]85it [05:27,  9.24s/it]339it [10:31,  8.36s/it]0it [00:00, ?it/s]340it [10:38,  7.98s/it]86it [05:39,  9.85s/it]1it [00:11, 11.08s/it]341it [10:46,  7.99s/it]87it [05:47,  9.36s/it]342it [10:51,  7.14s/it]88it [05:52,  8.15s/it]2it [00:20, 10.10s/it]343it [10:57,  6.79s/it]89it [06:02,  8.66s/it]344it [11:03,  6.59s/it]3it [00:31, 10.30s/it]90it [06:12,  9.05s/it]345it [11:13,  7.57s/it]4it [00:41, 10.40s/it]91it [06:18,  8.16s/it]346it [11:20,  7.20s/it]5it [00:52, 10.50s/it]92it [06:25,  7.70s/it]347it [11:26,  6.84s/it]93it [06:31,  7.24s/it]348it [11:32,  6.68s/it]6it [01:02, 10.31s/it]94it [06:37,  6.94s/it]349it [11:38,  6.59s/it]350it [11:45,  6.63s/it]7it [01:12, 10.43s/it]95it [06:45,  7.13s/it]351it [11:52,  6.72s/it]8it [01:20,  9.46s/it]96it [06:52,  7.36s/it]352it [11:57,  6.34s/it]9it [01:25,  8.12s/it]97it [07:02,  7.92s/it]353it [12:03,  6.05s/it]98it [07:07,  7.20s/it]354it [12:08,  5.83s/it]10it [01:36,  9.14s/it]99it [07:13,  6.80s/it]355it [12:14,  5.97s/it]356it [12:19,  5.63s/it]11it [01:46,  9.41s/it]100it [07:19,  6.64s/it]101it [07:24,  5.94s/it]357it [12:25,  5.59s/it]12it [01:54,  8.74s/it]358it [12:28,  5.04s/it]359it [12:34,  5.09s/it]102it [07:33,  7.08s/it]13it [02:02,  8.63s/it]360it [12:39,  5.16s/it]103it [07:38,  6.42s/it]14it [02:12,  9.11s/it]104it [07:45,  6.45s/it]361it [12:46,  5.62s/it]15it [02:19,  8.41s/it]105it [07:54,  7.34s/it]362it [12:56,  7.03s/it]106it [08:00,  6.98s/it]16it [02:29,  8.82s/it]17it [02:35,  8.13s/it]363it [13:13, 10.14s/it]18it [02:41,  7.53s/it]107it [08:16,  9.69s/it]364it [13:20,  9.16s/it]19it [02:48,  7.32s/it]108it [08:21,  8.26s/it]365it [13:25,  7.98s/it]109it [08:27,  7.45s/it]20it [02:58,  8.00s/it]366it [13:31,  7.21s/it]367it [13:37,  6.84s/it]110it [08:37,  8.16s/it]21it [03:07,  8.46s/it]368it [13:43,  6.64s/it]111it [08:44,  7.95s/it]112it [08:49,  7.06s/it]369it [13:50,  6.86s/it]22it [03:18,  9.03s/it]370it [13:56,  6.46s/it]23it [03:25,  8.65s/it]113it [08:58,  7.53s/it]371it [14:00,  5.66s/it]24it [03:31,  7.83s/it]372it [14:06,  5.74s/it]114it [09:06,  7.88s/it]25it [03:37,  7.15s/it]373it [14:11,  5.53s/it]115it [09:14,  7.89s/it]374it [14:15,  5.27s/it]26it [03:48,  8.33s/it]375it [14:22,  5.70s/it]116it [09:25,  8.79s/it]376it [14:28,  5.82s/it]27it [03:59,  9.01s/it]377it [14:34,  5.90s/it]117it [09:36,  9.27s/it]28it [04:05,  8.31s/it]378it [14:42,  6.36s/it]29it [04:11,  7.54s/it]379it [14:48,  6.19s/it]118it [09:52, 11.25s/it]30it [04:23,  8.87s/it]380it [15:04,  9.17s/it]119it [10:11, 13.78s/it]31it [04:42, 11.93s/it]381it [15:15,  9.92s/it]382it [15:26, 10.08s/it]120it [10:28, 14.74s/it]383it [15:36, 10.12s/it]32it [05:04, 14.97s/it]121it [10:40, 13.74s/it]384it [15:48, 10.57s/it]122it [10:52, 13.31s/it]0it [00:00, ?it/s]33it [05:23, 16.02s/it]385it [15:57, 10.23s/it]1it [00:14, 14.55s/it]123it [11:08, 14.02s/it]386it [16:09, 10.65s/it]34it [05:44, 17.55s/it]124it [11:19, 13.28s/it]387it [16:21, 11.06s/it]35it [05:54, 15.28s/it]2it [00:33, 17.11s/it]125it [11:30, 12.47s/it]388it [16:36, 12.36s/it]36it [06:04, 13.71s/it]126it [11:40, 11.81s/it]37it [06:13, 12.45s/it]389it [16:47, 11.85s/it]3it [00:53, 18.32s/it]127it [11:52, 11.82s/it]390it [16:58, 11.61s/it]38it [06:28, 13.23s/it]4it [01:08, 17.30s/it]128it [12:02, 11.48s/it]391it [17:10, 11.80s/it]129it [12:13, 11.17s/it]39it [06:44, 14.11s/it]5it [01:26, 17.39s/it]392it [17:20, 11.33s/it]40it [06:53, 12.46s/it]130it [12:28, 12.26s/it]393it [17:30, 10.82s/it]6it [01:50, 19.68s/it]41it [07:14, 14.88s/it]131it [13:18, 23.60s/it]41it [07:54, 11.57s/it]
-Traceback (most recent call last):
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 467, in _make_request
-    self._validate_conn(conn)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1096, in _validate_conn
-    conn.connect()
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/connection.py", line 642, in connect
-    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/connection.py", line 782, in _ssl_wrap_socket_and_match_hostname
-    ssl_sock = ssl_wrap_socket(
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 470, in ssl_wrap_socket
-    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 514, in _ssl_wrap_socket_impl
-6it [02:36, 26.00s/it]
-Traceback (most recent call last):
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 467, in _make_request
-    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
-  File "/usr/lib64/python3.9/ssl.py", line 501, in wrap_socket
-    self._validate_conn(conn)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1096, in _validate_conn
-    conn.connect()
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/connection.py", line 642, in connect
-    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/connection.py", line 782, in _ssl_wrap_socket_and_match_hostname
-    ssl_sock = ssl_wrap_socket(
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 470, in ssl_wrap_socket
-    return self.sslsocket_class._create(
-  File "/usr/lib64/python3.9/ssl.py", line 1074, in _create
-    self.do_handshake()
-  File "/usr/lib64/python3.9/ssl.py", line 1343, in do_handshake
-    self._sslobj.do_handshake()
-ssl.SSLZeroReturnError: TLS/SSL connection has been closed (EOF) (_ssl.c:1129)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 790, in urlopen
-    response = self._make_request(
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 491, in _make_request
-    raise new_e
-urllib3.exceptions.SSLError: TLS/SSL connection has been closed (EOF) (_ssl.c:1129)
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/requests/adapters.py", line 486, in send
-    resp = conn.urlopen(
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 844, in urlopen
-    retries = retries.increment(
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/util/retry.py", line 515, in increment
-    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
-    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
-urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.gettyimages.com', port=443): Max retries exceeded with url: /photos/Anna%20KIE%C5%81BASI%C5%83SKA%20track%20and%20field?family=editorial&assettype=image&sort=best (Caused by SSLError(SSLZeroReturnError(6, 'TLS/SSL connection has been closed (EOF) (_ssl.c:1129)')))
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 514, in _ssl_wrap_socket_impl
-  File "/home/ec2-user/autojobs/auto_scripts/image_carousel.py", line 81, in <module>
-    images_list = get_hq_images_for_athlete(full_name + " track and field", last_name)
-    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
-  File "/home/ec2-user/autojobs/auto_scripts/image_carousel.py", line 57, in get_hq_images_for_athlete
-  File "/usr/lib64/python3.9/ssl.py", line 501, in wrap_socket
-    return self.sslsocket_class._create(
-  File "/usr/lib64/python3.9/ssl.py", line 1074, in _create
-    response = requests.get(f'https://www.gettyimages.com/photos/{query}', params=params, headers=headers)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/requests/api.py", line 73, in get
-    self.do_handshake()
-  File "/usr/lib64/python3.9/ssl.py", line 1343, in do_handshake
-    self._sslobj.do_handshake()
-ssl.SSLZeroReturnError: TLS/SSL connection has been closed (EOF) (_ssl.c:1129)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 790, in urlopen
-    return request("get", url, params=params, **kwargs)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/requests/api.py", line 59, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/requests/sessions.py", line 589, in request
-    resp = self.send(prep, **send_kwargs)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/requests/sessions.py", line 703, in send
-    r = adapter.send(request, **kwargs)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/requests/adapters.py", line 517, in send
-    response = self._make_request(
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 491, in _make_request
-    raise new_e
-urllib3.exceptions.SSLError: TLS/SSL connection has been closed (EOF) (_ssl.c:1129)
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/requests/adapters.py", line 486, in send
-    resp = conn.urlopen(
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 844, in urlopen
-    retries = retries.increment(
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/util/retry.py", line 515, in increment
-    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
-urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.gettyimages.com', port=443): Max retries exceeded with url: /photos/Marie-Jos%C3%A9e%20TA%20LOU%20track%20and%20field?family=editorial&assettype=image&sort=best (Caused by SSLError(SSLZeroReturnError(6, 'TLS/SSL connection has been closed (EOF) (_ssl.c:1129)')))
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/ec2-user/autojobs/auto_scripts/image_carousel.py", line 81, in <module>
-    images_list = get_hq_images_for_athlete(full_name + " track and field", last_name)
-  File "/home/ec2-user/autojobs/auto_scripts/image_carousel.py", line 57, in get_hq_images_for_athlete
-    response = requests.get(f'https://www.gettyimages.com/photos/{query}', params=params, headers=headers)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/requests/api.py", line 73, in get
-    return request("get", url, params=params, **kwargs)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/requests/api.py", line 59, in request
-    raise SSLError(e, request=request)
-    return session.request(method=method, url=url, **kwargs)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/requests/sessions.py", line 589, in request
-requests.exceptions.SSLError: HTTPSConnectionPool(host='www.gettyimages.com', port=443): Max retries exceeded with url: /photos/Anna%20KIE%C5%81BASI%C5%83SKA%20track%20and%20field?family=editorial&assettype=image&sort=best (Caused by SSLError(SSLZeroReturnError(6, 'TLS/SSL connection has been closed (EOF) (_ssl.c:1129)')))
-    resp = self.send(prep, **send_kwargs)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/requests/sessions.py", line 703, in send
-    r = adapter.send(request, **kwargs)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/requests/adapters.py", line 517, in send
-    raise SSLError(e, request=request)
-requests.exceptions.SSLError: HTTPSConnectionPool(host='www.gettyimages.com', port=443): Max retries exceeded with url: /photos/Marie-Jos%C3%A9e%20TA%20LOU%20track%20and%20field?family=editorial&assettype=image&sort=best (Caused by SSLError(SSLZeroReturnError(6, 'TLS/SSL connection has been closed (EOF) (_ssl.c:1129)')))
-394it [18:35, 27.02s/it]131it [13:52,  6.35s/it]
-Traceback (most recent call last):
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 467, in _make_request
-    self._validate_conn(conn)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1096, in _validate_conn
-    conn.connect()
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/connection.py", line 642, in connect
-    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/connection.py", line 782, in _ssl_wrap_socket_and_match_hostname
-    ssl_sock = ssl_wrap_socket(
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 470, in ssl_wrap_socket
-    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 514, in _ssl_wrap_socket_impl
-    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
-  File "/usr/lib64/python3.9/ssl.py", line 501, in wrap_socket
-    return self.sslsocket_class._create(
-  File "/usr/lib64/python3.9/ssl.py", line 1074, in _create
-    self.do_handshake()
-  File "/usr/lib64/python3.9/ssl.py", line 1343, in do_handshake
-    self._sslobj.do_handshake()
-ssl.SSLZeroReturnError: TLS/SSL connection has been closed (EOF) (_ssl.c:1129)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 790, in urlopen
-    response = self._make_request(
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 491, in _make_request
-    raise new_e
-urllib3.exceptions.SSLError: TLS/SSL connection has been closed (EOF) (_ssl.c:1129)
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/requests/adapters.py", line 486, in send
-    resp = conn.urlopen(
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 844, in urlopen
-    retries = retries.increment(
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/urllib3/util/retry.py", line 515, in increment
-    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
-urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.gettyimages.com', port=443): Max retries exceeded with url: /photos/Pasindu%20Lakshan%20KODIKARA%20track%20and%20field?family=editorial&assettype=image&sort=best (Caused by SSLError(SSLZeroReturnError(6, 'TLS/SSL connection has been closed (EOF) (_ssl.c:1129)')))
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/ec2-user/autojobs/auto_scripts/image_carousel.py", line 81, in <module>
-    images_list = get_hq_images_for_athlete(full_name + " track and field", last_name)
-  File "/home/ec2-user/autojobs/auto_scripts/image_carousel.py", line 57, in get_hq_images_for_athlete
-    response = requests.get(f'https://www.gettyimages.com/photos/{query}', params=params, headers=headers)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/requests/api.py", line 73, in get
-    return request("get", url, params=params, **kwargs)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/requests/api.py", line 59, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/requests/sessions.py", line 589, in request
-    resp = self.send(prep, **send_kwargs)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/requests/sessions.py", line 703, in send
-    r = adapter.send(request, **kwargs)
-  File "/home/ec2-user/.local/lib/python3.9/site-packages/requests/adapters.py", line 517, in send
-    raise SSLError(e, request=request)
-requests.exceptions.SSLError: HTTPSConnectionPool(host='www.gettyimages.com', port=443): Max retries exceeded with url: /photos/Pasindu%20Lakshan%20KODIKARA%20track%20and%20field?family=editorial&assettype=image&sort=best (Caused by SSLError(SSLZeroReturnError(6, 'TLS/SSL connection has been closed (EOF) (_ssl.c:1129)')))
-395it [19:01, 26.87s/it]396it [19:09, 21.08s/it]397it [19:17, 17.17s/it]398it [19:19, 12.69s/it]399it [19:21,  9.49s/it]400it [19:23,  7.30s/it]401it [19:28,  6.41s/it]402it [19:33,  6.05s/it]403it [19:38,  5.65s/it]404it [19:44,  5.83s/it]405it [19:49,  5.78s/it]406it [19:59,  6.99s/it]407it [20:08,  7.60s/it]408it [20:17,  8.02s/it]409it [20:26,  8.20s/it]410it [20:34,  8.15s/it]411it [20:46,  9.44s/it]0it [00:00, ?it/s]412it [20:56,  9.55s/it]1it [00:12, 12.18s/it]413it [21:06,  9.66s/it]2it [00:26, 13.20s/it]414it [21:15,  9.37s/it]415it [21:22,  8.59s/it]3it [00:38, 12.97s/it]416it [21:38, 10.86s/it]4it [00:54, 13.90s/it]417it [21:47, 10.27s/it]418it [21:55,  9.66s/it]5it [01:08, 14.02s/it]419it [22:03,  9.12s/it]6it [01:21, 13.60s/it]420it [22:11,  8.73s/it]421it [22:19,  8.55s/it]7it [01:34, 13.63s/it]422it [22:28,  8.87s/it]8it [01:43, 12.08s/it]423it [22:37,  8.79s/it]9it [01:54, 11.66s/it]424it [22:47,  9.28s/it]425it [22:55,  8.91s/it]10it [02:11, 13.31s/it]426it [23:01,  8.04s/it]427it [23:10,  8.26s/it]11it [02:24, 13.15s/it]428it [23:16,  7.66s/it]429it [23:23,  7.32s/it]12it [02:35, 12.58s/it]430it [23:30,  7.33s/it]13it [02:48, 12.87s/it]0it [00:00, ?it/s]1it [00:00,  1.04it/s]2it [00:01,  1.33it/s]3it [00:02,  1.53it/s]4it [00:02,  1.62it/s]5it [00:03,  1.74it/s]6it [00:03,  1.80it/s]7it [00:04,  1.83it/s]8it [00:04,  1.90it/s]9it [00:05,  2.06it/s]10it [00:05,  1.99it/s]11it [00:06,  1.91it/s]12it [00:06,  1.85it/s]13it [00:07,  1.86it/s]14it [00:07,  1.80it/s]15it [00:08,  1.91it/s]16it [00:08,  1.80it/s]17it [00:09,  1.81it/s]18it [00:09,  1.97it/s]19it [00:10,  1.96it/s]20it [00:10,  1.95it/s]21it [00:11,  2.05it/s]22it [00:11,  2.01it/s]23it [00:12,  2.03it/s]24it [00:12,  2.13it/s]25it [00:13,  1.86it/s]26it [00:13,  1.93it/s]27it [00:14,  1.94it/s]28it [00:14,  2.10it/s]29it [00:15,  2.22it/s]30it [00:15,  2.16it/s]31it [00:16,  2.13it/s]32it [00:16,  2.10it/s]33it [00:17,  2.04it/s]34it [00:17,  1.98it/s]35it [00:18,  2.05it/s]36it [00:18,  2.11it/s]37it [00:19,  2.13it/s]38it [00:19,  2.11it/s]39it [00:20,  2.08it/s]40it [00:20,  2.21it/s]41it [00:20,  2.29it/s]42it [00:21,  2.24it/s]43it [00:22,  1.96it/s]44it [00:22,  1.77it/s]45it [00:23,  1.80it/s]46it [00:23,  1.83it/s]47it [00:24,  1.92it/s]48it [00:24,  2.08it/s]49it [00:25,  2.17it/s]50it [00:25,  1.87it/s]51it [00:26,  1.99it/s]52it [00:26,  1.98it/s]53it [00:27,  2.14it/s]54it [00:27,  2.24it/s]55it [00:27,  2.36it/s]56it [00:28,  2.29it/s]57it [00:28,  2.25it/s]58it [00:29,  1.99it/s]59it [00:29,  2.06it/s]60it [00:30,  2.15it/s]61it [00:30,  2.11it/s]62it [00:31,  2.17it/s]63it [00:31,  2.29it/s]64it [00:32,  2.23it/s]65it [00:32,  2.32it/s]66it [00:32,  2.22it/s]67it [00:33,  2.30it/s]68it [00:33,  2.38it/s]69it [00:34,  2.28it/s]70it [00:34,  2.11it/s]71it [00:35,  2.09it/s]72it [00:35,  2.06it/s]73it [00:36,  2.10it/s]74it [00:36,  2.25it/s]75it [00:36,  2.33it/s]76it [00:37,  2.25it/s]77it [00:37,  2.28it/s]78it [00:38,  2.18it/s]79it [00:38,  2.03it/s]80it [00:39,  1.88it/s]81it [00:40,  1.82it/s]82it [00:40,  1.91it/s]83it [00:41,  1.90it/s]84it [00:41,  1.87it/s]85it [00:42,  1.94it/s]86it [00:42,  1.82it/s]87it [00:43,  1.87it/s]88it [00:43,  2.03it/s]89it [00:44,  2.08it/s]90it [00:44,  1.92it/s]91it [00:45,  1.91it/s]92it [00:45,  1.96it/s]93it [00:46,  1.98it/s]94it [00:46,  2.05it/s]95it [00:47,  2.05it/s]96it [00:47,  2.17it/s]97it [00:48,  2.17it/s]98it [00:48,  2.29it/s]99it [00:48,  2.25it/s]100it [00:49,  2.22it/s]101it [00:49,  2.33it/s]102it [00:50,  1.80it/s]103it [00:51,  1.87it/s]104it [00:51,  2.04it/s]105it [00:52,  2.03it/s]106it [00:52,  2.04it/s]107it [00:53,  1.98it/s]108it [00:53,  2.01it/s]109it [00:54,  1.98it/s]110it [00:54,  2.02it/s]111it [00:54,  2.10it/s]112it [00:55,  2.24it/s]113it [00:55,  2.15it/s]114it [00:56,  2.11it/s]115it [00:56,  2.07it/s]116it [00:57,  1.87it/s]117it [00:57,  1.90it/s]118it [00:58,  1.80it/s]119it [00:59,  1.73it/s]120it [00:59,  1.73it/s]121it [01:00,  1.92it/s]122it [01:00,  2.04it/s]123it [01:01,  2.04it/s]124it [01:01,  2.16it/s]125it [01:01,  2.17it/s]126it [01:02,  2.29it/s]127it [01:02,  2.31it/s]128it [01:03,  2.25it/s]129it [01:03,  2.37it/s]130it [01:04,  2.37it/s]131it [01:04,  2.26it/s]132it [01:05,  2.18it/s]133it [01:05,  2.32it/s]134it [01:05,  2.27it/s]135it [01:06,  2.22it/s]136it [01:06,  2.25it/s]137it [01:07,  2.27it/s]138it [01:07,  2.26it/s]139it [01:08,  2.18it/s]140it [01:08,  2.27it/s]141it [01:09,  2.19it/s]142it [01:09,  2.15it/s]143it [01:09,  2.16it/s]144it [01:10,  2.10it/s]145it [01:10,  2.13it/s]146it [01:11,  2.14it/s]147it [01:11,  2.25it/s]148it [01:12,  1.98it/s]149it [01:13,  1.90it/s]150it [01:13,  1.86it/s]151it [01:13,  2.05it/s]152it [01:14,  2.06it/s]153it [01:14,  2.22it/s]154it [01:15,  2.11it/s]155it [01:15,  2.21it/s]156it [01:16,  2.26it/s]157it [01:16,  2.35it/s]158it [01:16,  2.38it/s]159it [01:17,  2.33it/s]160it [01:17,  2.24it/s]161it [01:18,  2.18it/s]162it [01:18,  2.23it/s]163it [01:19,  2.19it/s]164it [01:19,  2.14it/s]165it [01:20,  1.94it/s]166it [01:20,  2.12it/s]167it [01:21,  2.16it/s]168it [01:21,  2.13it/s]169it [01:22,  2.12it/s]170it [01:22,  2.24it/s]171it [01:22,  2.28it/s]172it [01:23,  2.21it/s]173it [01:23,  2.15it/s]174it [01:24,  2.11it/s]175it [01:24,  2.00it/s]176it [01:25,  2.06it/s]177it [01:25,  2.20it/s]178it [01:26,  2.18it/s]179it [01:26,  2.21it/s]180it [01:27,  2.01it/s]181it [01:27,  1.92it/s]182it [01:28,  1.90it/s]183it [01:28,  1.92it/s]184it [01:29,  1.91it/s]185it [01:30,  1.86it/s]186it [01:30,  1.93it/s]187it [01:31,  1.91it/s]188it [01:31,  2.01it/s]189it [01:31,  2.01it/s]190it [01:32,  1.99it/s]191it [01:32,  2.14it/s]192it [01:33,  2.25it/s]193it [01:33,  2.33it/s]194it [01:34,  2.25it/s]195it [01:34,  2.34it/s]196it [01:35,  2.24it/s]197it [01:35,  2.12it/s]198it [01:36,  2.06it/s]199it [01:36,  2.09it/s]200it [01:37,  1.86it/s]201it [01:37,  2.03it/s]202it [01:38,  2.01it/s]203it [01:38,  1.98it/s]204it [01:39,  2.09it/s]205it [01:39,  2.21it/s]206it [01:39,  2.27it/s]207it [01:40,  2.22it/s]208it [01:40,  2.32it/s]209it [01:41,  2.39it/s]210it [01:41,  2.28it/s]211it [01:42,  2.27it/s]212it [01:42,  2.23it/s]213it [01:43,  2.13it/s]214it [01:43,  2.10it/s]215it [01:44,  2.08it/s]216it [01:44,  1.99it/s]217it [01:44,  2.15it/s]218it [01:45,  2.21it/s]219it [01:45,  2.19it/s]220it [01:46,  2.11it/s]221it [01:46,  2.02it/s]222it [01:47,  2.11it/s]223it [01:47,  2.06it/s]224it [01:48,  2.11it/s]225it [01:48,  2.10it/s]226it [01:49,  2.19it/s]227it [01:49,  2.33it/s]228it [01:49,  2.38it/s]229it [01:50,  2.41it/s]230it [01:50,  2.30it/s]231it [01:51,  2.29it/s]232it [01:51,  2.25it/s]233it [01:52,  2.19it/s]234it [01:52,  2.30it/s]235it [01:53,  2.22it/s]236it [01:53,  2.11it/s]237it [01:54,  2.10it/s]238it [01:54,  2.04it/s]239it [01:55,  2.11it/s]240it [01:55,  2.07it/s]241it [01:55,  2.15it/s]242it [01:56,  2.02it/s]243it [01:57,  1.88it/s]244it [01:57,  1.87it/s]245it [01:58,  1.86it/s]246it [01:58,  1.89it/s]247it [01:59,  1.87it/s]248it [01:59,  1.94it/s]249it [02:00,  2.02it/s]250it [02:00,  2.02it/s]251it [02:01,  2.16it/s]252it [02:01,  2.16it/s]253it [02:02,  2.10it/s]254it [02:02,  2.09it/s]255it [02:03,  2.03it/s]256it [02:03,  1.99it/s]257it [02:04,  2.08it/s]258it [02:04,  2.11it/s]259it [02:04,  2.27it/s]260it [02:05,  2.27it/s]261it [02:05,  2.25it/s]262it [02:06,  2.31it/s]263it [02:06,  2.17it/s]264it [02:07,  2.21it/s]265it [02:07,  2.18it/s]266it [02:08,  2.25it/s]267it [02:08,  2.19it/s]268it [02:08,  2.18it/s]269it [02:09,  2.12it/s]270it [02:09,  2.09it/s]271it [02:10,  2.20it/s]272it [02:10,  2.16it/s]273it [02:11,  2.25it/s]274it [02:11,  2.03it/s]275it [02:12,  2.13it/s]276it [02:12,  2.06it/s]277it [02:13,  2.11it/s]278it [02:13,  2.23it/s]279it [02:14,  2.22it/s]280it [02:14,  2.25it/s]281it [02:14,  2.19it/s]282it [02:15,  2.27it/s]283it [02:15,  2.20it/s]284it [02:16,  2.03it/s]285it [02:16,  2.03it/s]286it [02:17,  2.03it/s]287it [02:18,  1.93it/s]288it [02:18,  1.96it/s]289it [02:18,  2.00it/s]290it [02:19,  2.18it/s]291it [02:19,  2.31it/s]292it [02:20,  2.21it/s]293it [02:20,  2.17it/s]294it [02:21,  2.24it/s]295it [02:21,  2.23it/s]296it [02:21,  2.35it/s]297it [02:22,  2.40it/s]298it [02:22,  2.43it/s]299it [02:23,  2.24it/s]300it [02:23,  2.28it/s]301it [02:24,  2.38it/s]302it [02:24,  2.34it/s]303it [02:24,  2.39it/s]304it [02:25,  2.33it/s]305it [02:25,  2.25it/s]306it [02:26,  2.35it/s]307it [02:26,  2.25it/s]308it [02:27,  2.26it/s]309it [02:27,  2.18it/s]310it [02:28,  2.20it/s]311it [02:28,  2.13it/s]312it [02:29,  2.03it/s]313it [02:29,  2.15it/s]314it [02:29,  2.22it/s]315it [02:30,  2.08it/s]316it [02:30,  2.13it/s]317it [02:31,  2.13it/s]318it [02:31,  2.09it/s]319it [02:32,  2.10it/s]320it [02:32,  2.12it/s]321it [02:33,  2.02it/s]322it [02:33,  2.14it/s]323it [02:34,  2.14it/s]324it [02:34,  2.13it/s]325it [02:35,  2.21it/s]326it [02:35,  2.19it/s]327it [02:36,  2.12it/s]328it [02:36,  2.18it/s]329it [02:37,  2.04it/s]330it [02:37,  2.12it/s]331it [02:38,  1.98it/s]332it [02:38,  1.99it/s]333it [02:39,  2.06it/s]334it [02:39,  2.05it/s]335it [02:40,  2.06it/s]336it [02:40,  2.15it/s]337it [02:41,  2.01it/s]338it [02:41,  2.17it/s]339it [02:41,  2.12it/s]340it [02:42,  2.02it/s]341it [02:42,  2.12it/s]342it [02:43,  2.17it/s]343it [02:43,  2.06it/s]344it [02:44,  1.91it/s]345it [02:44,  2.08it/s]346it [02:45,  2.02it/s]347it [02:45,  2.07it/s]348it [02:46,  2.17it/s]349it [02:46,  2.31it/s]350it [02:47,  2.33it/s]351it [02:47,  2.40it/s]352it [02:47,  2.17it/s]353it [02:48,  2.19it/s]354it [02:48,  2.25it/s]355it [02:49,  2.31it/s]356it [02:49,  2.21it/s]357it [02:50,  2.25it/s]358it [02:50,  2.30it/s]359it [02:51,  2.26it/s]360it [02:51,  2.19it/s]361it [02:52,  2.17it/s]362it [02:52,  2.08it/s]363it [02:53,  2.05it/s]364it [02:53,  2.22it/s]365it [02:53,  2.13it/s]366it [02:54,  2.04it/s]367it [02:55,  1.98it/s]368it [02:55,  1.97it/s]369it [02:55,  2.03it/s]370it [02:56,  2.13it/s]371it [02:56,  2.25it/s]372it [02:57,  2.34it/s]373it [02:57,  2.10it/s]374it [02:58,  2.25it/s]375it [02:58,  2.09it/s]376it [02:59,  2.14it/s]377it [02:59,  2.20it/s]378it [02:59,  2.30it/s]379it [03:00,  2.34it/s]380it [03:00,  2.25it/s]381it [03:01,  2.31it/s]382it [03:01,  2.18it/s]383it [03:02,  2.18it/s]384it [03:02,  2.13it/s]385it [03:03,  2.18it/s]386it [03:03,  2.09it/s]387it [03:04,  2.04it/s]388it [03:04,  1.99it/s]389it [03:05,  2.13it/s]390it [03:05,  1.94it/s]391it [03:06,  2.06it/s]392it [03:06,  2.20it/s]393it [03:07,  2.15it/s]394it [03:07,  2.11it/s]395it [03:07,  2.12it/s]396it [03:08,  2.18it/s]397it [03:08,  2.15it/s]398it [03:09,  2.22it/s]399it [03:09,  2.19it/s]400it [03:10,  2.18it/s]401it [03:10,  1.90it/s]402it [03:11,  1.99it/s]403it [03:11,  1.99it/s]404it [03:12,  1.90it/s]405it [03:13,  1.85it/s]406it [03:13,  1.95it/s]407it [03:13,  2.03it/s]408it [03:14,  2.19it/s]409it [03:14,  2.18it/s]410it [03:15,  2.30it/s]411it [03:15,  2.30it/s]412it [03:16,  2.29it/s]413it [03:16,  2.39it/s]414it [03:16,  2.45it/s]415it [03:17,  2.33it/s]416it [03:17,  2.21it/s]417it [03:18,  2.01it/s]418it [03:18,  2.14it/s]419it [03:19,  2.16it/s]420it [03:19,  2.01it/s]421it [03:20,  1.99it/s]422it [03:20,  2.12it/s]423it [03:21,  1.95it/s]424it [03:21,  1.94it/s]425it [03:22,  1.88it/s]426it [03:22,  1.88it/s]427it [03:23,  1.89it/s]428it [03:23,  1.92it/s]429it [03:24,  2.00it/s]430it [03:24,  2.06it/s]431it [03:25,  2.23it/s]432it [03:25,  2.25it/s]433it [03:26,  2.30it/s]434it [03:26,  2.23it/s]435it [03:26,  2.32it/s]436it [03:27,  2.17it/s]437it [03:27,  2.18it/s]438it [03:28,  2.17it/s]439it [03:28,  2.17it/s]440it [03:29,  2.12it/s]441it [03:29,  2.14it/s]442it [03:30,  2.15it/s]443it [03:30,  1.92it/s]444it [03:31,  1.97it/s]445it [03:31,  1.99it/s]446it [03:32,  2.12it/s]447it [03:32,  1.99it/s]448it [03:33,  2.07it/s]449it [03:33,  2.13it/s]450it [03:34,  2.20it/s]451it [03:34,  2.12it/s]452it [03:35,  2.05it/s]453it [03:35,  2.08it/s]454it [03:36,  1.93it/s]455it [03:36,  1.85it/s]456it [03:37,  1.98it/s]457it [03:37,  2.09it/s]0it [00:00, ?it/s]1it [00:00,  1.13it/s]2it [00:01,  1.51it/s]3it [00:02,  1.45it/s]4it [00:02,  1.65it/s]5it [00:03,  1.81it/s]6it [00:03,  1.74it/s]7it [00:04,  1.82it/s]8it [00:04,  1.95it/s]9it [00:04,  2.09it/s]10it [00:05,  2.02it/s]11it [00:06,  1.87it/s]12it [00:06,  1.78it/s]13it [00:07,  1.82it/s]14it [00:07,  1.87it/s]15it [00:08,  2.02it/s]16it [00:08,  2.00it/s]17it [00:09,  1.76it/s]18it [00:09,  1.93it/s]19it [00:10,  1.98it/s]20it [00:10,  1.99it/s]21it [00:11,  2.06it/s]22it [00:11,  2.04it/s]23it [00:12,  2.04it/s]24it [00:12,  1.93it/s]25it [00:13,  2.07it/s]26it [00:13,  2.07it/s]27it [00:14,  2.07it/s]28it [00:14,  2.18it/s]29it [00:15,  2.26it/s]30it [00:15,  2.21it/s]31it [00:15,  2.17it/s]32it [00:16,  2.15it/s]33it [00:16,  2.11it/s]34it [00:17,  2.11it/s]35it [00:17,  2.12it/s]36it [00:18,  2.24it/s]37it [00:18,  2.21it/s]38it [00:19,  2.16it/s]39it [00:19,  2.13it/s]40it [00:20,  2.23it/s]41it [00:20,  2.30it/s]42it [00:21,  2.03it/s]43it [00:21,  1.83it/s]44it [00:22,  1.82it/s]45it [00:22,  1.88it/s]46it [00:23,  1.93it/s]47it [00:23,  1.99it/s]48it [00:24,  2.13it/s]49it [00:24,  2.21it/s]50it [00:25,  2.16it/s]51it [00:25,  2.28it/s]52it [00:25,  2.27it/s]53it [00:26,  2.38it/s]54it [00:26,  2.46it/s]55it [00:27,  2.51it/s]56it [00:27,  2.41it/s]57it [00:28,  2.23it/s]58it [00:28,  1.86it/s]59it [00:29,  1.99it/s]60it [00:29,  2.08it/s]61it [00:30,  2.08it/s]62it [00:30,  2.18it/s]63it [00:30,  2.27it/s]64it [00:31,  2.13it/s]65it [00:31,  2.15it/s]66it [00:32,  1.97it/s]67it [00:32,  2.02it/s]68it [00:33,  2.14it/s]69it [00:33,  2.07it/s]70it [00:34,  1.97it/s]71it [00:35,  1.93it/s]72it [00:35,  1.95it/s]73it [00:35,  2.02it/s]74it [00:36,  2.05it/s]75it [00:36,  2.17it/s]76it [00:37,  2.18it/s]77it [00:37,  2.20it/s]78it [00:38,  2.15it/s]79it [00:38,  2.08it/s]80it [00:39,  2.09it/s]81it [00:39,  2.04it/s]82it [00:40,  2.09it/s]83it [00:40,  2.07it/s]84it [00:41,  2.11it/s]85it [00:41,  2.07it/s]86it [00:42,  2.07it/s]87it [00:42,  2.06it/s]88it [00:43,  2.07it/s]89it [00:43,  1.99it/s]90it [00:44,  1.86it/s]91it [00:44,  1.90it/s]92it [00:45,  2.07it/s]93it [00:45,  1.97it/s]94it [00:46,  2.02it/s]95it [00:46,  2.11it/s]96it [00:46,  2.26it/s]97it [00:47,  2.25it/s]98it [00:47,  2.29it/s]99it [00:48,  2.37it/s]100it [00:48,  2.14it/s]101it [00:49,  2.29it/s]102it [00:49,  1.85it/s]103it [00:50,  1.88it/s]104it [00:50,  2.04it/s]105it [00:51,  2.04it/s]106it [00:51,  2.13it/s]107it [00:52,  2.12it/s]108it [00:52,  2.09it/s]109it [00:53,  2.11it/s]110it [00:53,  2.09it/s]111it [00:54,  2.07it/s]112it [00:54,  2.19it/s]113it [00:55,  2.08it/s]114it [00:55,  2.07it/s]115it [00:56,  2.10it/s]116it [00:56,  1.97it/s]117it [00:57,  1.96it/s]118it [00:57,  1.80it/s]119it [00:58,  1.73it/s]120it [00:58,  1.74it/s]121it [00:59,  1.92it/s]122it [00:59,  1.96it/s]123it [01:00,  1.99it/s]124it [01:00,  2.16it/s]125it [01:01,  2.26it/s]126it [01:01,  2.38it/s]127it [01:01,  2.45it/s]128it [01:02,  2.30it/s]129it [01:02,  2.39it/s]130it [01:03,  2.31it/s]131it [01:03,  2.28it/s]132it [01:04,  2.13it/s]133it [01:04,  2.23it/s]134it [01:05,  2.29it/s]135it [01:05,  2.24it/s]136it [01:05,  2.19it/s]137it [01:06,  2.28it/s]138it [01:06,  2.25it/s]139it [01:07,  2.21it/s]140it [01:07,  2.30it/s]141it [01:08,  2.23it/s]142it [01:08,  2.07it/s]143it [01:09,  2.10it/s]144it [01:09,  2.08it/s]145it [01:10,  2.13it/s]146it [01:10,  2.11it/s]147it [01:10,  2.26it/s]148it [01:11,  2.28it/s]149it [01:11,  2.20it/s]150it [01:12,  2.17it/s]151it [01:12,  2.26it/s]152it [01:13,  2.08it/s]153it [01:13,  2.14it/s]154it [01:14,  2.05it/s]155it [01:14,  2.11it/s]156it [01:15,  2.17it/s]157it [01:15,  2.12it/s]158it [01:16,  2.11it/s]159it [01:16,  2.16it/s]160it [01:17,  2.16it/s]161it [01:17,  2.11it/s]162it [01:17,  2.25it/s]163it [01:18,  2.19it/s]164it [01:18,  2.17it/s]165it [01:19,  2.11it/s]166it [01:19,  2.28it/s]167it [01:20,  2.30it/s]168it [01:20,  2.12it/s]169it [01:21,  2.21it/s]170it [01:21,  2.28it/s]171it [01:21,  2.30it/s]172it [01:22,  2.17it/s]173it [01:22,  2.20it/s]174it [01:23,  2.08it/s]175it [01:23,  2.05it/s]176it [01:24,  2.08it/s]
