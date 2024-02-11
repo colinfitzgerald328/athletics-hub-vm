@@ -8,6 +8,7 @@ logger = logging.getLogger()
 USERNAME = "chasefeldspar"
 PASSWORD = "iriquois23!"
 
+
 def login_user():
     """
     Attempts to login to Instagram using either the provided session information
@@ -16,7 +17,7 @@ def login_user():
 
     cl = Client()
     current_dir = os.path.dirname(os.path.abspath(__file__))
-    file_path = os.path.join(current_dir, 'session.json')
+    file_path = os.path.join(current_dir, "session.json")
     session = cl.load_settings(file_path)
 
     login_via_session = False
@@ -30,9 +31,11 @@ def login_user():
             # check if session is valid
             try:
                 cl.get_timeline_feed()
-                return cl 
+                return cl
             except LoginRequired:
-                logger.info("Session is invalid, need to login via username and password")
+                logger.info(
+                    "Session is invalid, need to login via username and password"
+                )
 
                 old_session = cl.get_settings()
 
@@ -41,17 +44,19 @@ def login_user():
                 cl.set_uuids(old_session["uuids"])
 
                 cl.login(USERNAME, PASSWORD)
-                return cl 
+                return cl
             login_via_session = True
         except Exception as e:
             logger.info("Couldn't login user using session information: %s" % e)
 
     if not login_via_session:
         try:
-            logger.info("Attempting to login via username and password. username: %s" % USERNAME)
+            logger.info(
+                "Attempting to login via username and password. username: %s" % USERNAME
+            )
             if cl.login(USERNAME, PASSWORD):
                 login_via_pw = True
-                return cl 
+                return cl
         except Exception as e:
             logger.info("Couldn't login user using username and password: %s" % e)
 

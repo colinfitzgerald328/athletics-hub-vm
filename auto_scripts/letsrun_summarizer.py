@@ -1,28 +1,37 @@
 from openai import OpenAI
+
 client = OpenAI(api_key="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")
 
 import requests
 import os
 import pymongo
 import datetime
-from typing import List, Dict 
+from typing import List, Dict
 from bs4 import BeautifulSoup
-from tqdm import tqdm 
+from tqdm import tqdm
 
 # set up logging
 import logging
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 os.environ["DB_PWD"] = "N6BnA4O5nmvEATsl"
 
+
 def connect_to_db() -> pymongo.MongoClient:
-    client = pymongo.MongoClient('mongodb+srv://colinfitzgerald:' + os.environ["DB_PWD"] + '@trackathletes.tqfgaze.mongodb.net/?retryWrites=true&w=majority')
+    client = pymongo.MongoClient(
+        "mongodb+srv://colinfitzgerald:"
+        + os.environ["DB_PWD"]
+        + "@trackathletes.tqfgaze.mongodb.net/?retryWrites=true&w=majority"
+    )
     return client
+
 
 # Define a function to get the current date
 def get_current_date():
     return datetime.datetime.now().strftime("%Y-%m-%d")
+
 
 def get_top_threads() -> List[str]:
     """
@@ -30,11 +39,12 @@ def get_top_threads() -> List[str]:
     """
     thread_links = []
     resp = requests.get("https://www.letsrun.com/").text
-    soup = BeautifulSoup(resp, 'html.parser')
+    soup = BeautifulSoup(resp, "html.parser")
     elements = soup.find_all("a", class_="on-the-boards-link")
     for element in elements:
         thread_links.append(element["href"])
     return thread_links
+
 
 def get_thread_text(thread_link: str) -> str:
     """
@@ -45,6 +55,7 @@ def get_thread_text(thread_link: str) -> str:
     elements = soup.find_all("div", class_="post-body")
     return "".join([element.get_text() for element in elements])
 
+
 def get_thread_title(thread_link: str) -> str:
     """
     Gets the title of a thread given a link
@@ -54,17 +65,16 @@ def get_thread_title(thread_link: str) -> str:
     thread_title = soup.find_all("h1")[0].get_text()
     return thread_title
 
+
 def generic_ai_service(prompt: str) -> str:
     """
     Generates a response from OpenAI given a prompt
     """
     response = client.chat.completions.create(
-        model="gpt-4-0125-preview",
-        messages=[
-            {"role": "system", "content": prompt}
-        ]
+        model="gpt-4-0125-preview", messages=[{"role": "system", "content": prompt}]
     )
     return response.choices[0].message.content
+
 
 def summarize_thread_text(thread_title: str, thread_text: str) -> Dict[str, str]:
     """
@@ -81,6 +91,7 @@ def summarize_thread_text(thread_title: str, thread_text: str) -> Dict[str, str]
     """
     return generic_ai_service(prompt)
 
+
 def get_todays_summaries() -> List[Dict[str, str]]:
     """
     Final function that runs the AI service to get all of the thread summaries
@@ -94,11 +105,12 @@ def get_todays_summaries() -> List[Dict[str, str]]:
         thread_summaries.append(result)
     return thread_summaries
 
+
 def summarize_today_narrative(snippets: List[Dict[str, str]]) -> str:
     """
     Summarizes the thread summaries into one narrative
     """
-    # cast the list of summaries into a string for the prompt 
+    # cast the list of summaries into a string for the prompt
     str_snippets = str(snippets)
     prompt = f"""
         The following are snippets of text detailing the top threads in the world of track 
@@ -108,21 +120,20 @@ def summarize_today_narrative(snippets: List[Dict[str, str]]) -> str:
     """
     return generic_ai_service(prompt)
 
+
 def log_today_summary():
     client = connect_to_db()
-    database = client.get_database('track_athletes')
-    collection = database.get_collection('letsrun_summaries')
+    database = client.get_database("track_athletes")
+    collection = database.get_collection("letsrun_summaries")
     today_summaries = get_todays_summaries()
     md_doc = summarize_today_narrative(today_summaries)
     # now insert the document
     # Create a dictionary with the document and the current date as keys
-    insert_doc = {
-        "document": md_doc,
-        "date": get_current_date()
-    }
+    insert_doc = {"document": md_doc, "date": get_current_date()}
 
     # Insert the document into the collection
-    collection.insert_one(insert_doc) 
+    collection.insert_one(insert_doc)
     logger.info("SUCCESSFULLY INSERTED SUMMARY")
+
 
 log_today_summary()

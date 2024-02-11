@@ -28,7 +28,7 @@ def connect_to_db() -> pymongo.MongoClient:
     return client
 
 
-def generate(prompt):
+def generate(prompt: str) -> str:
     model = GenerativeModel("gemini-pro")
     responses = model.generate_content(
         prompt,
@@ -52,7 +52,7 @@ def generate(prompt):
     return None
 
 
-def get_wiki_profile(url):
+def get_wiki_profile(url: str) -> str:
     resp = requests.get(url).text
     soup = BeautifulSoup(resp, "html.parser")
     p_tags = soup.find_all("p")
@@ -61,7 +61,7 @@ def get_wiki_profile(url):
     return text
 
 
-def summarize_athlete_wikipedia(wiki_url):
+def summarize_athlete_wikipedia(wiki_url: str) -> str:
     wiki_text = get_wiki_profile(wiki_url)
     system_prompt = """
         The following is the wikipedia profile of a professional track and field athlete. 
@@ -137,4 +137,3 @@ for document in documents:
         logger.warning(
             f"Failed to generate markdown summary for athlete with Wikipedia URL: {wikipedia_url}"
         )
-
