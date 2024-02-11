@@ -1,18 +1,18 @@
-from vm_secrets import DATABASE_PASSWORD
+from vm_secrets import DATABASE_PASSWORD, DATABASE_NAME, COLLECTION_NAME, DATABASE_USERNAME
 import pymongo
 
 
 def connect_to_db() -> pymongo.MongoClient:
     client = pymongo.MongoClient(
-        "mongodb+srv://colinfitzgerald:"
+        f"mongodb+srv://{DATABASE_USERNAME}:"
         + DATABASE_PASSWORD
-        + "@trackathletes.tqfgaze.mongodb.net/?retryWrites=true&w=majority"
+        + f"@{DATABASE_NAME}.tqfgaze.mongodb.net/?retryWrites=true&w=majority"
     )
     return client
 
 
 def get_collection():
     client = connect_to_db()
-    database = client.get_database("track_athletes")
-    collection = database.get_collection("athlete_profile_data")
+    database = client.get_database(DATABASE_NAME)
+    collection = database.get_collection(COLLECTION_NAME)
     return collection
