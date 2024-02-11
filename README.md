@@ -1,4 +1,4 @@
-# Athletics Hub VM and Database Management
+# Athletics Hub VM
 This repository contains scripts and tools for managing and updating the Athletics Hub database through a virtual machine (VM).
 The VM is configured to stream data from WorldAthletics and Wikipedia on intervals and, inserting into the database and performing updates as necessary.
 Additionally, there are various scripts included in this repository to summarize data from other sources which are then used on the frontend of the Athletics Hub. 
