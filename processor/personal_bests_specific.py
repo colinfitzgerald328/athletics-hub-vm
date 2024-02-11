@@ -1,7 +1,7 @@
 import requests
 import os
 import json
-
+from typing import Dict, List
 import os
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -13,7 +13,7 @@ f = open(file_path)
 event_mappings = json.load(f)
 
 
-def get_mappings(profile):
+def get_mappings(profile: Dict[str, str]) -> List[Dict[str, str]]:
     split_disciplines = profile["disciplines"].split(", ")
     augmented = [profile["gender"] + "'s " + i for i in split_disciplines]
     mappings = []
@@ -24,7 +24,7 @@ def get_mappings(profile):
     return mappings
 
 
-def get_pb_for_discipline(aaAthleteId, discipline):
+def get_pb_for_discipline(aaAthleteId: str, discipline: str) -> List :
     headers = {
         "Content-Type": "application/json",
         "Accept": "*/*",
@@ -63,11 +63,10 @@ def get_pb_for_discipline(aaAthleteId, discipline):
     ]
     if len(results) > 0:
         return results[0]
-    else:
-        return results
+    raise Exception(f"No results found for athlete id {aaAthleteId}")
 
 
-def get_pbs_for_athlete(profile):
+def get_pbs_for_athlete(profile: Dict[str, str]) -> List[Dict[str, str]]:
     mappings = get_mappings(profile)
     pbs = []
     for mapping in mappings:

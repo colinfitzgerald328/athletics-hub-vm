@@ -1,6 +1,7 @@
 import requests
 from datetime import datetime
 from itertools import chain
+from typing import List, Dict
 import os
 import time
 import pandas as pd
@@ -86,7 +87,7 @@ event_mappings = {
 }
 
 
-def connect_to_db():
+def connect_to_db() -> pymongo.MongoClient:
     client = pymongo.MongoClient(
         "mongodb+srv://colinfitzgerald:"
         + os.environ["DB_PWD"]
@@ -95,7 +96,7 @@ def connect_to_db():
     return client
 
 
-def get_event_id(gender, discipline_code):
+def get_event_id(gender: str, discipline_code: str) -> str:
     found_item = None
     formatted_str = gender + " " + discipline_code
 
@@ -105,7 +106,7 @@ def get_event_id(gender, discipline_code):
     return found_item
 
 
-def convert_date(input_date):
+def convert_date(input_date: str) -> str:
     try:
         date_obj = datetime.strptime(input_date, "%d %b %Y")
         formatted_date = date_obj.strftime("%Y-%m-%d")
@@ -114,7 +115,7 @@ def convert_date(input_date):
         return "Invalid date format"
 
 
-def time_string_to_seconds(time_str):
+def time_string_to_seconds(time_str: str) -> str:
     if not time_str:
         return "N/A"
     try:
@@ -140,7 +141,7 @@ def time_string_to_seconds(time_str):
     return total_seconds
 
 
-def get_coefs(gender, event):
+def get_coefs(gender: str, event: str) -> str:
     if gender == "Women's":
         subsection = "f"
     else:
@@ -148,7 +149,7 @@ def get_coefs(gender, event):
     return data["outdoor"][subsection][event]
 
 
-def score_event(gender, event, time_seconds):
+def score_event(gender: str, event: str, time_seconds: int) -> str:
     try:
         coefs = get_coefs(gender, event)
         points = (
@@ -160,7 +161,7 @@ def score_event(gender, event, time_seconds):
     return points
 
 
-def is_date_between(date_to_check, start_date, end_date):
+def is_date_between(date_to_check: str, start_date: str, end_date: str) -> bool:
     try:
         date_to_check = datetime.strptime(date_to_check, "%Y-%m-%d")
         start_date = datetime.strptime(start_date, "%Y-%m-%d")
@@ -172,7 +173,7 @@ def is_date_between(date_to_check, start_date, end_date):
         return False
 
 
-def get_competition_id(competition_name, competition_date):
+def get_competition_id(competition_name: str, competition_date: str) -> str:
     formatted_date = convert_date(competition_date)
     headers = {
         "Content-Type": "application/json",
@@ -228,7 +229,7 @@ def get_competition_id(competition_name, competition_date):
     return found_item["id"]
 
 
-def get_results(competition, date, gender, discipline_code):
+def get_results(competition: str, date: str, gender: str, discipline_code: str) -> List:
     time.sleep(1)
     competition_id = get_competition_id(competition, date)
     event_id = get_event_id(gender, discipline_code)
@@ -283,7 +284,9 @@ def get_results(competition, date, gender, discipline_code):
             return {"operation": "success", "results": list_results}
 
 
-def get_compiled_results(gender, competitor_results):
+def get_compiled_results(
+    gender: str, competitor_results: List[Dict[str, str]]
+) -> List[Dict[str, str]]:
     compiled_results = []
     for item in competitor_results:
         try:
@@ -386,7 +389,7 @@ def get_athlete_results(athlete_id: str) -> list:
     return sorted_results
 
 
-def get_top_competitors(profile):
+def get_top_competitors(profile: Dict[str, str]) -> List[Dict[str, str]]:
     time.sleep(10)
     athlete_results = get_athlete_results(profile["aaAthleteId"])
 

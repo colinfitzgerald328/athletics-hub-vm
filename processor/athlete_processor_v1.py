@@ -1,6 +1,7 @@
 from top_competitors_specific import get_top_competitors
 from personal_bests_specific import get_pbs_for_athlete
 from accolades_specific import get_accomplishments
+from typing import Dict, List, Any
 from langchain.text_splitter import TokenTextSplitter
 import pymongo
 import requests
@@ -31,7 +32,7 @@ os.environ["DB_PWD"] = "N6BnA4O5nmvEATsl"
 cl = login_user()
 
 
-def connect_to_db():
+def connect_to_db() -> pymongo.MongoClient:
     client = pymongo.MongoClient(
         "mongodb+srv://colinfitzgerald:"
         + os.environ["DB_PWD"]
@@ -48,7 +49,7 @@ collection = db.get_collection("athlete_profile_data")
 # In[10]:
 
 
-def query_athletes(athlete_name):
+def query_athlete(athlete_name: str) -> Dict[str, str]:
     headers = {
         "Content-Type": "application/json",
         "Accept": "*/*",
@@ -80,11 +81,13 @@ def query_athletes(athlete_name):
         headers=headers,
         json=json_data,
     )
-    results = response.json()
-    return results["data"]["searchCompetitors"][:1]
+    results = response.json()["data"]["searchCompetitors"]
+    if not results:
+        raise Exception("no search results for given query")
+    return results["data"]["searchCompetitors"][0]
 
 
-def get_image_for_athlete(athlete_name_with_country_code):
+def get_image_for_athlete(athlete_name_with_country_code: str) -> str:
     results = []
     # Define the base URL
     base_url = "https://www.google.com/search"
@@ -128,7 +131,7 @@ def get_image_for_athlete(athlete_name_with_country_code):
 # In[11]:
 
 
-def get_socials(name):
+def get_socials(name: str) -> List[Dict[str, str]]:
     headers = {
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
         "Sec-Fetch-Site": "same-origin",
@@ -175,7 +178,7 @@ def get_socials(name):
     return social_links
 
 
-def get_wiki(name):
+def get_wiki(name: str) -> str:
     headers = {
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
         "Sec-Fetch-Site": "same-origin",
@@ -217,7 +220,7 @@ def get_wiki(name):
     return wikipedia_url
 
 
-def get_nickname(wiki_url):
+def get_nickname(wiki_url: str) -> str:
     wiki_text = requests.get(wiki_url).text
     soup = BeautifulSoup(wiki_text, "html.parser")
     p_tags = soup.find_all("p")
@@ -237,7 +240,7 @@ def get_nickname(wiki_url):
         return None
 
 
-def get_ig_username(document):
+def get_ig_username(document: Dict[str, Any]) -> str:
     instagram_username = None
     for item in document["social_urls"]:
         if "instagram_url" in item:
@@ -247,7 +250,7 @@ def get_ig_username(document):
     return instagram_username
 
 
-def get_ig_caption_text(ig_username):
+def get_ig_caption_text(ig_username: str) -> str:
     try:
         user_id = cl.user_id_from_username(ig_username)
         ig_posts_text = ""
@@ -262,7 +265,7 @@ def get_ig_caption_text(ig_username):
 # In[12]:
 
 
-def get_hq_image_for_athlete(query):
+def get_hq_image_for_athlete(query: str) -> str:
     results = []
 
     headers = {
@@ -302,7 +305,7 @@ def get_hq_image_for_athlete(query):
 # In[13]:
 
 
-def get_wiki_profile(url):
+def get_wiki_profile(url: str) -> str:
     resp = requests.get(url).text
     soup = BeautifulSoup(resp, "html.parser")
     p_tags = soup.find_all("p")
@@ -311,7 +314,7 @@ def get_wiki_profile(url):
     return text
 
 
-def summarize_wikipedia(wikipedia_url):
+def summarize_wikipedia(wikipedia_url: str) -> str:
     if not wikipedia_url:
         return None
     wiki_profile_text = get_wiki_profile(wikipedia_url)
@@ -350,7 +353,7 @@ def summarize_wikipedia(wikipedia_url):
     return response.json()["choices"][0]["message"]["content"]
 
 
-def summarize_instagram(instagram_username):
+def summarize_instagram(instagram_username: str) -> str:
     if not instagram_username:
         return None
     ig_post_text = get_ig_caption_text(instagram_username)
@@ -392,7 +395,7 @@ def summarize_instagram(instagram_username):
     return response.json()["choices"][0]["message"]["content"]
 
 
-def summarize_information(wiki_url, instagram_username):
+def summarize_information(wiki_url: str, instagram_username: str) -> str:
     wiki_summary = None
     instagram_summary = None
     if not wiki_url:
@@ -437,55 +440,44 @@ def summarize_information(wiki_url, instagram_username):
     return response.json()["choices"][0]["message"]["content"]
 
 
-# In[16]:
-
-
-def return_athletes_with_codes_and_images(athlete_name):
-    athletes = query_athletes(athlete_name)
-    nickname = None
-    for athlete in athletes:
-        first_name = athlete["givenName"]
-        athlete["full_name"] = (
-            athlete["givenName"] + " " + athlete["familyName"].lower().capitalize()
-        )
-        athlete["image_url"] = get_image_for_athlete(
+def return_athlete_with_codes_and_images(athlete_name: str) -> Dict[str, str]:
+    athlete = query_athlete(athlete_name)
+    athlete["full_name"] = (
+        athlete["givenName"] + " " + athlete["familyName"].lower().capitalize()
+    )
+    athlete["image_url"] = get_image_for_athlete(
+        athlete["givenName"]
+        + " "
+        + athlete["familyName"]
+        + " "
+        + athlete["country"]
+        + " track and field"
+    )
+    wiki_url = get_wiki(
+        athlete["givenName"] + " " + athlete["familyName"].lower().capitalize()
+    )
+    athlete["wikipedia_url"] = wiki_url
+    if athlete["wikipedia_url"]:
+        # nickname = get_nickname(wiki_url)
+        # athlete["nickname"] = nickname
+        # get an upgraded image
+        athlete["hq_image_url"] = get_hq_image_for_athlete(
             athlete["givenName"]
-            + " "
-            + athlete["familyName"]
-            + " "
-            + athlete["country"]
-            + " track and field"
+            + "-"
+            + athlete["familyName"].lower().capitalize()
+            + "-"
+            + "track and field"
         )
-        wiki_url = get_wiki(
-            athlete["givenName"] + " " + athlete["familyName"].lower().capitalize()
-        )
-        athlete["wikipedia_url"] = wiki_url
-        if athlete["wikipedia_url"]:
-            # nickname = get_nickname(wiki_url)
-            # athlete["nickname"] = nickname
-            # get an upgraded image
-            athlete["hq_image_url"] = get_hq_image_for_athlete(
-                athlete["givenName"]
-                + "-"
-                + athlete["familyName"].lower().capitalize()
-                + "-"
-                + "track and field"
-            )
-        if nickname:
-            first_name = nickname
-        athlete["social_urls"] = get_socials(athlete["full_name"])
-        instagram_username = get_ig_username(athlete)
-        athlete["summary"] = summarize_information(wiki_url, instagram_username)
-        athlete["top_competitors"] = get_top_competitors(athlete)
-        athlete["personal_bests"] = get_pbs_for_athlete(athlete)
-        athlete["accomplishments"] = get_accomplishments(athlete["urlSlug"])
-    return athletes
+    athlete["social_urls"] = get_socials(athlete["full_name"])
+    instagram_username = get_ig_username(athlete)
+    athlete["summary"] = summarize_information(wiki_url, instagram_username)
+    athlete["top_competitors"] = get_top_competitors(athlete)
+    athlete["personal_bests"] = get_pbs_for_athlete(athlete)
+    athlete["accomplishments"] = get_accomplishments(athlete["urlSlug"])
+    return athlete
 
 
-# In[17]:
-
-
-def get_csv_athletes():
+def get_csv_athletes() -> List[str]:
     names = []
     for i in range(1, 60):
         found_names = pd.read_html(
@@ -502,7 +494,7 @@ def get_csv_athletes():
     return names
 
 
-def format_item(item):
+def format_item(item: str) -> str:
     split = item.split(" ")
     lower = [item.lower().capitalize() for item in split]
     joined = " ".join(lower)
@@ -517,7 +509,7 @@ for name in formatted_names:
     time.sleep(random.uniform(6, 15))
     existing_record = collection.find_one({"full_name": name})
     if not existing_record:
-        pipeline_results = return_athletes_with_codes_and_images(name)
+        pipeline_results = return_athlete_with_codes_and_images(name)
         result = collection.insert_one(pipeline_results[0])
         logger.info("Record inserted successfully! \n\n =====")
     else:
