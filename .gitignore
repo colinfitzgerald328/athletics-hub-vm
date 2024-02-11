@@ -2,3 +2,4 @@
 logging/
 archives/
 vm_secrets.py
+database_connector.py
