@@ -1,37 +1,0 @@
-  0%|          | 0/14 [00:00<?, ?it/s]/home/ec2-user/autojobs/auto_scripts/letsrun_summarizer.py:53: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
-
-The code that caused this warning is on line 53 of the file /home/ec2-user/autojobs/auto_scripts/letsrun_summarizer.py. To get rid of this warning, pass the additional argument 'features="lxml"' to the BeautifulSoup constructor.
-
-  soup = BeautifulSoup(resp)
-/home/ec2-user/autojobs/auto_scripts/letsrun_summarizer.py:44: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
-
-The code that caused this warning is on line 44 of the file /home/ec2-user/autojobs/auto_scripts/letsrun_summarizer.py. To get rid of this warning, pass the additional argument 'features="lxml"' to the BeautifulSoup constructor.
-
-  soup = BeautifulSoup(resp)
-INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-  7%|▋         | 1/14 [00:05<01:15,  5.78s/it]/home/ec2-user/autojobs/auto_scripts/letsrun_summarizer.py:53: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
-
-The code that caused this warning is on line 53 of the file /home/ec2-user/autojobs/auto_scripts/letsrun_summarizer.py. To get rid of this warning, pass the additional argument 'features="lxml"' to the BeautifulSoup constructor.
-
-  soup = BeautifulSoup(resp)
-/home/ec2-user/autojobs/auto_scripts/letsrun_summarizer.py:44: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
-
-The code that caused this warning is on line 44 of the file /home/ec2-user/autojobs/auto_scripts/letsrun_summarizer.py. To get rid of this warning, pass the additional argument 'features="lxml"' to the BeautifulSoup constructor.
-
-  soup = BeautifulSoup(resp)
-INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
- 14%|█▍        | 2/14 [00:23<02:35, 12.93s/it]INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
- 21%|██▏       | 3/14 [00:32<02:03, 11.24s/it]INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
- 29%|██▊       | 4/14 [00:41<01:42, 10.24s/it]INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
- 36%|███▌      | 5/14 [00:48<01:20,  8.94s/it]INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
- 43%|████▎     | 6/14 [00:57<01:11,  8.89s/it]INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
- 50%|█████     | 7/14 [01:04<00:59,  8.53s/it]INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
- 57%|█████▋    | 8/14 [01:10<00:45,  7.51s/it]INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
- 64%|██████▍   | 9/14 [01:16<00:35,  7.10s/it]INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
- 71%|███████▏  | 10/14 [01:24<00:29,  7.49s/it]INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
- 79%|███████▊  | 11/14 [01:30<00:21,  7.01s/it]INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
- 86%|████████▌ | 12/14 [01:36<00:13,  6.76s/it]INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
- 93%|█████████▎| 13/14 [01:42<00:06,  6.41s/it]INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-100%|██████████| 14/14 [01:49<00:00,  6.69s/it]100%|██████████| 14/14 [01:49<00:00,  7.84s/it]
-INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-INFO:__main__:SUCCESSFULLY INSERTED SUMMARY
