@@ -121,7 +121,7 @@ collection = database.get_collection("athlete_profile_data")
 
 # finish the rest of the code
 documents = collection.find(
-    {"markdown_summary": {"$exists": False}, "wikipedia_url": {"$exists": True}}
+    {"$expr": {"$and": ["$wikipedia_url", {"$not": ["$markdown_summary"]}]}}
 ).limit(10)
 
 for document in documents:
