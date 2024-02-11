@@ -69,7 +69,7 @@ def summarize_athlete_wikipedia(wiki_url):
         Section 1: About 
         - This section should give details about who the athlete is 
 
-        Section 2: Running Career 
+        Section 2: Athlete Career 
         - This section should give a chronological view into the athlete's story of becoming who they are currently 
         - Section format: paragraph 
 
@@ -97,13 +97,13 @@ def summarize_athlete_wikipedia(wiki_url):
         ## About 
         <about_section>
         
-        ## Running Career 
-        <running_career_section>
+        ## Career 
+        <athlete_career_section>
         
-        ## Top Accomplishments
+        ## Accomplishments
         <top_accomplishments_section>
         
-        ## Athlete Archetype 
+        ## Archetype 
         <athlete_archetype_section>
         
         <wikipedia_profile>
