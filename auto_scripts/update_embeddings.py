@@ -1,7 +1,12 @@
 import pinecone
 from langchain.embeddings import CohereEmbeddings
 from database_connector import get_collection
-from vm_secrets import COHERE_API_KEY
+from vm_secrets import (
+    COHERE_API_KEY,
+    PINECONE_API_KEY,
+    PINECONE_ENV,
+    PINECONE_INDEX_NAME,
+)
 
 embeddings = CohereEmbeddings(cohere_api_key=COHERE_API_KEY)
 
@@ -16,16 +21,10 @@ collection = get_collection()
 
 documents = collection.find({"summary": {"$ne": None}})
 
-# get api key from app.pinecone.io
-PINECONE_API_KEY = "33475028-f7ba-402b-bf0e-442e0524dfdc"
-# find your environment next to the api key in pinecone console
-PINECONE_ENV = "gcp-starter"
-
 pinecone.init(api_key=PINECONE_API_KEY, environment=PINECONE_ENV)
 
 # now connect to the index
-index_name = "semantic-search-cohere"
-index = pinecone.GRPCIndex(index_name)
+index = pinecone.GRPCIndex(PINECONE_INDEX_NAME)
 
 current_max_id = index.describe_index_stats()["total_vector_count"]
 
