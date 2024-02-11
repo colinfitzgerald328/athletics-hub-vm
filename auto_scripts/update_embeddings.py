@@ -1,11 +1,9 @@
-import pymongo
-import tqdm
-import os
-import time
 import pinecone
 from langchain.embeddings import CohereEmbeddings
+from database_connector import get_collection
+from vm_secrets import COHERE_API_KEY
 
-embeddings = CohereEmbeddings(cohere_api_key="wdlGUm5xd4xK4xP4HCEcJ4Ow68atOAdUr37ABR6Y")
+embeddings = CohereEmbeddings(cohere_api_key=COHERE_API_KEY)
 
 # set up logging
 import logging
@@ -13,15 +11,7 @@ import logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-os.environ["DB_PWD"] = "N6BnA4O5nmvEATsl"
-
-client = pymongo.MongoClient(
-    "mongodb+srv://colinfitzgerald:"
-    + os.environ["DB_PWD"]
-    + "@trackathletes.tqfgaze.mongodb.net/?retryWrites=true&w=majority"
-)
-db = client.track_athletes
-collection = db.athlete_profile_data
+collection = get_collection()
 
 
 documents = collection.find({"summary": {"$ne": None}})

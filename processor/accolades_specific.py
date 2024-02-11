@@ -1,18 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
-import os
-import pymongo
-
-os.environ["DB_PWD"] = "N6BnA4O5nmvEATsl"
-
-
-def connect_to_db():
-    client = pymongo.MongoClient(
-        "mongodb+srv://colinfitzgerald:"
-        + os.environ["DB_PWD"]
-        + "@trackathletes.tqfgaze.mongodb.net/?retryWrites=true&w=majority"
-    )
-    return client
 
 
 def get_accomplishments(url_slug: str) -> str:

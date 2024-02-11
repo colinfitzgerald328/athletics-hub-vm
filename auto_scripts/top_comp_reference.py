@@ -1,28 +1,7 @@
-import requests
-from bs4 import BeautifulSoup
-from datetime import datetime
-from itertools import chain
 from tqdm import tqdm
-import os
-import time
-import pymongo
+from database_connector import get_collection
 
-os.environ["DB_PWD"] = "N6BnA4O5nmvEATsl"
-
-
-def connect_to_db():
-    client = pymongo.MongoClient(
-        "mongodb+srv://colinfitzgerald:"
-        + os.environ["DB_PWD"]
-        + "@trackathletes.tqfgaze.mongodb.net/?retryWrites=true&w=majority"
-    )
-    return client
-
-
-client = connect_to_db()
-
-database = client.get_database("track_athletes")
-collection = database.get_collection("athlete_profile_data")
+collection = get_collection()
 
 documents = collection.find({"$expr": {"$not": ["$top_competitors_with_reference"]}})
 

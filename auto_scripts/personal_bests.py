@@ -6,6 +6,8 @@ from typing import Dict, List
 import time
 import json
 import os
+from database_connector import get_collection, connect_to_db
+from vm_secrets import DATABASE_NAME, COLLECTION_NAME
 
 # set up logging
 import logging
@@ -22,24 +24,12 @@ file_path = os.path.join(current_dir, "event_mappings.json")
 f = open(file_path)
 event_mappings = json.load(f)
 
-os.environ["DB_PWD"] = "N6BnA4O5nmvEATsl"
-
-
-def connect_to_db():
-    client = pymongo.MongoClient(
-        "mongodb+srv://colinfitzgerald:"
-        + os.environ["DB_PWD"]
-        + "@trackathletes.tqfgaze.mongodb.net/?retryWrites=true&w=majority"
-    )
-    return client
-
 
 def get_athlete_disciplines_and_gender(aaAthleteId: str) -> Dict[str, str]:
     try:
         client = connect_to_db()
-        db = client.get_database("track_athletes")
-        collection = db.get_collection("athlete_profile_data")
-
+        database = client.get_database(DATABASE_NAME)
+        collection = database.get_collection(COLLECTION_NAME)
         athlete = collection.find_one({"aaAthleteId": aaAthleteId})
     finally:
         client.close()
@@ -122,9 +112,7 @@ def get_pbs_for_athlete(aaAthleteID: str) -> List[str, str]:
     return pbs
 
 
-client = connect_to_db()
-db = client.get_database("track_athletes")
-collection = db.get_collection("athlete_profile_data")
+collection = get_collection()
 
 documents = collection.find({})
 

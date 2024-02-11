@@ -1,13 +1,7 @@
 import requests
-from bs4 import BeautifulSoup
-from datetime import datetime
-from itertools import chain
 from tqdm import tqdm
-import os
-import time
-import pandas as pd
-import pymongo
 import sys
+from database_connector import get_collection
 
 # set up logging
 import logging
@@ -15,21 +9,8 @@ import logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-os.environ["DB_PWD"] = "N6BnA4O5nmvEATsl"
 
-
-def connect_to_db():
-    client = pymongo.MongoClient(
-        "mongodb+srv://colinfitzgerald:"
-        + os.environ["DB_PWD"]
-        + "@trackathletes.tqfgaze.mongodb.net/?retryWrites=true&w=majority"
-    )
-    return client
-
-
-client = connect_to_db()
-database = client.get_database("track_athletes")
-collection = database.get_collection("athlete_profile_data")
+collection = get_collection()
 
 # Add the noCursorTimeout option to prevent cursor timeout
 documents = collection.find(

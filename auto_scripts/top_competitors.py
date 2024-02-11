@@ -4,7 +4,7 @@ from itertools import chain
 import os
 import time
 import pandas as pd
-import pymongo
+from database_connector import get_collection
 
 # set up logging
 import logging
@@ -12,7 +12,6 @@ import logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-os.environ["DB_PWD"] = "N6BnA4O5nmvEATsl"
 
 import json
 
@@ -90,15 +89,6 @@ event_mappings = {
     "Men's 4x4": 204595,
     "Mixed 4x4": 10229988,
 }
-
-
-def connect_to_db():
-    client = pymongo.MongoClient(
-        "mongodb+srv://colinfitzgerald:"
-        + os.environ["DB_PWD"]
-        + "@trackathletes.tqfgaze.mongodb.net/?retryWrites=true&w=majority"
-    )
-    return client
 
 
 def get_event_id(gender, discipline_code):
@@ -371,9 +361,7 @@ def get_top_competitors(athlete_id):
     return top_competitors
 
 
-client = connect_to_db()
-db = client.get_database("track_athletes")
-collection = db.get_collection("athlete_profile_data")
+collection = get_collection()
 
 documents = collection.find({})
 

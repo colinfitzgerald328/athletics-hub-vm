@@ -1,31 +1,20 @@
 from openai import OpenAI
+from vm_secrets import OPENAI_API_KEY
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key=OPENAI_API_KEY)
 
 import requests
-import os
-import pymongo
 import datetime
 from typing import List, Dict
 from bs4 import BeautifulSoup
 from tqdm import tqdm
+from database_connector import get_collection
 
 # set up logging
 import logging
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
-
-os.environ["DB_PWD"] = "N6BnA4O5nmvEATsl"
-
-
-def connect_to_db() -> pymongo.MongoClient:
-    client = pymongo.MongoClient(
-        "mongodb+srv://colinfitzgerald:"
-        + os.environ["DB_PWD"]
-        + "@trackathletes.tqfgaze.mongodb.net/?retryWrites=true&w=majority"
-    )
-    return client
 
 
 # Define a function to get the current date
@@ -122,9 +111,7 @@ def summarize_today_narrative(snippets: List[Dict[str, str]]) -> str:
 
 
 def log_today_summary():
-    client = connect_to_db()
-    database = client.get_database("track_athletes")
-    collection = database.get_collection("letsrun_summaries")
+    collection = get_collection()
     today_summaries = get_todays_summaries()
     md_doc = summarize_today_narrative(today_summaries)
     # now insert the document

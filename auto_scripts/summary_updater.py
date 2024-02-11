@@ -1,10 +1,7 @@
 import pymongo
-import os
 import requests
-import json
-import subprocess
 from bs4 import BeautifulSoup
-import time
+from database_connector import get_collection
 
 # set up logging
 import logging
@@ -12,16 +9,7 @@ import logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-os.environ["DB_PWD"] = "N6BnA4O5nmvEATsl"
-
-# Connect to the MongoDB database
-client = pymongo.MongoClient(
-    "mongodb+srv://colinfitzgerald:"
-    + os.environ["DB_PWD"]
-    + "@trackathletes.tqfgaze.mongodb.net/?retryWrites=true&w=majority"
-)
-database = client.get_database("track_athletes")
-collection = database.get_collection("athlete_profile_data")
+collection = get_collection()
 
 import google.generativeai as genai
 

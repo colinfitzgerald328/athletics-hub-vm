@@ -3,16 +3,16 @@ from personal_bests_specific import get_pbs_for_athlete
 from accolades_specific import get_accomplishments
 from typing import Dict, List, Any
 from langchain.text_splitter import TokenTextSplitter
-import pymongo
 import requests
 from bs4 import BeautifulSoup
 import random
 import time
 import re
 import pandas as pd
-import os
 import openai
 from instagram_util import login_user
+from database_connector import get_collection
+from vm_secrets import DEEPINFRA_API_KEY
 
 # set up logging
 import logging
@@ -23,27 +23,15 @@ logger = logging.getLogger(__name__)
 text_splitter = TokenTextSplitter(chunk_size=2800, chunk_overlap=0)
 
 # Point OpenAI client to our endpoint
-openai.api_key = "c5SNCP1x4rEZq6b3OlMw9d9LjaHy3qIh"
+openai.api_key = DEEPINFRA_API_KEY
 openai.api_base = "https://api.deepinfra.com/v1/openai"
 
-os.environ["DB_PWD"] = "N6BnA4O5nmvEATsl"
 
 # log in to instagram
 cl = login_user()
 
 
-def connect_to_db() -> pymongo.MongoClient:
-    client = pymongo.MongoClient(
-        "mongodb+srv://colinfitzgerald:"
-        + os.environ["DB_PWD"]
-        + "@trackathletes.tqfgaze.mongodb.net/?retryWrites=true&w=majority"
-    )
-    return client
-
-
-client = connect_to_db()
-db = client.get_database("track_athletes")
-collection = db.get_collection("athlete_profile_data")
+collection = get_collection()
 
 
 def query_athlete(athlete_name: str) -> Dict[str, str]:
@@ -325,7 +313,7 @@ def summarize_wikipedia(wikipedia_url: str) -> str:
 
     headers = {
         "Content-Type": "application/json",
-        "Authorization": "Bearer c5SNCP1x4rEZq6b3OlMw9d9LjaHy3qIh",
+        "Authorization": f"Bearer {DEEPINFRA_API_KEY}",
     }
 
     json_data = {
@@ -366,7 +354,7 @@ def summarize_instagram(instagram_username: str) -> str:
 
     headers = {
         "Content-Type": "application/json",
-        "Authorization": "Bearer c5SNCP1x4rEZq6b3OlMw9d9LjaHy3qIh",
+        "Authorization": f"Bearer {DEEPINFRA_API_KEY}",
     }
 
     json_data = {
@@ -412,7 +400,7 @@ def summarize_information(wiki_url: str, instagram_username: str) -> str:
 
     headers = {
         "Content-Type": "application/json",
-        "Authorization": "Bearer c5SNCP1x4rEZq6b3OlMw9d9LjaHy3qIh",
+        "Authorization": f"Bearer {DEEPINFRA_API_KEY}",
     }
 
     json_data = {

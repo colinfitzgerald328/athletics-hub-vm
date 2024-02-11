@@ -1,8 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
-import os
+from database_connector import get_collection
+from vm_secrets import GCLOUD_PROJECT
 import time
-import pymongo
 
 # set up logging
 import logging
@@ -14,18 +14,7 @@ import vertexai
 from vertexai.preview.generative_models import GenerativeModel
 import vertexai.preview.generative_models as generative_models
 
-vertexai.init(project="athletics-hub")
-
-os.environ["DB_PWD"] = "N6BnA4O5nmvEATsl"
-
-
-def connect_to_db() -> pymongo.MongoClient:
-    client = pymongo.MongoClient(
-        "mongodb+srv://colinfitzgerald:"
-        + os.environ["DB_PWD"]
-        + "@trackathletes.tqfgaze.mongodb.net/?retryWrites=true&w=majority"
-    )
-    return client
+vertexai.init(project=GCLOUD_PROJECT)
 
 
 def generate(prompt: str) -> str:
@@ -115,11 +104,8 @@ def summarize_athlete_wikipedia(wiki_url: str) -> str:
 # run summarize_athlete_wikipedia() for each one's wikipedia url
 # insert the document as the athlete's markdown summary
 
-client = connect_to_db()
-database = client.get_database("track_athletes")
-collection = database.get_collection("athlete_profile_data")
+collection = get_collection()
 
-# finish the rest of the code
 documents = collection.find(
     {"$expr": {"$and": ["$wikipedia_url", {"$not": ["$markdown_summary"]}]}}
 ).limit(10)

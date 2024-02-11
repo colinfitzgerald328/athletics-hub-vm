@@ -5,10 +5,6 @@ from typing import List, Dict
 import os
 import time
 import pandas as pd
-import pymongo
-
-os.environ["DB_PWD"] = "N6BnA4O5nmvEATsl"
-
 import json
 
 # Get the directory of the current script
@@ -85,15 +81,6 @@ event_mappings = {
     "Men's 4x4": 204595,
     "Mixed 4x4": 10229988,
 }
-
-
-def connect_to_db() -> pymongo.MongoClient:
-    client = pymongo.MongoClient(
-        "mongodb+srv://colinfitzgerald:"
-        + os.environ["DB_PWD"]
-        + "@trackathletes.tqfgaze.mongodb.net/?retryWrites=true&w=majority"
-    )
-    return client
 
 
 def get_event_id(gender: str, discipline_code: str) -> str:

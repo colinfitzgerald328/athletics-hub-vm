@@ -2,11 +2,12 @@ from instagrapi import Client
 from instagrapi.exceptions import LoginRequired
 import logging
 import os
+from vm_secrets import INSTAGRAM_USERNAME, INSTAGRAM_PASSWORD
 
 logger = logging.getLogger()
 
-USERNAME = "chasefeldspar"
-PASSWORD = "iriquois23!"
+USERNAME = INSTAGRAM_USERNAME
+PASSWORD = INSTAGRAM_PASSWORD
 
 
 def login_user():

@@ -6,22 +6,13 @@ import pymongo
 from tqdm import tqdm
 import os
 import time
+from database_connector import get_collection
 
 # set up logging
 import logging
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
-
-os.environ["DB_PWD"] = "N6BnA4O5nmvEATsl"
-
-client = pymongo.MongoClient(
-    "mongodb+srv://colinfitzgerald:"
-    + os.environ["DB_PWD"]
-    + "@trackathletes.tqfgaze.mongodb.net/?retryWrites=true&w=majority"
-)
-db = client.track_athletes
-collection = db.athlete_profile_data
 
 
 def extract_subject(string: str) -> str:
@@ -75,6 +66,9 @@ def get_hq_images_for_athlete(query: str, last_name: str) -> List[str]:
     if not candidates:
         return None
     return candidates
+
+
+collection = get_collection()
 
 
 documents = collection.find(
