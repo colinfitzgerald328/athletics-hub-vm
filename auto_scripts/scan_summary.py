@@ -2,6 +2,7 @@ import requests
 from tqdm import tqdm
 import sys
 from database_connector import get_collection
+from vm_secrets import DEEPINFRA_API_KEY
 
 # set up logging
 import logging
@@ -32,7 +33,7 @@ for document in tqdm(documents):
 
         headers = {
             "Content-Type": "application/json",
-            "Authorization": "Bearer fra0CxJkQ8wVn6N8bWmDLlQFaNWos0JD",
+            "Authorization": f"Bearer {DEEPINFRA_API_KEY}",
         }
 
         json_data = {
