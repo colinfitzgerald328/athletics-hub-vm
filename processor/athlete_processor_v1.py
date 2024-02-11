@@ -46,9 +46,6 @@ db = client.get_database("track_athletes")
 collection = db.get_collection("athlete_profile_data")
 
 
-# In[10]:
-
-
 def query_athlete(athlete_name: str) -> Dict[str, str]:
     headers = {
         "Content-Type": "application/json",
@@ -126,9 +123,6 @@ def get_image_for_athlete(athlete_name_with_country_code: str) -> str:
         print(f"An error occurred: {str(e)}")
     else:
         results[0] if results else None
-
-
-# In[11]:
 
 
 def get_socials(name: str) -> List[Dict[str, str]]:
@@ -262,9 +256,6 @@ def get_ig_caption_text(ig_username: str) -> str:
     return ig_posts_text
 
 
-# In[12]:
-
-
 def get_hq_image_for_athlete(query: str) -> str:
     results = []
 
@@ -300,9 +291,6 @@ def get_hq_image_for_athlete(query: str) -> str:
         return results[0]
     else:
         print(query)
-
-
-# In[13]:
 
 
 def get_wiki_profile(url: str) -> str:
