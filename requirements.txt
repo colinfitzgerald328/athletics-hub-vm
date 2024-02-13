@@ -1,0 +1,13 @@
+beautifulsoup4==4.11.2
+google_cloud_aiplatform==1.41.0
+instagrapi==2.0.3
+langchain==0.1.6
+openai==1.12.0
+pandas==1.5.0
+pinecone_client==2.2.1
+protobuf==3.20.2
+pymongo==4.5.0
+pytz==2022.1
+Requests==2.31.0
+tiktoken==0.4.0
+tqdm==4.64.1

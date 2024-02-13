@@ -1,3 +1,7 @@
+import sys
+
+sys.path.append("../")
+
 import requests
 import os
 import json
@@ -24,7 +28,7 @@ def get_mappings(profile: Dict[str, str]) -> List[Dict[str, str]]:
     return mappings
 
 
-def get_pb_for_discipline(aaAthleteId: str, discipline: str) -> List :
+def get_pb_for_discipline(aaAthleteId: str, discipline: str) -> List:
     headers = {
         "Content-Type": "application/json",
         "Accept": "*/*",

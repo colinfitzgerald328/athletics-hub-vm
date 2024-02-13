@@ -1,3 +1,7 @@
+import sys
+
+sys.path.append("../")
+
 from top_competitors_specific import get_top_competitors
 from personal_bests_specific import get_pbs_for_athlete
 from accolades_specific import get_accomplishments
@@ -12,7 +16,7 @@ import pandas as pd
 import openai
 from instagram_util import login_user
 from database_connector import get_collection
-from vm_secrets import DEEPINFRA_API_KEY
+from app_secrets import DEEPINFRA_API_KEY
 
 # set up logging
 import logging

@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 from instagrapi import Client
 from tqdm import tqdm
 from database_connector import get_collection
-from vm_secrets import DEEPINFRA_API_KEY
+from app_secrets import DEEPINFRA_API_KEY
 
 
 collection = get_collection()

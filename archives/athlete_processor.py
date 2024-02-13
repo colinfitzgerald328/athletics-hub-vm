@@ -10,7 +10,7 @@ import re
 import urllib
 import pandas as pd
 from database_connector import get_collection
-from vm_secrets import DEEPINFRA_API_KEY
+from app_secrets import DEEPINFRA_API_KEY
 
 
 def similarity_percentage(str1, str2):

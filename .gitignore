@@ -1,7 +1,6 @@
 # gitignore
 logging/
 archives/
-vm_secrets.py
 database_connector.py
 __pycache__
 
