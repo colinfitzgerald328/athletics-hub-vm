@@ -1,6 +1,5 @@
 # gitignore
 logging/
 archives/
-database_connector.py
 __pycache__
 
