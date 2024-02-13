@@ -1,3 +1,7 @@
+import sys
+
+sys.path.append("../")
+
 from tqdm import tqdm
 from database_connector import get_collection
 

@@ -1,11 +1,12 @@
+import sys
+
+sys.path.append("../")
+
 import requests
 from bs4 import BeautifulSoup
 from typing import List
 import re
-import pymongo
 from tqdm import tqdm
-import os
-import time
 from database_connector import get_collection
 
 # set up logging

@@ -1,4 +1,7 @@
-import pymongo
+import sys
+
+sys.path.append("../")
+
 import requests
 from bs4 import BeautifulSoup
 from database_connector import get_collection

@@ -1,13 +1,16 @@
+import sys
+
+sys.path.append("../")
+
 from datetime import datetime
 import requests
-import pymongo
 import os
 from typing import Dict, List
 import time
 import json
 import os
 from database_connector import get_collection, connect_to_db
-from vm_secrets import DATABASE_NAME, COLLECTION_NAME
+from app_secrets import DATABASE_NAME, COLLECTION_NAME
 
 # set up logging
 import logging
@@ -36,7 +39,7 @@ def get_athlete_disciplines_and_gender(aaAthleteId: str) -> Dict[str, str]:
     return {"disciplines": athlete["disciplines"], "gender": athlete["gender"] + "'s"}
 
 
-def get_mappings(aaAthleteID: str) -> List[str, str]:
+def get_mappings(aaAthleteID: str) -> List[str]:
     athlete_info = get_athlete_disciplines_and_gender(str(aaAthleteID))
     split_disciplines = athlete_info["disciplines"].split(", ")
     augmented = [athlete_info["gender"] + " " + i for i in split_disciplines]
@@ -103,7 +106,7 @@ def get_pb_for_discipline(aaAthleteId: str, discipline: str) -> str:
         return results
 
 
-def get_pbs_for_athlete(aaAthleteID: str) -> List[str, str]:
+def get_pbs_for_athlete(aaAthleteID: str) -> List[str]:
     mappings = get_mappings(aaAthleteID)
     pbs = []
     for mapping in mappings:

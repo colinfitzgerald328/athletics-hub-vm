@@ -1,13 +1,18 @@
+import sys
+
+sys.path.append("../")
+
 from openai import OpenAI
-from vm_secrets import OPENAI_API_KEY
+from app_secrets import OPENAI_API_KEY, LETSRUN_COLLECTION_NAME
 
 client = OpenAI(api_key=OPENAI_API_KEY)
-
 import requests
-import datetime
+from datetime import datetime
+import pytz
 from typing import List, Dict
 from bs4 import BeautifulSoup
 from tqdm import tqdm
+import json
 from database_connector import get_collection
 
 # set up logging
@@ -17,9 +22,15 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
-# Define a function to get the current date
-def get_current_date():
-    return datetime.datetime.now().strftime("%Y-%m-%d")
+def get_current_date_in_pacific():
+    # Set the time zone to Pacific
+    pacific_tz = pytz.timezone("US/Pacific")
+
+    # Get the current time in the Pacific time zone
+    current_time_pacific = datetime.now(pacific_tz)
+
+    # Format and return the current date
+    return current_time_pacific.strftime("%Y-%m-%d")
 
 
 def get_top_threads() -> List[str]:
@@ -55,13 +66,19 @@ def get_thread_title(thread_link: str) -> str:
     return thread_title
 
 
-def generic_ai_service(prompt: str) -> str:
+def generic_ai_service(prompt: str, json_mode: bool = False) -> str:
     """
     Generates a response from OpenAI given a prompt
     """
-    response = client.chat.completions.create(
-        model="gpt-4-0125-preview", messages=[{"role": "system", "content": prompt}]
-    )
+    params = {
+        "model": "gpt-4-0125-preview",
+        "messages": [{"role": "system", "content": prompt}],
+    }
+
+    if json_mode:
+        params["response_format"] = {"type": "json_object"}
+
+    response = client.chat.completions.create(**params)
     return response.choices[0].message.content
 
 
@@ -76,9 +93,11 @@ def summarize_thread_text(thread_title: str, thread_text: str) -> Dict[str, str]
         Please tell the reader what the thread is about.
         Here is the thread title: {thread_title}
         Here is the thread text: {thread_text}
-        Return your response in valid JSON {{'summary': '<summary>'}}
+        
+        JSON output example:
+        {{"thread_summary": <thread_summary>}}
     """
-    return generic_ai_service(prompt)
+    return json.loads(generic_ai_service(prompt, json_mode=True))
 
 
 def get_todays_summaries() -> List[Dict[str, str]]:
@@ -91,7 +110,10 @@ def get_todays_summaries() -> List[Dict[str, str]]:
         thread_title = get_thread_title(thread_link)
         thread_text = get_thread_text(thread_link)
         result = summarize_thread_text(thread_title, thread_text)
-        thread_summaries.append(result)
+        print(result)
+        thread_summaries.append(
+            {"thread_link": thread_link, "thread_summary": result["thread_summary"]}
+        )
     return thread_summaries
 
 
@@ -106,17 +128,22 @@ def summarize_today_narrative(snippets: List[Dict[str, str]]) -> str:
         and field today from a forum called Letsrun.com 
         Summarize these snippets into a .md (markdown) document.
         {str_snippets}
+        
+        Expected response for each thread 
+        
+        ## [Title for thread](<thread_link>)
+        > Block quote explaining the thread - do not mention the word thread but rather summarize the content
     """
     return generic_ai_service(prompt)
 
 
 def log_today_summary():
-    collection = get_collection()
+    collection = get_collection(LETSRUN_COLLECTION_NAME)
     today_summaries = get_todays_summaries()
     md_doc = summarize_today_narrative(today_summaries)
     # now insert the document
     # Create a dictionary with the document and the current date as keys
-    insert_doc = {"document": md_doc, "date": get_current_date()}
+    insert_doc = {"document": md_doc, "date": get_current_date_in_pacific()}
 
     # Insert the document into the collection
     collection.insert_one(insert_doc)

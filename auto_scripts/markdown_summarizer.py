@@ -1,7 +1,11 @@
+import sys
+
+sys.path.append("../")
+
 import requests
 from bs4 import BeautifulSoup
 from database_connector import get_collection
-from vm_secrets import GCLOUD_PROJECT
+from app_secrets import GCLOUD_PROJECT
 import time
 
 # set up logging
