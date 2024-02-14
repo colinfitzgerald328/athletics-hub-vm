@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 from typing import List
 import re
 from tqdm import tqdm
-from database_connector import get_collection
+from Meta.database_connector import get_collection
 
 # set up logging
 import logging

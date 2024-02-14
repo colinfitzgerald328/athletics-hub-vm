@@ -4,8 +4,8 @@ sys.path.append("../")
 
 import pinecone
 from langchain.embeddings import CohereEmbeddings
-from database_connector import get_collection
-from app_secrets import (
+from Meta.database_connector import get_collection
+from Meta.app_secrets import (
     COHERE_API_KEY,
     PINECONE_API_KEY,
     PINECONE_ENV,

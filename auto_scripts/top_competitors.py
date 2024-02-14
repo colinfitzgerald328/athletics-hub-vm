@@ -8,7 +8,7 @@ from itertools import chain
 import os
 import time
 import pandas as pd
-from database_connector import get_collection
+from Meta.database_connector import get_collection
 
 # set up logging
 import logging

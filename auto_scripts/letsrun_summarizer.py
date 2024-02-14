@@ -1,9 +1,8 @@
-import sys
-
-sys.path.append("../")
-
 from openai import OpenAI
-from app_secrets import OPENAI_API_KEY, LETSRUN_COLLECTION_NAME
+from Meta.database_connector import get_collection
+
+from Meta.app_secrets import OPENAI_API_KEY, LETSRUN_COLLECTION_NAME
+
 
 client = OpenAI(api_key=OPENAI_API_KEY)
 import requests
@@ -13,7 +12,7 @@ from typing import List, Dict
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 import json
-from database_connector import get_collection
+from Meta.database_connector import get_collection
 
 # set up logging
 import logging

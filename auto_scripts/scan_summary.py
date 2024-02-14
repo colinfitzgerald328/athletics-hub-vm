@@ -5,8 +5,8 @@ sys.path.append("../")
 import requests
 from tqdm import tqdm
 import sys
-from database_connector import get_collection
-from app_secrets import DEEPINFRA_API_KEY
+from Meta.database_connector import get_collection
+from Meta.app_secrets import DEEPINFRA_API_KEY
 
 # set up logging
 import logging

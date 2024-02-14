@@ -9,8 +9,8 @@ from typing import Dict, List
 import time
 import json
 import os
-from database_connector import get_collection, connect_to_db
-from app_secrets import DATABASE_NAME, COLLECTION_NAME
+from Meta.database_connector import get_collection, connect_to_db
+from Meta.app_secrets import DATABASE_NAME, COLLECTION_NAME
 
 # set up logging
 import logging

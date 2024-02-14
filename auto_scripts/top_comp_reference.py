@@ -3,7 +3,7 @@ import sys
 sys.path.append("../")
 
 from tqdm import tqdm
-from database_connector import get_collection
+from Meta.database_connector import get_collection
 
 collection = get_collection()
 

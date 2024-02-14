@@ -4,8 +4,8 @@ sys.path.append("../")
 
 import requests
 from bs4 import BeautifulSoup
-from database_connector import get_collection
-from app_secrets import GCLOUD_PROJECT
+from Meta.database_connector import get_collection
+from Meta.app_secrets import GCLOUD_PROJECT
 import time
 
 # set up logging
