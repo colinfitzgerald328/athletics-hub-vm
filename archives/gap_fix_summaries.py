@@ -5,8 +5,8 @@ from langchain.text_splitter import TokenTextSplitter
 from bs4 import BeautifulSoup
 from instagrapi import Client
 from tqdm import tqdm
-from database_connector import get_collection
-from app_secrets import DEEPINFRA_API_KEY
+from Meta.database_connector import get_collection
+from Meta.app_secrets import DEEPINFRA_API_KEY
 
 
 text_splitter = TokenTextSplitter(chunk_size=2800, chunk_overlap=0)

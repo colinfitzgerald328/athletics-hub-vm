@@ -1,4 +1,4 @@
-from app_secrets import (
+from Meta.app_secrets import (
     DATABASE_PASSWORD,
     DATABASE_NAME,
     COLLECTION_NAME,

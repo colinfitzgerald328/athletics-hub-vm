@@ -6,7 +6,7 @@ from instagrapi import Client
 from instagrapi.exceptions import LoginRequired
 import logging
 import os
-from app_secrets import INSTAGRAM_USERNAME, INSTAGRAM_PASSWORD
+from Meta.app_secrets import INSTAGRAM_USERNAME, INSTAGRAM_PASSWORD
 
 logger = logging.getLogger()
 

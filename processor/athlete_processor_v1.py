@@ -15,8 +15,8 @@ import re
 import pandas as pd
 import openai
 from instagram_util import login_user
-from database_connector import get_collection
-from app_secrets import DEEPINFRA_API_KEY
+from Meta.database_connector import get_collection
+from Meta.app_secrets import DEEPINFRA_API_KEY
 
 # set up logging
 import logging
