@@ -1,4 +1,9 @@
-from app_secrets import DATABASE_PASSWORD, DATABASE_NAME, COLLECTION_NAME, DATABASE_USERNAME
+from app_secrets import (
+    DATABASE_PASSWORD,
+    DATABASE_NAME,
+    COLLECTION_NAME,
+    DATABASE_USERNAME,
+)
 import pymongo
 
 
@@ -11,7 +16,9 @@ def connect_to_db() -> pymongo.MongoClient:
     return client
 
 
-def get_collection(collection_name: str = COLLECTION_NAME) -> pymongo.collection.Collection:
+def get_collection(
+    collection_name: str = COLLECTION_NAME,
+) -> pymongo.collection.Collection:
     client = connect_to_db()
     database = client.get_database(DATABASE_NAME)
     collection = database.get_collection(collection_name)
