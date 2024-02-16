@@ -1,14 +1,5 @@
-import pinecone
-from langchain.embeddings import CohereEmbeddings
-from Meta.database_connector import get_collection
-from Meta.app_secrets import (
-    COHERE_API_KEY,
-    PINECONE_API_KEY,
-    PINECONE_ENV,
-    PINECONE_INDEX_NAME,
-)
-
-embeddings = CohereEmbeddings(cohere_api_key=COHERE_API_KEY)
+from Meta.database_connector import DatabaseConnector
+from Meta.pinecone_services import PineconeIndexConnector
 
 # set up logging
 import logging
@@ -16,17 +7,14 @@ import logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-collection = get_collection()
+pinecone_connector = PineconeIndexConnector()
 
+collection = DatabaseConnector().get_collection()
+index = pinecone_connector.get_index()
 
 documents = collection.find({"summary": {"$ne": None}})
 
-pinecone.init(api_key=PINECONE_API_KEY, environment=PINECONE_ENV)
-
-# now connect to the index
-index = pinecone.GRPCIndex(PINECONE_INDEX_NAME)
-
-current_max_id = index.describe_index_stats()["total_vector_count"]
+current_max_id = pinecone_connector.get_max_id()
 
 for document in documents:
     summary_result = index.query(
@@ -4139,7 +4127,7 @@ for document in documents:
     if len(match) > 0:
         summary = match[0]["metadata"]["summary"]
         if summary != document["summary"]:
-            new_embeddings = embeddings.embed_query(document["summary"])
+            new_embeddings = pinecone_connector.get_embeddings(document["summary"])
             index.update(
                 match[0]["id"],
                 values=new_embeddings,
@@ -4149,7 +4137,7 @@ for document in documents:
         else:
             logger.info("summary is already updated \n\n =====")
     elif len(match) == 0:
-        summary_embeddings = embeddings.embed_query(document["summary"])
+        summary_embeddings = pinecone_connector.get_embeddings(document["summary"])
         current_max_id += 1
         index.upsert(
             vectors=[
