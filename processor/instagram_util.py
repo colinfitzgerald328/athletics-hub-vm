@@ -1,7 +1,3 @@
-import sys
-
-sys.path.append("../")
-
 from instagrapi import Client
 from instagrapi.exceptions import LoginRequired
 import logging

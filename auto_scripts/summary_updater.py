@@ -1,43 +1,13 @@
-import sys
-
-sys.path.append("../")
-
 import requests
 from bs4 import BeautifulSoup
-from Meta.database_connector import get_collection
+from Meta.database_connector import DatabaseConnector
+from Meta.ai_services import GoogleGenAIAdaptor
 
 # set up logging
 import logging
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
-
-collection = get_collection()
-
-import google.generativeai as genai
-
-genai.configure(api_key="AIzaSyDG_j0Cf-71Xf6Uy6RyWaC4ufufaiel7rg")
-
-# Set up the model
-generation_config = {
-    "temperature": 0.9,
-    "top_p": 1,
-    "top_k": 1,
-    "max_output_tokens": 2048,
-}
-
-safety_settings = [
-    {"category": "HARM_CATEGORY_HARASSMENT", "threshold": "BLOCK_MEDIUM_AND_ABOVE"},
-    {"category": "HARM_CATEGORY_HATE_SPEECH", "threshold": "BLOCK_MEDIUM_AND_ABOVE"},
-    {
-        "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
-        "threshold": "BLOCK_MEDIUM_AND_ABOVE",
-    },
-    {
-        "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
-        "threshold": "BLOCK_MEDIUM_AND_ABOVE",
-    },
-]
 
 
 def get_wiki_profile(url: str) -> str:
@@ -51,23 +21,18 @@ def get_wiki_profile(url: str) -> str:
 
 def summarize_athlete_wikipedia(wiki_url: str) -> str:
     wiki_text = get_wiki_profile(wiki_url)
-    model = genai.GenerativeModel(
-        model_name="gemini-pro",
-        generation_config=generation_config,
-        safety_settings=safety_settings,
-    )
-
-    prompt_parts = [
+    prompt = (
         """Summarize the following text. Make sure the summary is pretty long and retains important detail:\n\n """
         + wiki_text
-    ]
+    )
 
-    response = model.generate_content(prompt_parts)
-    return response.text
+    response = GoogleGenAIAdaptor().generate(prompt)
+    return response
 
 
+collection = DatabaseConnector().get_collection()
 # find all documents that have wikipedia URLs
-documents = wikipedia_documents = collection.find(
+wikipedia_documents = collection.find(
     {
         "$expr": {
             "$and": [

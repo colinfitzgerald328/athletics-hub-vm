@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 import time
-from Meta.database_connector import get_collection
+from Meta.database_connector import DatabaseConnector
 
 # set up logging
 import logging
@@ -23,7 +23,7 @@ def get_accomplishments(url_slug):
     return accomplishments
 
 
-collection = get_collection()
+collection = DatabaseConnector().get_collection()
 
 documents = collection.find({})
 

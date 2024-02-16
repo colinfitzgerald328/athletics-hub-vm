@@ -1,7 +1,3 @@
-import sys
-
-sys.path.append("../")
-
 import requests
 from datetime import datetime
 from itertools import chain

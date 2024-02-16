@@ -1,12 +1,7 @@
-import sys
-
-sys.path.append("../")
-
-import requests
 from tqdm import tqdm
 import sys
-from Meta.database_connector import get_collection
-from Meta.app_secrets import DEEPINFRA_API_KEY
+from Meta.database_connector import DatabaseConnector
+from Meta.ai_services import DeepInfraAIAdaptor
 
 # set up logging
 import logging
@@ -15,7 +10,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
-collection = get_collection()
+collection = DatabaseConnector().get_collection()
 
 # Add the noCursorTimeout option to prevent cursor timeout
 documents = collection.find(
@@ -30,34 +25,10 @@ if len(list(documents)) == 0:
 
 for document in tqdm(documents):
     try:
-        prompt = (
+        summary = DeepInfraAIAdaptor().generate(
             "Can you summarize who this athlete is? \n\nContext:\n"
             + document["summary"]
         )
-
-        headers = {
-            "Content-Type": "application/json",
-            "Authorization": f"Bearer {DEEPINFRA_API_KEY}",
-        }
-
-        json_data = {
-            "model": "deepinfra/airoboros-70b",
-            "messages": [
-                {
-                    "role": "user",
-                    "content": prompt,
-                },
-            ],
-            "temperature": 0.2,
-            "top_p": 0.2,
-        }
-
-        response = requests.post(
-            "https://api.deepinfra.com/v1/openai/chat/completions",
-            headers=headers,
-            json=json_data,
-        )
-        summary = response.json()["choices"][0]["message"]["content"]
 
         logger.info("got summary, now updating \n\n =====")
 

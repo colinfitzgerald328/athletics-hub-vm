@@ -1,11 +1,7 @@
-import sys
-
-sys.path.append("../")
-
 import requests
 from bs4 import BeautifulSoup
-from Meta.database_connector import get_collection
-from Meta.app_secrets import GCLOUD_PROJECT
+from Meta.database_connector import DatabaseConnector
+from Meta.ai_services import GoogleGenAIAdaptor
 import time
 
 # set up logging
@@ -13,36 +9,6 @@ import logging
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
-
-import vertexai
-from vertexai.preview.generative_models import GenerativeModel
-import vertexai.preview.generative_models as generative_models
-
-vertexai.init(project=GCLOUD_PROJECT)
-
-
-def generate(prompt: str) -> str:
-    model = GenerativeModel("gemini-pro")
-    responses = model.generate_content(
-        prompt,
-        generation_config={"temperature": 0.9, "top_p": 1},
-        safety_settings={
-            generative_models.HarmCategory.HARM_CATEGORY_HATE_SPEECH: generative_models.HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
-            generative_models.HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: generative_models.HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
-            generative_models.HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT: generative_models.HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
-            generative_models.HarmCategory.HARM_CATEGORY_HARASSMENT: generative_models.HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
-        },
-        stream=True,
-    )
-    retries = 0
-    while retries < 3:
-        try:
-            return "".join([response.text for response in responses])
-        except Exception as e:
-            print(e)
-            logger.info(f"Model failed on api call # {retries}")
-            retries += 1
-    return None
 
 
 def get_wiki_profile(url: str) -> str:
@@ -101,14 +67,15 @@ def summarize_athlete_wikipedia(wiki_url: str) -> str:
         
         <wikipedia_profile>
     """
-    return generate(system_prompt + "\n\n" + wiki_text)
+    response = GoogleGenAIAdaptor().generate(system_prompt + "\n\n" + wiki_text)
+    return response
 
 
 # get 20 documents that don't have a 'markdown_summary' key and do have a wikipedia url
 # run summarize_athlete_wikipedia() for each one's wikipedia url
 # insert the document as the athlete's markdown summary
 
-collection = get_collection()
+collection = DatabaseConnector().get_collection()
 
 documents = collection.find(
     {"$expr": {"$and": ["$wikipedia_url", {"$not": ["$markdown_summary"]}]}}

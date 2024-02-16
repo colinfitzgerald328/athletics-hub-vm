@@ -1,11 +1,7 @@
-import sys
-
-sys.path.append("../")
-
 from tqdm import tqdm
-from Meta.database_connector import get_collection
+from Meta.database_connector import DatabaseConnector
 
-collection = get_collection()
+collection = DatabaseConnector().get_collection()
 
 documents = collection.find({"$expr": {"$not": ["$top_competitors_with_reference"]}})
 

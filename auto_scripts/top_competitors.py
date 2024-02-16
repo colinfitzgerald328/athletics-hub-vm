@@ -1,14 +1,10 @@
-import sys
-
-sys.path.append("../")
-
 import requests
 from datetime import datetime
 from itertools import chain
 import os
 import time
 import pandas as pd
-from Meta.database_connector import get_collection
+from Meta.database_connector import DatabaseConnector
 
 # set up logging
 import logging
@@ -365,7 +361,7 @@ def get_top_competitors(athlete_id):
     return top_competitors
 
 
-collection = get_collection()
+collection = DatabaseConnector().get_collection()
 
 documents = collection.find({})
 

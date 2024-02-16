@@ -1,7 +1,3 @@
-import sys
-
-sys.path.append("../")
-
 from top_competitors_specific import get_top_competitors
 from personal_bests_specific import get_pbs_for_athlete
 from accolades_specific import get_accomplishments

@@ -1,10 +1,10 @@
-from openai import OpenAI
-from Meta.database_connector import get_collection
+from Meta.database_connector import DatabaseConnector
+from Meta.ai_services import OpenAIAIAdaptor
+import os
 
-from Meta.app_secrets import OPENAI_API_KEY, LETSRUN_COLLECTION_NAME
+LETSRUN_COLLECTION_NAME = os.getenv("LETSRUN_COLLECTION_NAME")
 
 
-client = OpenAI(api_key=OPENAI_API_KEY)
 import requests
 from datetime import datetime
 import pytz
@@ -12,7 +12,6 @@ from typing import List, Dict
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 import json
-from Meta.database_connector import get_collection
 
 # set up logging
 import logging
@@ -65,22 +64,6 @@ def get_thread_title(thread_link: str) -> str:
     return thread_title
 
 
-def generic_ai_service(prompt: str, json_mode: bool = False) -> str:
-    """
-    Generates a response from OpenAI given a prompt
-    """
-    params = {
-        "model": "gpt-4-0125-preview",
-        "messages": [{"role": "system", "content": prompt}],
-    }
-
-    if json_mode:
-        params["response_format"] = {"type": "json_object"}
-
-    response = client.chat.completions.create(**params)
-    return response.choices[0].message.content
-
-
 def summarize_thread_text(thread_title: str, thread_text: str) -> Dict[str, str]:
     """
     Summarizes the thread text based on the thread title and the thread text
@@ -96,7 +79,8 @@ def summarize_thread_text(thread_title: str, thread_text: str) -> Dict[str, str]
         JSON output example:
         {{"thread_summary": <thread_summary>}}
     """
-    return json.loads(generic_ai_service(prompt, json_mode=True))
+    response = OpenAIAIAdaptor().generate_response(prompt, json_mode=True)
+    return json.loads(response)
 
 
 def get_todays_summaries() -> List[Dict[str, str]]:
@@ -133,11 +117,12 @@ def summarize_today_narrative(snippets: List[Dict[str, str]]) -> str:
         ## [Title for thread](<thread_link>)
         > Block quote explaining the thread - do not mention the word thread but rather summarize the content
     """
-    return generic_ai_service(prompt)
+    response = OpenAIAIAdaptor().generate_response(prompt)
+    return response
 
 
 def log_today_summary():
-    collection = get_collection(LETSRUN_COLLECTION_NAME)
+    collection = DatabaseConnector().get_collection(LETSRUN_COLLECTION_NAME)
     today_summaries = get_todays_summaries()
     md_doc = summarize_today_narrative(today_summaries)
     # now insert the document

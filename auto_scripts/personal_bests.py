@@ -1,16 +1,13 @@
-import sys
-
-sys.path.append("../")
-
-from datetime import datetime
 import requests
 import os
 from typing import Dict, List
 import time
 import json
 import os
-from Meta.database_connector import get_collection, connect_to_db
-from Meta.app_secrets import DATABASE_NAME, COLLECTION_NAME
+from Meta.database_connector import DatabaseConnector
+
+DATABASE_NAME = os.getenv("DATABASE_NAME")
+COLLECTION_NAME = os.getenv("COLLECTION_NAME")
 
 # set up logging
 import logging
@@ -30,7 +27,7 @@ event_mappings = json.load(f)
 
 def get_athlete_disciplines_and_gender(aaAthleteId: str) -> Dict[str, str]:
     try:
-        client = connect_to_db()
+        client = DatabaseConnector.get_client()
         database = client.get_database(DATABASE_NAME)
         collection = database.get_collection(COLLECTION_NAME)
         athlete = collection.find_one({"aaAthleteId": aaAthleteId})
@@ -115,7 +112,7 @@ def get_pbs_for_athlete(aaAthleteID: str) -> List[str]:
     return pbs
 
 
-collection = get_collection()
+collection = DatabaseConnector().get_collection()
 
 documents = collection.find({})
 

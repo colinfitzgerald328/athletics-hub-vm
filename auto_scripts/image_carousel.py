@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 from typing import List
 import re
 from tqdm import tqdm
-from Meta.database_connector import get_collection
+from Meta.database_connector import DatabaseConnector
 
 # set up logging
 import logging
@@ -69,7 +69,7 @@ def get_hq_images_for_athlete(query: str, last_name: str) -> List[str]:
     return candidates
 
 
-collection = get_collection()
+collection = DatabaseConnector().get_collection()
 
 
 documents = collection.find(

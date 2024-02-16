@@ -1,7 +1,3 @@
-import sys
-
-sys.path.append("../")
-
 import pinecone
 from langchain.embeddings import CohereEmbeddings
 from Meta.database_connector import get_collection

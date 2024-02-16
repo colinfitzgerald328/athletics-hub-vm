@@ -7,19 +7,21 @@ from Meta.app_secrets import (
 import pymongo
 
 
-def connect_to_db() -> pymongo.MongoClient:
-    client = pymongo.MongoClient(
-        f"mongodb+srv://{DATABASE_USERNAME}:"
-        + DATABASE_PASSWORD
-        + f"@{DATABASE_NAME}.tqfgaze.mongodb.net/?retryWrites=true&w=majority"
-    )
-    return client
+class DatabaseConnector:
 
+    def get_client(self) -> pymongo.MongoClient:
+        client = pymongo.MongoClient(
+            f"mongodb+srv://{DATABASE_USERNAME}:"
+            + DATABASE_PASSWORD
+            + f"@{DATABASE_NAME}.tqfgaze.mongodb.net/?retryWrites=true&w=majority"
+        )
+        return client
 
-def get_collection(
-    collection_name: str = COLLECTION_NAME,
-) -> pymongo.collection.Collection:
-    client = connect_to_db()
-    database = client.get_database(DATABASE_NAME)
-    collection = database.get_collection(collection_name)
-    return collection
+    def get_collection(
+        self,
+        collection_name: str = COLLECTION_NAME,
+    ) -> pymongo.collection.Collection:
+        client = self.get_client()
+        database = client.get_database(DATABASE_NAME)
+        collection = database.get_collection(collection_name)
+        return collection
