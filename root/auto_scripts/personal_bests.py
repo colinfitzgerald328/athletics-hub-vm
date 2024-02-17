@@ -1,4 +1,4 @@
-import os 
+import os
 import requests
 from typing import Dict, List
 import time
@@ -66,11 +66,9 @@ def get_pb_for_discipline(aaAthleteId: str, discipline: str) -> str:
         "Sec-Fetch-Site": "cross-site",
         "Accept-Language": "en-US,en;q=0.9",
         "Sec-Fetch-Mode": "cors",
-        # 'Accept-Encoding': 'gzip, deflate, br',
         "Origin": "https://worldathletics.org",
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15",
         "Referer": "https://worldathletics.org/",
-        # 'Content-Length': '817',
         "Connection": "keep-alive",
         "Host": "wpgiegzkbrhj5mlsdxnipboepm.appsync-api.eu-west-1.amazonaws.com",
         "Sec-Fetch-Dest": "empty",

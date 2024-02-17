@@ -26,7 +26,6 @@ data = json.load(f)
 # scoring system credit goes to https://github.com/GlaivePro/IaafPoints
 # he provides details and a json on how to reproduce World Athletics scores for events
 
-
 event_mappings = {
     "Women's 100": 10229509,
     "Women's 200": 10229510,
@@ -179,11 +178,9 @@ def get_competition_id(competition_name, competition_date):
         "Sec-Fetch-Site": "cross-site",
         "Accept-Language": "en-US,en;q=0.9",
         "Sec-Fetch-Mode": "cors",
-        # 'Accept-Encoding': 'gzip, deflate, br',
         "Origin": "https://worldathletics.org",
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15",
         "Referer": "https://worldathletics.org/",
-        # 'Content-Length': '3250',
         "Connection": "keep-alive",
         "Host": "wpgiegzkbrhj5mlsdxnipboepm.appsync-api.eu-west-1.amazonaws.com",
         "Sec-Fetch-Dest": "empty",
@@ -242,11 +239,9 @@ def get_results(competition, date, gender, discipline_code):
             "Sec-Fetch-Site": "cross-site",
             "Accept-Language": "en-US,en;q=0.9",
             "Sec-Fetch-Mode": "cors",
-            # 'Accept-Encoding': 'gzip, deflate, br',
             "Origin": "https://worldathletics.org",
             "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15",
             "Referer": "https://worldathletics.org/",
-            # 'Content-Length': '2936',
             "Connection": "keep-alive",
             "Host": "wpgiegzkbrhj5mlsdxnipboepm.appsync-api.eu-west-1.amazonaws.com",
             "Sec-Fetch-Dest": "empty",

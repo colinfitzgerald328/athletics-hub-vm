@@ -24,7 +24,6 @@ def get_accomplishments(url_slug):
 
 
 collection = DatabaseConnector().get_collection()
-
 documents = collection.find({})
 
 for document in tqdm(documents):
