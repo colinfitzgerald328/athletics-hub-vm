@@ -3,12 +3,13 @@ from openai import OpenAI
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 DEEPINFRA_API_KEY = os.getenv("DEEPINFRA_API_KEY")
+GCLOUD_PROJECT = os.getenv("GCLOUD_PROJECT")
 
 import vertexai
 from vertexai.preview.generative_models import GenerativeModel
 import vertexai.preview.generative_models as generative_models
 
-vertexai.init(project="athletics-hub")
+vertexai.init(project=GCLOUD_PROJECT)
 
 import requests
 
