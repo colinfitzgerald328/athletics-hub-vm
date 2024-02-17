@@ -1,5 +1,5 @@
 import os 
-from ..meta import DatabaseConnector
+from ..meta.database_connector import DatabaseConnector
 from ..meta.ai_services import OpenAIAIAdaptor
 
 LETSRUN_COLLECTION_NAME = os.getenv("LETSRUN_COLLECTION_NAME")
