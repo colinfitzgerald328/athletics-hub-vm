@@ -26,7 +26,7 @@ event_mappings = json.load(f)
 
 def get_athlete_disciplines_and_gender(aaAthleteId: str) -> Dict[str, str]:
     try:
-        client = DatabaseConnector.get_client()
+        client = DatabaseConnector().get_client()
         database = client.get_database(DATABASE_NAME)
         collection = database.get_collection(COLLECTION_NAME)
         athlete = collection.find_one({"aaAthleteId": aaAthleteId})
