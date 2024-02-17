@@ -1,5 +1,5 @@
-from Meta.database_connector import DatabaseConnector
-from Meta.pinecone_services import PineconeIndexConnector
+from ..meta.database_connector import DatabaseConnector
+from ..meta.pinecone_services import PineconeIndexConnector
 
 # set up logging
 import logging

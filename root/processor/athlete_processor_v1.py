@@ -9,10 +9,9 @@ import random
 import time
 import re
 import pandas as pd
-import openai
 from instagram_util import login_user
-from Meta.database_connector import get_collection
-from Meta.app_secrets import DEEPINFRA_API_KEY
+from ..meta.database_connector import DatabaseConnector
+from ..meta.ai_services import DeepInfraAIAdaptor
 
 # set up logging
 import logging
@@ -22,16 +21,12 @@ logger = logging.getLogger(__name__)
 
 text_splitter = TokenTextSplitter(chunk_size=2800, chunk_overlap=0)
 
-# Point OpenAI client to our endpoint
-openai.api_key = DEEPINFRA_API_KEY
-openai.api_base = "https://api.deepinfra.com/v1/openai"
-
 
 # log in to instagram
 cl = login_user()
 
 
-collection = get_collection()
+collection = DatabaseConnector.get_collection()
 
 
 def query_athlete(athlete_name: str) -> Dict[str, str]:
@@ -106,9 +101,11 @@ def get_image_for_athlete(athlete_name_with_country_code: str) -> str:
                 if "https" in src:
                     results.append(src)
         else:
-            print(f"Failed to retrieve the page. Status code: {response.status_code}")
+            logger.info(
+                f"Failed to retrieve the page. Status code: {response.status_code}"
+            )
     except Exception as e:
-        print(f"An error occurred: {str(e)}")
+        logger.info(f"An error occurred: {str(e)}")
     else:
         results[0] if results else None
 
@@ -250,8 +247,6 @@ def get_hq_image_for_athlete(query: str) -> str:
     headers = {
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
         "Sec-Fetch-Site": "none",
-        # 'Cookie': '_fbp=fb.1.1698026678111.1952040698; _ga=GA1.2.2132144913.1698026678; _ga_DMJJ3WT1SM=GS1.1.1698026677.1.1.1698026761.47.0.0; _gid=GA1.2.1309145392.1698026678; gtm_ppn=category_browse; sp=rps=closed&mf=&ci=av%2Ct%2Crf&es=best&ei=; unisess=bVdrMHpJSFZQczNrbGgrM1p0bEU5TDBnMDZ3b0haWUp5VjJKcVAvYWh6bkxzaDAvMTVYWnZTUlZBUFE4VWI2TDJLN293VTJoWTV5a0dTUjRNUDh3UHc9PS0tbWdFMUFMUGhoam9JMlZPNlBRT2VwQT09--7c432c7cc48f189014a4c7f33978bff4b4cd4192; IR_4202=1698026748113%7C0%7C1698026748113%7C%7C; _gcl_au=1.1.1311169312.1698026678; ELOQUA=GUID=F9CE87CA12D74638990D74DC0F0619F0; IR_gbd=gettyimages.com; giu=nv=8&lv=2023-10-23T02%3A04%3A35Z; uac=t=EXim5%2F6cRRQ9NKLvRaGslqzbZvOGv9dSFpGj%2F0aPQ7yqRfb028x0QCfQNyPyrmUe9Nu7H9h0130gNyTkl9BVigi%2FTBU%2BMIJJtxdub3W6uoLHVxZ%2F66dNFB8LpdW%2BnzBkD6F3MHOOpfEG8g1KAIbtQxIXMcec6oGiIe4kRk3g4Ww%3D%7C77u%2FR2pjWUxiYVJqSTV5MWpvRlJ5TDUKMTAwCgpOR1lYR0E9PQpQRzBYR0E9PQowCgoKMAoxMDAKNTg3NklBPT0KMTAwCjAKM2E1OGE4NDItODE2OS00OGZlLTkzMDMtMzcwMTYyZmQ5ZDM4Cgo%3D%7C3%7C4%7C1&d; vis=vid=3a58a842-8169-48fe-9303-370162fd9d38; csrf=t=A2I%2BYvHyWi2x0PwNaTpbFaiMv%2BNusXkW4femP3HxO7A%3D; mc=3',
-        # 'Accept-Encoding': 'gzip, deflate, br',
         "Sec-Fetch-Mode": "navigate",
         "Host": "www.gettyimages.com",
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15",
@@ -278,7 +273,7 @@ def get_hq_image_for_athlete(query: str) -> str:
     if results:
         return results[0]
     else:
-        print(query)
+        logger.info("query failed for athlere" + str(query))
 
 
 def get_wiki_profile(url: str) -> str:
@@ -308,25 +303,10 @@ def summarize_wikipedia(wikipedia_url: str) -> str:
     Return your final response in the form of a well-written summary that you would want your teacher to read. 
     """
 
-    # Construct the message
-    message = {"role": "user", "content": prompt + "\n\n Wikipedia Profile: " + chunk}
-
-    headers = {
-        "Content-Type": "application/json",
-        "Authorization": f"Bearer {DEEPINFRA_API_KEY}",
-    }
-
-    json_data = {
-        "model": "meta-llama/Llama-2-70b-chat-hf",
-        "messages": [message],
-    }
-
-    response = requests.post(
-        "https://api.deepinfra.com/v1/openai/chat/completions",
-        headers=headers,
-        json=json_data,
+    response = DeepInfraAIAdaptor().generate(
+        prompt + "\n\n Wikipedia Profile: " + chunk
     )
-    return response.json()["choices"][0]["message"]["content"]
+    return response
 
 
 def summarize_instagram(instagram_username: str) -> str:
@@ -346,29 +326,8 @@ def summarize_instagram(instagram_username: str) -> str:
     The first sentence should state the athlete's name and introduce them.
     """
 
-    # Construct the message
-    message = {
-        "role": "user",
-        "content": prompt + "\n\n Instagram Post Captions: " + chunk,
-    }
-
-    headers = {
-        "Content-Type": "application/json",
-        "Authorization": f"Bearer {DEEPINFRA_API_KEY}",
-    }
-
-    json_data = {
-        "model": "meta-llama/Llama-2-70b-chat-hf",
-        "messages": [message],
-    }
-
-    response = requests.post(
-        "https://api.deepinfra.com/v1/openai/chat/completions",
-        headers=headers,
-        json=json_data,
-    )
-    print(response.text)
-    return response.json()["choices"][0]["message"]["content"]
+    response = DeepInfraAIAdaptor().generate(prompt + chunk)
+    return response
 
 
 def summarize_information(wiki_url: str, instagram_username: str) -> str:
@@ -389,31 +348,16 @@ def summarize_information(wiki_url: str, instagram_username: str) -> str:
         information = instagram_summary
     else:
         # in this case, there is no information, so we return nothing
-        return None
+        logger.info("No information supplied for wikiurl" + str(wiki_url))
 
     prompt = """
     Combine the following two pieces of text into a summary explaining who the athlete is to someone in the running community.  
     """
 
-    # Construct the message
-    message = {"role": "user", "content": prompt + "\n\n Information: " + information}
-
-    headers = {
-        "Content-Type": "application/json",
-        "Authorization": f"Bearer {DEEPINFRA_API_KEY}",
-    }
-
-    json_data = {
-        "model": "meta-llama/Llama-2-70b-chat-hf",
-        "messages": [message],
-    }
-
-    response = requests.post(
-        "https://api.deepinfra.com/v1/openai/chat/completions",
-        headers=headers,
-        json=json_data,
+    response = DeepInfraAIAdaptor().generate(
+        prompt + "\n\n Information: " + information
     )
-    return response.json()["choices"][0]["message"]["content"]
+    return response
 
 
 def return_athlete_with_codes_and_images(athlete_name: str) -> Dict[str, str]:

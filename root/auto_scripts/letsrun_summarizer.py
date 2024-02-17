@@ -1,6 +1,6 @@
-from Meta.database_connector import DatabaseConnector
-from Meta.ai_services import OpenAIAIAdaptor
-import os
+import os 
+from ..meta import DatabaseConnector
+from ..meta.ai_services import OpenAIAIAdaptor
 
 LETSRUN_COLLECTION_NAME = os.getenv("LETSRUN_COLLECTION_NAME")
 
@@ -93,7 +93,6 @@ def get_todays_summaries() -> List[Dict[str, str]]:
         thread_title = get_thread_title(thread_link)
         thread_text = get_thread_text(thread_link)
         result = summarize_thread_text(thread_title, thread_text)
-        print(result)
         thread_summaries.append(
             {"thread_link": thread_link, "thread_summary": result["thread_summary"]}
         )

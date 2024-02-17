@@ -1,5 +1,8 @@
-from .app_secrets import OPENAI_API_KEY, DEEPINFRA_API_KEY
+import os 
 from openai import OpenAI
+
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+DEEPINFRA_API_KEY = os.getenv("DEEPINFRA_API_KEY")
 
 import vertexai
 from vertexai.preview.generative_models import GenerativeModel

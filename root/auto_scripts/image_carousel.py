@@ -1,13 +1,9 @@
-import sys
-
-sys.path.append("../")
-
 import requests
 from bs4 import BeautifulSoup
 from typing import List
 import re
 from tqdm import tqdm
-from Meta.database_connector import DatabaseConnector
+from ..meta.database_connector import DatabaseConnector
 
 # set up logging
 import logging

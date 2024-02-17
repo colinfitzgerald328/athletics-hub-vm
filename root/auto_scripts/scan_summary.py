@@ -1,7 +1,6 @@
 from tqdm import tqdm
-import sys
-from Meta.database_connector import DatabaseConnector
-from Meta.ai_services import DeepInfraAIAdaptor
+from ..meta.database_connector import DatabaseConnector
+from ..meta.ai_services import DeepInfraAIAdaptor
 
 # set up logging
 import logging

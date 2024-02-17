@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 import time
-from Meta.database_connector import DatabaseConnector
+from ..meta.database_connector import DatabaseConnector
 
 # set up logging
 import logging

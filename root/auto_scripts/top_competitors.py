@@ -1,10 +1,18 @@
 import requests
 from datetime import datetime
 from itertools import chain
-from typing import List, Dict
 import os
 import time
 import pandas as pd
+from ..meta.database_connector import DatabaseConnector
+
+# set up logging
+import logging
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+
 import json
 
 # Get the directory of the current script
@@ -83,7 +91,7 @@ event_mappings = {
 }
 
 
-def get_event_id(gender: str, discipline_code: str) -> str:
+def get_event_id(gender, discipline_code):
     found_item = None
     formatted_str = gender + " " + discipline_code
 
@@ -93,7 +101,7 @@ def get_event_id(gender: str, discipline_code: str) -> str:
     return found_item
 
 
-def convert_date(input_date: str) -> str:
+def convert_date(input_date):
     try:
         date_obj = datetime.strptime(input_date, "%d %b %Y")
         formatted_date = date_obj.strftime("%Y-%m-%d")
@@ -102,7 +110,7 @@ def convert_date(input_date: str) -> str:
         return "Invalid date format"
 
 
-def time_string_to_seconds(time_str: str) -> str:
+def time_string_to_seconds(time_str):
     if not time_str:
         return "N/A"
     try:
@@ -128,7 +136,7 @@ def time_string_to_seconds(time_str: str) -> str:
     return total_seconds
 
 
-def get_coefs(gender: str, event: str) -> str:
+def get_coefs(gender, event):
     if gender == "Women's":
         subsection = "f"
     else:
@@ -136,7 +144,7 @@ def get_coefs(gender: str, event: str) -> str:
     return data["outdoor"][subsection][event]
 
 
-def score_event(gender: str, event: str, time_seconds: int) -> str:
+def score_event(gender, event, time_seconds):
     try:
         coefs = get_coefs(gender, event)
         points = (
@@ -144,11 +152,14 @@ def score_event(gender: str, event: str, time_seconds: int) -> str:
             + coefs["pointShift"]
         )
     except TypeError:
+        logger.info(
+            "a type error occurred on " + str(gender) + str(event) + str(time_seconds)
+        )
         return "N/A"
     return points
 
 
-def is_date_between(date_to_check: str, start_date: str, end_date: str) -> bool:
+def is_date_between(date_to_check, start_date, end_date):
     try:
         date_to_check = datetime.strptime(date_to_check, "%Y-%m-%d")
         start_date = datetime.strptime(start_date, "%Y-%m-%d")
@@ -160,7 +171,7 @@ def is_date_between(date_to_check: str, start_date: str, end_date: str) -> bool:
         return False
 
 
-def get_competition_id(competition_name: str, competition_date: str) -> str:
+def get_competition_id(competition_name, competition_date):
     formatted_date = convert_date(competition_date)
     headers = {
         "Content-Type": "application/json",
@@ -216,7 +227,7 @@ def get_competition_id(competition_name: str, competition_date: str) -> str:
     return found_item["id"]
 
 
-def get_results(competition: str, date: str, gender: str, discipline_code: str) -> List:
+def get_results(competition, date, gender, discipline_code):
     time.sleep(1)
     competition_id = get_competition_id(competition, date)
     event_id = get_event_id(gender, discipline_code)
@@ -271,29 +282,23 @@ def get_results(competition: str, date: str, gender: str, discipline_code: str) 
             return {"operation": "success", "results": list_results}
 
 
-def get_compiled_results(
-    gender: str, competitor_results: List[Dict[str, str]]
-) -> List[Dict[str, str]]:
+def get_compiled_results(gender, competitor_results):
     compiled_results = []
     for item in competitor_results:
         try:
             event_results = get_results(
                 item["competition"], item["date"], gender, item["disciplineCode"]
             )
-        except:
+        except Exception as e:
+            logger.error("An exception occurred: %s", str(e), exc_info=True)
             pass
-        try:
-            if event_results["operation"] == "success":
-                compiled_results.append(event_results["results"])
-        except:
-            return None
+        if event_results["operation"] == "success":
+            compiled_results.append(event_results["results"])
     return compiled_results
 
 
 def return_results_dict(compiled_results):
     results_dict = []
-    if not compiled_results:
-        return None
     flattened_list = list(chain(*compiled_results))
     for item in flattened_list:
         results_dict.append(
@@ -311,83 +316,18 @@ def return_results_dict(compiled_results):
     return results_dict
 
 
-def get_timestamp(date: str) -> float:
-    """
-    Returns a timestamp from a date string.
-    """
-    date_format = "%d %b %Y"
-    timestamp = datetime.strptime(date, date_format).timestamp()
-    return timestamp
+def get_top_competitors(athlete_id):
+    time.sleep(1)
+    response_data = requests.get(
+        f"https://athletics-hub.uc.r.appspot.com/athletes/results?athlete_id={athlete_id}"
+    ).json()
+    results = response_data["athlete_data"]
+    gender = response_data["athlete_gender"]
+    name = response_data["athlete_name"]
 
-
-def return_results_desc(json_list: list) -> list:
-    """
-    Returns a list of results sorted by date in descending order.
-    """
-    for item in json_list:
-        date_string = item["date"]
-        timestamp = get_timestamp(date_string)
-        item["timestamp"] = timestamp
-    return sorted(json_list, key=lambda x: x["timestamp"], reverse=True)
-
-
-def get_athlete_results(athlete_id: str) -> list:
-    """
-    Returns a list of results for a given athlete.
-    """
-    headers = {
-        "Content-Type": "application/json",
-        "Accept": "*/*",
-        "Sec-Fetch-Site": "cross-site",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Sec-Fetch-Mode": "cors",
-        # 'Accept-Encoding': 'gzip, deflate, br',
-        "Origin": "https://worldathletics.org",
-        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15",
-        "Referer": "https://worldathletics.org/",
-        # 'Content-Length': '800',
-        "Connection": "keep-alive",
-        "Host": "wpgiegzkbrhj5mlsdxnipboepm.appsync-api.eu-west-1.amazonaws.com",
-        "Sec-Fetch-Dest": "empty",
-        "x-amz-user-agent": "aws-amplify/3.0.2",
-        "x-api-key": "da2-juounigq4vhkvg5ac47mezxqge",
-    }
-
-    json_data = {
-        "operationName": "GetSingleCompetitorResultsDate",
-        "variables": {
-            "resultsByYearOrderBy": "date",
-            "id": int(athlete_id),
-        },
-        "query": "query GetSingleCompetitorResultsDate($id: Int, $resultsByYearOrderBy: String, $resultsByYear: Int) {\n  getSingleCompetitorResultsDate(id: $id, resultsByYear: $resultsByYear, resultsByYearOrderBy: $resultsByYearOrderBy) {\n    parameters {\n      resultsByYear\n      resultsByYearOrderBy\n      __typename\n    }\n    activeYears\n    resultsByDate {\n      date\n      competition\n      venue\n      indoor\n      disciplineCode\n      disciplineNameUrlSlug\n      typeNameUrlSlug\n      discipline\n      country\n      category\n      race\n      place\n      mark\n      wind\n      notLegal\n      resultScore\n      remark\n      __typename\n    }\n    __typename\n  }\n}\n",
-    }
-
-    response = requests.post(
-        "https://wpgiegzkbrhj5mlsdxnipboepm.appsync-api.eu-west-1.amazonaws.com/graphql",
-        headers=headers,
-        json=json_data,
-    )
-
-    json_resp = response.json()["data"]["getSingleCompetitorResultsDate"][
-        "resultsByDate"
-    ]
-
-    sorted_results = return_results_desc(json_resp)
-    return sorted_results
-
-
-def get_top_competitors(profile: Dict[str, str]) -> List[Dict[str, str]]:
-    time.sleep(10)
-    athlete_results = get_athlete_results(profile["aaAthleteId"])
-
-    name = profile["givenName"] + " " + profile["familyName"]
-
-    compiled_results = get_compiled_results(profile["gender"] + "'s", athlete_results)
+    compiled_results = get_compiled_results(gender + "'s", results)
 
     results_dict = return_results_dict(compiled_results)
-
-    if not results_dict:
-        return None
 
     df = pd.DataFrame.from_dict(results_dict)
 
@@ -422,3 +362,17 @@ def get_top_competitors(profile: Dict[str, str]) -> List[Dict[str, str]]:
     sorted_results = sorted_results[sorted_results.index != name]
     top_competitors = list(sorted_results.index)[:3]
     return top_competitors
+
+
+collection = DatabaseConnector().get_collection()
+
+documents = collection.find({})
+
+for document in documents:
+    time.sleep(1)
+    top_competitors = get_top_competitors(document["aaAthleteId"])
+    logger.info("got top competitors \n\n =====")
+    document["top_competitors"] = top_competitors
+    collection.update_one(
+        {"_id": document["_id"]}, {"$set": {"top_competitors": top_competitors}}
+    )

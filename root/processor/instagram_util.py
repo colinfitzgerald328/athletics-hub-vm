@@ -2,12 +2,11 @@ from instagrapi import Client
 from instagrapi.exceptions import LoginRequired
 import logging
 import os
-from Meta.app_secrets import INSTAGRAM_USERNAME, INSTAGRAM_PASSWORD
 
 logger = logging.getLogger()
 
-USERNAME = INSTAGRAM_USERNAME
-PASSWORD = INSTAGRAM_PASSWORD
+USERNAME = os.getenv("INSTAGRAM_USERNAME")
+PASSWORD = os.getenv("INSTAGRAM_PASSWORD")
 
 
 def login_user():

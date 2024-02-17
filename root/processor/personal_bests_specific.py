@@ -1,21 +1,9 @@
 import requests
 import os
-from typing import Dict, List
-import time
 import json
+from typing import Dict, List
 import os
-from Meta.database_connector import DatabaseConnector
 
-DATABASE_NAME = os.getenv("DATABASE_NAME")
-COLLECTION_NAME = os.getenv("COLLECTION_NAME")
-
-# set up logging
-import logging
-
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
-
-# Get the directory of the current script
 current_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Construct the absolute path to event_mappings.json
@@ -25,21 +13,9 @@ f = open(file_path)
 event_mappings = json.load(f)
 
 
-def get_athlete_disciplines_and_gender(aaAthleteId: str) -> Dict[str, str]:
-    try:
-        client = DatabaseConnector.get_client()
-        database = client.get_database(DATABASE_NAME)
-        collection = database.get_collection(COLLECTION_NAME)
-        athlete = collection.find_one({"aaAthleteId": aaAthleteId})
-    finally:
-        client.close()
-    return {"disciplines": athlete["disciplines"], "gender": athlete["gender"] + "'s"}
-
-
-def get_mappings(aaAthleteID: str) -> List[str]:
-    athlete_info = get_athlete_disciplines_and_gender(str(aaAthleteID))
-    split_disciplines = athlete_info["disciplines"].split(", ")
-    augmented = [athlete_info["gender"] + " " + i for i in split_disciplines]
+def get_mappings(profile: Dict[str, str]) -> List[Dict[str, str]]:
+    split_disciplines = profile["disciplines"].split(", ")
+    augmented = [profile["gender"] + "'s " + i for i in split_disciplines]
     mappings = []
     for i in augmented:
         for e in event_mappings:
@@ -48,19 +24,7 @@ def get_mappings(aaAthleteID: str) -> List[str]:
     return mappings
 
 
-def get_mappings(aaAthleteID: str) -> str:
-    athlete_info = get_athlete_disciplines_and_gender(str(aaAthleteID))
-    split_disciplines = athlete_info["disciplines"].split(", ")
-    augmented = [athlete_info["gender"] + " " + i for i in split_disciplines]
-    mappings = []
-    for i in augmented:
-        for e in event_mappings:
-            if i == e:
-                mappings.append({"event": i, "code": event_mappings.get(e)})
-    return mappings
-
-
-def get_pb_for_discipline(aaAthleteId: str, discipline: str) -> str:
+def get_pb_for_discipline(aaAthleteId: str, discipline: str) -> List:
     headers = {
         "Content-Type": "application/json",
         "Accept": "*/*",
@@ -99,28 +63,13 @@ def get_pb_for_discipline(aaAthleteId: str, discipline: str) -> str:
     ]
     if len(results) > 0:
         return results[0]
-    else:
-        return results
+    raise Exception(f"No results found for athlete id {aaAthleteId}")
 
 
-def get_pbs_for_athlete(aaAthleteID: str) -> List[str]:
-    mappings = get_mappings(aaAthleteID)
+def get_pbs_for_athlete(profile: Dict[str, str]) -> List[Dict[str, str]]:
+    mappings = get_mappings(profile)
     pbs = []
     for mapping in mappings:
-        data = get_pb_for_discipline(aaAthleteID, mapping["code"])
+        data = get_pb_for_discipline(profile["aaAthleteId"], mapping["code"])
         pbs.append(data)
     return pbs
-
-
-collection = DatabaseConnector().get_collection()
-
-documents = collection.find({})
-
-for document in documents:
-    time.sleep(1)
-    personal_bests = get_pbs_for_athlete(document["aaAthleteId"])
-    logger.info("got personal bests, now updating DB \n\n =====")
-    document["personal_bests"] = personal_bests
-    collection.update_one(
-        {"_id": document["_id"]}, {"$set": {"personal_bests": personal_bests}}
-    )

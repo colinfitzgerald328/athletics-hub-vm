@@ -1,9 +1,11 @@
-from Meta.app_secrets import (
-    DATABASE_PASSWORD,
-    DATABASE_NAME,
-    COLLECTION_NAME,
-    DATABASE_USERNAME,
-)
+import os
+
+DATABASE_PASSWORD = os.getenv("DATABASE_PASSWORD")
+DATABASE_NAME = os.getenv("DATABASE_NAME")
+COLLECTION_NAME = os.getenv("COLLECTION_NAME")
+DATABASE_USERNAME = os.getenv("DATABASE_USERNAME")
+
+
 import pymongo
 
 

@@ -1,5 +1,5 @@
 from tqdm import tqdm
-from Meta.database_connector import DatabaseConnector
+from ..meta.database_connector import DatabaseConnector
 
 collection = DatabaseConnector().get_collection()
 

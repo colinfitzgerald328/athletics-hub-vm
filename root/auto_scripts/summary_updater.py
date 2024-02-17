@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
-from Meta.database_connector import DatabaseConnector
-from Meta.ai_services import GoogleGenAIAdaptor
+from ..meta.database_connector import DatabaseConnector
+from ..meta.ai_services import GoogleGenAIAdaptor
 
 # set up logging
 import logging
