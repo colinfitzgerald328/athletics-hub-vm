@@ -2,7 +2,7 @@ import os
 from ..meta.database_connector import DatabaseConnector
 from ..meta.ai_services import OpenAIAIAdaptor
 
-LETSRUN_COLLECTION_NAME = os.environ.get("LETSRUN_COLLECTION_NAME")
+LETSRUN_COLLECTION_NAME = os.getenv("LETSRUN_COLLECTION_NAME")
 
 
 import requests
