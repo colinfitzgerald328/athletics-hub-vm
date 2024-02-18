@@ -49,7 +49,7 @@ def get_thread_text(thread_link: str) -> str:
     Returns the text content of a Letsrun thread
     """
     resp = requests.get(thread_link).text
-    soup = BeautifulSoup(resp)
+    soup = BeautifulSoup(resp, "html.parser")
     elements = soup.find_all("div", class_="post-body")
     return "".join([element.get_text() for element in elements])
 
@@ -59,7 +59,7 @@ def get_thread_title(thread_link: str) -> str:
     Gets the title of a thread given a link
     """
     resp = requests.get(thread_link).text
-    soup = BeautifulSoup(resp)
+    soup = BeautifulSoup(resp, "html.parser")
     thread_title = soup.find_all("h1")[0].get_text()
     return thread_title
 
