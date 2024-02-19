@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/usr/lib64/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib64/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/ec2-user/autojobs/root/auto_scripts/accolades.py", line 26, in <module>
+    collection = DatabaseConnector().get_collection()
+  File "/home/ec2-user/autojobs/root/meta/database_connector.py", line 26, in get_collection
+    client = self.get_client()
+  File "/home/ec2-user/autojobs/root/meta/database_connector.py", line 16, in get_client
+    f"mongodb+srv://{DATABASE_USERNAME}:"
+TypeError: can only concatenate str (not "NoneType") to str
