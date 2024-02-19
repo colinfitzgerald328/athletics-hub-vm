@@ -1,6 +1,16 @@
 {
     "outdoor": {
         "m": {
+            "60": {
+                "resultShift": -10.7,
+                "conversionFactor": 68.6,
+                "pointShift": 0
+            },
+            "60H": {
+                "resultShift": -14.6,
+                "conversionFactor": 23.9,
+                "pointShift": 0
+            },
             "100": {
                 "resultShift": -17,
                 "conversionFactor": 24.63,
@@ -62,6 +72,11 @@
                 "pointShift": 0
             },
             "2miles": {
+                "resultShift": -904.8,
+                "conversionFactor": 0.00703,
+                "pointShift": 0
+            },
+            "2MLS": {
                 "resultShift": -904.8,
                 "conversionFactor": 0.00703,
                 "pointShift": 0
@@ -288,6 +303,16 @@
             }
         },
         "f": {
+            "60": {
+                "resultShift": -14,
+                "conversionFactor": 24.9,
+                "pointShift": 0
+            },
+            "60H": {
+                "resultShift": -18.2,
+                "conversionFactor": 11.16,
+                "pointShift": 0
+            },
             "100": {
                 "resultShift": -22,
                 "conversionFactor": 9.92,
@@ -349,6 +374,11 @@
                 "pointShift": 0
             },
             "2miles": {
+                "resultShift": -1296.3,
+                "conversionFactor": 0.002157,
+                "pointShift": 0
+            },
+            "2MLS": {
                 "resultShift": -1296.3,
                 "conversionFactor": 0.002157,
                 "pointShift": 0
