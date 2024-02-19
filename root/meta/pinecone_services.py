@@ -1,12 +1,13 @@
-import pinecone
 from langchain_community.embeddings import CohereEmbeddings
+from pinecone import Pinecone
 import os
 
 COHERE_API_KEY = os.getenv("COHERE_API_KEY")
 PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
 PINECONE_ENV = os.getenv("PINECONE_ENV")
 PINECONE_INDEX_NAME = os.getenv("PINECONE_INDEX_NAME")
-pinecone.init(api_key=PINECONE_API_KEY, environment=PINECONE_ENV)
+
+pc = Pinecone(api_key=os.environ.get("PINECONE_API_KEY"))
 
 
 class PineconeIndexConnector:
@@ -17,7 +18,7 @@ class PineconeIndexConnector:
         return embedding_client
 
     def get_index(self):
-        index = pinecone.GRPCIndex(PINECONE_INDEX_NAME)
+        index = pc.Index(host=os.environ.get("PINECONE_HOST"))
         return index
 
     def get_max_id(self):

@@ -1,11 +1,8 @@
 from pinecone import Pinecone
 import concurrent.futures
-import os
+from ..meta.pinecone_services import PineconeIndexConnector
 from ..meta.database_connector import DatabaseConnector
 
-pc = Pinecone(api_key=os.environ.get("PINECONE_API_KEY"))
-
-index = pc.Index(host="semantic-search-cohere-d1b04fc.svc.gcp-starter.pinecone.io")
 
 # set up logging
 import logging
@@ -39,6 +36,8 @@ def return_search_results_for_query(athlete_id: str) -> list:
     based on an embedding of the athlete's summary and disciplines.
     """
     results = []
+    pinecone_connector = PineconeIndexConnector()
+    index = pinecone_connector.get_index()
     summary_result = index.query(
         vector=[
             0.19,
