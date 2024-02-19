@@ -1,5 +1,5 @@
 import pinecone
-from langchain.embeddings import CohereEmbeddings
+from langchain_community.embeddings import CohereEmbeddings
 import os
 
 COHERE_API_KEY = os.getenv("COHERE_API_KEY")
