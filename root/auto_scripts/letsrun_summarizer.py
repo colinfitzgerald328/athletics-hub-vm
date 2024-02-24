@@ -1,6 +1,6 @@
 import os 
 from ..meta.database_connector import DatabaseConnector
-from ..meta.ai_services import OpenAIAIAdaptor
+from ..meta.ai_services import GoogleGenAIAdaptor
 
 LETSRUN_COLLECTION_NAME = os.getenv("LETSRUN_COLLECTION_NAME")
 
@@ -75,12 +75,9 @@ def summarize_thread_text(thread_title: str, thread_text: str) -> Dict[str, str]
         Please tell the reader what the thread is about.
         Here is the thread title: {thread_title}
         Here is the thread text: {thread_text}
-        
-        JSON output example:
-        {{"thread_summary": <thread_summary>}}
     """
-    response = OpenAIAIAdaptor().generate_response(prompt, json_mode=True)
-    return json.loads(response)
+    response = GoogleGenAIAdaptor().generate(prompt)
+    return response
 
 
 def get_todays_summaries() -> List[Dict[str, str]]:
@@ -94,7 +91,7 @@ def get_todays_summaries() -> List[Dict[str, str]]:
         thread_text = get_thread_text(thread_link)
         result = summarize_thread_text(thread_title, thread_text)
         thread_summaries.append(
-            {"thread_link": thread_link, "thread_summary": result["thread_summary"]}
+            {"thread_link": thread_link, "thread_summary": result}
         )
     return thread_summaries
 
@@ -116,7 +113,7 @@ def summarize_today_narrative(snippets: List[Dict[str, str]]) -> str:
         ## [Title for thread](<thread_link>)
         > Block quote explaining the thread - do not mention the word thread but rather summarize the content
     """
-    response = OpenAIAIAdaptor().generate_response(prompt)
+    response = GoogleGenAIAdaptor().generate(prompt)
     return response
 
 

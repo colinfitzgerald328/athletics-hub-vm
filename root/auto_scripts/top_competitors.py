@@ -1,5 +1,6 @@
 import requests
 from datetime import datetime
+import concurrent.futures
 from typing import List, Dict
 from itertools import chain
 import os
@@ -292,18 +293,36 @@ collection = DatabaseConnector().get_collection()
 
 documents = collection.find({})
 
-for document in documents:
-    time.sleep(2)
+
+def update_document(document, collection, logger):
     logger.info("Starting to get top competitors for " + document["full_name"])
     capitalized_name = document["givenName"] + " " + document["familyName"]
-    try: 
+    try:
         top_competitors = get_top_competitors(capitalized_name, document["aaAthleteId"])
-    except Exception as e: 
+        logger.info("got top competitors \n\n =====")
+        document["top_competitors"] = top_competitors
+        collection.update_one(
+            {"_id": document["_id"]}, {"$set": {"top_competitors": top_competitors}}
+        )
+    except Exception as e:
         # Move to the next iteration if an exception occurs
-        logger.exception(f"[top_competitors] caught exception {str(e)} for athlete {str(capitalized_name)}")
-        continue 
-    logger.info("got top competitors \n\n =====")
-    document["top_competitors"] = top_competitors
-    collection.update_one(
-        {"_id": document["_id"]}, {"$set": {"top_competitors": top_competitors}}
-    )
+        logger.exception(
+            f"[top_competitors] caught exception {str(e)} for athlete {str(capitalized_name)}"
+        )
+        pass
+
+
+def process_documents(documents, collection, logger):
+    with concurrent.futures.ThreadPoolExecutor() as executor:
+        futures = []
+        for document in documents:
+            futures.append(
+                executor.submit(update_document, document, collection, logger)
+            )
+
+        # Wait for all futures to complete
+        for future in concurrent.futures.as_completed(futures):
+            pass
+
+
+process_documents(documents, collection, logger)
