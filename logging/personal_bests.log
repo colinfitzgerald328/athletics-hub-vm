@@ -10,3 +10,4842 @@ Traceback (most recent call last):
   File "/home/ec2-user/autojobs/root/meta/database_connector.py", line 16, in get_client
     f"mongodb+srv://{DATABASE_USERNAME}:"
 TypeError: can only concatenate str (not "NoneType") to str
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+INFO:__main__:got personal bests, now updating DB 
+
+ =====
+Traceback (most recent call last):
+  File "/usr/lib64/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib64/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/ec2-user/autojobs/root/auto_scripts/personal_bests.py", line 118, in <module>
+    personal_bests = get_pbs_for_athlete(document["aaAthleteId"])
+  File "/home/ec2-user/autojobs/root/auto_scripts/personal_bests.py", line 107, in get_pbs_for_athlete
+    data = get_pb_for_discipline(aaAthleteID, mapping["code"])
+  File "/home/ec2-user/autojobs/root/auto_scripts/personal_bests.py", line 94, in get_pb_for_discipline
+    results = response.json()["data"]["getSingleCompetitorAllTimePersonalTop10"][
+TypeError: 'NoneType' object is not subscriptable

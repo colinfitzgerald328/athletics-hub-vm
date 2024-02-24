@@ -10,3 +10,5868 @@ Traceback (most recent call last):
   File "/home/ec2-user/autojobs/root/meta/database_connector.py", line 16, in get_client
     f"mongodb+srv://{DATABASE_USERNAME}:"
 TypeError: can only concatenate str (not "NoneType") to str
+0it [00:00, ?it/s]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1it [00:10, 10.37s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+2it [00:13,  5.85s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+3it [00:16,  4.69s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+4it [00:27,  7.37s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+5it [00:37,  8.11s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+6it [00:40,  6.45s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+7it [00:50,  7.56s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+8it [01:12, 12.24s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+9it [01:24, 12.15s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+10it [01:28,  9.52s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+11it [01:33,  8.13s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+12it [01:35,  6.51s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+13it [01:40,  5.87s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+14it [01:44,  5.24s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+15it [01:47,  4.68s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+16it [01:50,  4.21s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+17it [01:54,  3.96s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+18it [01:56,  3.58s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+19it [02:01,  4.01s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+20it [02:04,  3.71s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+21it [02:08,  3.67s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+22it [02:11,  3.50s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+23it [02:15,  3.57s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+24it [02:18,  3.43s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+25it [02:21,  3.32s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+26it [02:24,  3.24s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+27it [02:27,  3.13s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+28it [02:30,  3.10s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+29it [02:33,  3.22s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+30it [02:37,  3.24s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+31it [02:40,  3.25s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+32it [02:43,  3.22s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+33it [02:46,  3.21s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+34it [02:49,  3.10s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+35it [02:52,  3.05s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+36it [02:55,  3.10s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+37it [02:58,  3.11s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+38it [03:02,  3.24s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+39it [03:13,  5.62s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+40it [03:16,  4.85s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+41it [03:19,  4.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+42it [03:22,  3.78s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+43it [03:25,  3.58s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+44it [03:28,  3.63s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+45it [03:31,  3.45s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+46it [03:35,  3.43s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+47it [03:38,  3.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+48it [03:41,  3.37s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+49it [03:44,  3.28s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+50it [03:48,  3.27s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+51it [03:51,  3.16s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+52it [03:54,  3.26s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+53it [03:57,  3.16s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+54it [04:07,  5.09s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+55it [04:10,  4.48s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+56it [04:13,  3.98s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+57it [04:15,  3.67s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+58it [04:19,  3.54s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+59it [04:22,  3.41s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+60it [04:25,  3.26s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+61it [04:28,  3.33s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+62it [04:32,  3.42s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+63it [04:35,  3.42s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+64it [04:39,  3.39s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+65it [04:43,  3.57s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+66it [04:46,  3.57s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+67it [04:49,  3.47s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+68it [04:53,  3.49s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+69it [04:57,  3.68s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+70it [05:00,  3.53s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+71it [05:09,  5.24s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+72it [05:13,  4.77s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+73it [05:16,  4.31s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+74it [05:19,  3.95s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+75it [05:23,  3.72s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+76it [05:26,  3.52s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+77it [05:30,  3.70s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+78it [05:33,  3.69s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+79it [05:37,  3.75s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+80it [05:41,  3.62s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+81it [05:45,  3.77s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+82it [05:48,  3.71s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+83it [05:52,  3.56s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+84it [05:57,  4.11s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+85it [06:00,  3.81s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+86it [06:11,  5.88s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+87it [06:15,  5.26s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+88it [06:18,  4.63s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+89it [06:22,  4.38s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+90it [06:24,  3.86s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+91it [06:28,  3.82s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+92it [06:32,  3.82s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+93it [06:36,  3.83s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+94it [06:39,  3.63s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+95it [06:42,  3.52s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+96it [06:45,  3.45s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+97it [06:49,  3.55s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+98it [06:52,  3.38s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+99it [06:56,  3.49s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+100it [07:00,  3.68s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+101it [07:03,  3.50s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+102it [07:08,  3.95s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+103it [07:12,  4.03s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+104it [07:16,  3.89s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+105it [07:19,  3.63s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+106it [07:22,  3.60s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+107it [07:26,  3.59s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+108it [07:29,  3.55s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+109it [07:33,  3.46s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+110it [07:36,  3.54s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+111it [07:39,  3.33s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+112it [07:43,  3.33s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+113it [07:52,  5.29s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+114it [07:55,  4.58s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+115it [07:59,  4.33s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+116it [08:09,  5.99s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+117it [08:12,  5.24s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+118it [08:16,  4.59s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+119it [08:19,  4.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+120it [08:22,  3.86s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+121it [08:26,  3.96s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+122it [08:29,  3.68s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+123it [08:32,  3.57s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+124it [08:37,  3.87s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+125it [08:42,  4.13s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+126it [08:51,  5.66s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+127it [08:55,  5.16s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+128it [08:58,  4.56s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+129it [09:02,  4.23s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+130it [09:06,  4.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+131it [09:09,  4.02s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+132it [09:13,  3.87s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+133it [09:17,  3.95s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+134it [09:21,  3.86s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+135it [09:24,  3.71s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+136it [09:28,  3.78s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+137it [09:31,  3.63s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+138it [09:35,  3.55s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+139it [09:38,  3.43s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+140it [09:41,  3.33s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+141it [09:44,  3.38s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+142it [09:48,  3.36s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+143it [09:51,  3.37s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+144it [09:55,  3.48s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+145it [09:57,  3.20s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+146it [10:01,  3.36s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+147it [10:05,  3.67s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+148it [10:09,  3.70s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+149it [10:19,  5.65s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+150it [10:23,  5.05s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+151it [10:26,  4.51s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+152it [10:30,  4.41s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+153it [10:35,  4.37s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+154it [10:38,  4.00s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+155it [10:42,  3.92s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+156it [10:45,  3.73s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+157it [10:48,  3.55s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+158it [10:51,  3.33s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+159it [10:54,  3.18s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+160it [10:57,  3.08s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+161it [10:59,  2.98s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+162it [11:03,  3.12s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+163it [11:06,  3.18s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+164it [11:09,  3.18s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+165it [11:13,  3.21s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+166it [11:16,  3.17s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+167it [11:20,  3.41s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+168it [11:23,  3.36s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+169it [11:26,  3.36s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+170it [11:29,  3.33s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+171it [11:33,  3.39s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+172it [11:36,  3.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+173it [11:40,  3.38s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+174it [11:44,  3.61s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+175it [11:47,  3.36s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+176it [11:50,  3.25s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+177it [11:53,  3.25s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+178it [11:56,  3.37s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+179it [12:00,  3.46s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+180it [12:03,  3.26s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+181it [12:06,  3.17s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+182it [12:09,  3.25s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+183it [12:12,  3.15s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+184it [12:15,  3.03s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+185it [12:19,  3.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+186it [12:40,  8.62s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+187it [12:43,  7.06s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+188it [12:47,  6.20s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+189it [12:51,  5.42s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+190it [12:54,  4.70s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+191it [12:59,  4.81s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+192it [13:03,  4.48s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+193it [13:06,  4.10s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+194it [13:39, 12.85s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+195it [13:42,  9.88s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+196it [13:46,  7.90s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+197it [13:49,  6.59s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+198it [13:52,  5.55s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+199it [13:56,  5.08s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+200it [14:00,  4.73s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+201it [14:03,  4.27s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+202it [14:07,  4.00s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+203it [14:10,  3.72s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+204it [14:13,  3.59s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+205it [14:16,  3.45s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+206it [14:19,  3.30s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+207it [14:22,  3.29s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+208it [14:25,  3.16s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+209it [14:28,  3.06s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+210it [14:32,  3.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+211it [14:35,  3.17s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+212it [14:38,  3.13s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+213it [14:41,  3.20s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+214it [14:44,  3.13s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+215it [14:47,  3.14s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+216it [14:50,  3.16s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+217it [14:54,  3.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+218it [14:57,  3.33s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+219it [15:00,  3.21s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+220it [15:03,  3.11s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+221it [15:06,  3.11s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+222it [15:09,  3.03s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+223it [15:12,  3.05s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+224it [15:15,  3.05s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+225it [15:18,  3.07s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+226it [15:22,  3.17s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+227it [15:26,  3.39s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+228it [15:29,  3.43s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+229it [15:33,  3.45s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+230it [15:36,  3.31s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+231it [15:39,  3.15s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+232it [15:42,  3.20s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+233it [15:45,  3.29s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+234it [15:48,  3.22s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+235it [15:52,  3.28s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+236it [15:56,  3.45s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+237it [15:59,  3.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+238it [16:02,  3.27s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+239it [16:12,  5.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+240it [16:16,  4.90s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+241it [16:19,  4.38s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+242it [16:22,  4.06s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+243it [16:26,  3.82s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+244it [16:30,  3.94s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+245it [16:33,  3.60s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+246it [16:42,  5.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+247it [16:45,  4.69s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+248it [16:48,  4.20s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+249it [16:51,  3.87s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+250it [16:55,  3.70s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+251it [16:58,  3.67s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+252it [17:02,  3.74s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+253it [17:06,  3.74s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+254it [17:09,  3.66s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+255it [17:13,  3.59s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+256it [17:16,  3.44s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+257it [17:19,  3.42s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+258it [17:22,  3.31s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+259it [17:27,  3.67s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+260it [17:30,  3.59s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+261it [17:34,  3.50s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+262it [17:36,  3.32s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+263it [17:39,  3.21s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+264it [17:43,  3.22s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+265it [17:46,  3.20s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+266it [17:50,  3.54s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+267it [17:53,  3.40s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+268it [17:57,  3.41s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+269it [18:00,  3.33s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+270it [18:04,  3.53s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+271it [18:07,  3.44s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+272it [18:10,  3.40s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+273it [18:14,  3.48s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+274it [18:17,  3.36s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+275it [18:20,  3.39s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+276it [18:24,  3.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+277it [18:27,  3.37s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+278it [18:30,  3.33s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+279it [18:33,  3.20s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+280it [18:36,  3.17s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+281it [18:40,  3.18s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+282it [18:43,  3.26s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+283it [18:46,  3.29s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+284it [18:50,  3.27s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+285it [18:54,  3.55s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+286it [18:57,  3.29s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+287it [18:59,  3.16s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+288it [19:02,  3.15s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+289it [19:06,  3.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+290it [19:10,  3.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+291it [19:13,  3.36s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+292it [19:17,  3.56s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+293it [19:20,  3.43s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+294it [19:23,  3.31s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+295it [19:26,  3.16s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+296it [19:29,  3.06s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+297it [19:35,  3.98s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+298it [19:39,  3.86s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+299it [19:42,  3.86s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+300it [19:52,  5.60s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+301it [19:55,  4.89s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+302it [19:59,  4.54s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+303it [20:03,  4.24s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+304it [20:07,  4.36s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+305it [20:10,  3.93s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+306it [20:13,  3.73s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+307it [20:17,  3.81s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+308it [20:20,  3.55s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+309it [20:23,  3.32s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+310it [20:26,  3.14s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+311it [20:30,  3.39s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+312it [20:33,  3.36s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+313it [20:36,  3.21s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+314it [20:39,  3.22s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+315it [20:42,  3.13s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+316it [20:45,  3.16s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+317it [20:49,  3.18s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+318it [20:52,  3.17s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+319it [20:55,  3.16s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+320it [20:58,  3.08s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+321it [21:02,  3.30s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+322it [21:05,  3.40s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+323it [21:08,  3.27s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+324it [21:11,  3.16s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+325it [21:14,  3.09s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+326it [21:17,  3.04s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+327it [21:21,  3.23s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+328it [21:25,  3.45s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+329it [21:28,  3.40s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+330it [21:31,  3.43s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+331it [21:34,  3.29s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+332it [21:37,  3.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+333it [21:40,  3.13s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+334it [21:44,  3.25s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+335it [21:47,  3.32s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+336it [21:50,  3.20s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+337it [21:54,  3.45s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+338it [21:57,  3.40s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+339it [22:01,  3.30s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+340it [22:04,  3.28s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+341it [22:07,  3.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+342it [22:10,  3.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+343it [22:15,  3.61s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+344it [22:18,  3.43s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+345it [22:21,  3.30s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+346it [22:25,  3.51s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+347it [22:28,  3.47s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+348it [22:31,  3.38s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+349it [22:34,  3.36s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+350it [22:37,  3.24s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+351it [22:41,  3.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+352it [22:45,  3.46s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+353it [22:48,  3.39s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+354it [22:51,  3.37s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+355it [22:54,  3.18s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+356it [23:09,  6.87s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+357it [23:20,  7.82s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+358it [23:24,  6.74s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+359it [23:27,  5.72s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+360it [23:30,  4.97s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+361it [23:34,  4.53s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+362it [23:37,  4.12s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+363it [23:40,  3.71s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+364it [23:43,  3.56s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+365it [23:46,  3.46s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+366it [23:49,  3.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+367it [23:52,  3.24s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+368it [23:55,  3.14s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+369it [23:58,  3.11s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+370it [24:01,  3.17s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+371it [24:04,  3.06s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+372it [24:07,  3.05s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+373it [24:10,  2.88s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+374it [24:13,  2.86s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+375it [24:17,  3.22s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+376it [24:20,  3.20s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+377it [24:23,  3.12s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+378it [24:26,  3.11s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+379it [24:29,  3.21s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+380it [24:33,  3.39s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+381it [24:36,  3.16s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+382it [24:39,  3.05s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+383it [24:42,  3.03s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+384it [24:45,  3.09s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+385it [24:48,  3.09s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+386it [24:51,  3.07s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+387it [25:01,  5.30s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+388it [25:11,  6.71s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+389it [25:15,  5.77s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+390it [25:19,  5.17s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+391it [25:22,  4.72s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+392it [25:27,  4.67s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+393it [25:31,  4.42s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+394it [25:34,  3.99s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+395it [25:37,  3.90s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+396it [25:42,  4.04s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+397it [25:46,  3.96s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+398it [25:49,  3.77s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+399it [25:52,  3.70s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+400it [25:56,  3.55s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+401it [25:59,  3.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+402it [26:02,  3.28s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+403it [26:05,  3.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+404it [26:08,  3.25s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+405it [26:11,  3.24s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+406it [26:14,  3.21s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+407it [26:24,  5.02s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+408it [26:32,  6.15s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+409it [26:36,  5.27s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+410it [26:38,  4.51s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+411it [26:42,  4.20s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+412it [26:45,  3.92s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+413it [26:48,  3.75s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+414it [26:52,  3.65s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+415it [26:55,  3.40s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+416it [26:58,  3.32s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+417it [27:01,  3.43s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+418it [27:05,  3.51s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+419it [27:09,  3.51s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+420it [27:12,  3.51s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+421it [27:15,  3.42s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+422it [27:19,  3.33s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+423it [27:22,  3.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+424it [27:25,  3.31s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+425it [27:35,  5.12s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+426it [27:38,  4.51s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+427it [27:42,  4.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+428it [27:45,  4.07s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+429it [27:48,  3.89s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+430it [27:51,  3.59s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+431it [27:56,  3.84s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+432it [27:59,  3.68s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+433it [28:02,  3.53s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+434it [28:07,  3.78s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+435it [28:16,  5.45s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+436it [28:19,  4.82s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+437it [28:23,  4.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+438it [28:26,  4.07s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+439it [28:29,  3.87s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+440it [28:32,  3.61s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+441it [28:36,  3.51s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+442it [28:39,  3.33s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+443it [28:42,  3.39s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+444it [28:45,  3.36s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+445it [28:48,  3.20s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+446it [28:52,  3.27s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+447it [28:55,  3.30s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+448it [28:58,  3.33s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+449it [29:01,  3.13s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+450it [29:04,  3.15s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+451it [29:08,  3.23s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+452it [29:11,  3.28s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+453it [29:15,  3.44s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+454it [29:19,  3.60s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+455it [29:22,  3.37s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+456it [29:24,  3.15s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+457it [29:28,  3.15s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+458it [29:31,  3.29s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+459it [29:35,  3.39s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+460it [29:38,  3.49s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+461it [29:41,  3.32s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+462it [29:45,  3.37s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+463it [29:50,  3.81s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+464it [29:53,  3.59s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+465it [29:56,  3.50s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+466it [30:00,  3.68s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+467it [30:03,  3.51s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+468it [30:06,  3.32s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+469it [30:09,  3.24s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+470it [30:12,  3.14s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+471it [30:15,  3.12s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+472it [30:20,  3.48s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+473it [30:23,  3.46s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+474it [30:26,  3.40s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+475it [30:29,  3.18s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+476it [30:32,  3.13s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+477it [30:36,  3.39s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+478it [30:39,  3.31s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+479it [30:42,  3.28s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+480it [30:45,  3.21s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+481it [30:49,  3.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+482it [30:52,  3.33s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+483it [30:56,  3.46s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+484it [30:59,  3.30s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+485it [31:03,  3.48s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+486it [31:06,  3.28s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+487it [31:09,  3.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+488it [31:13,  3.43s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+489it [31:22,  5.29s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+490it [31:25,  4.62s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+491it [31:28,  4.13s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+492it [31:33,  4.33s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+493it [31:36,  4.01s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+494it [31:47,  6.00s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+495it [31:50,  5.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+496it [31:53,  4.54s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+497it [32:04,  6.44s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+498it [32:08,  5.47s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+499it [32:10,  4.67s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+500it [32:13,  4.17s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+501it [32:17,  4.01s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+502it [32:20,  3.77s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+503it [32:25,  4.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+504it [32:29,  3.92s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+505it [32:31,  3.59s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+506it [32:35,  3.48s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+507it [32:38,  3.42s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+508it [32:41,  3.44s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+509it [32:45,  3.37s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+510it [32:48,  3.23s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+511it [32:51,  3.20s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+512it [32:54,  3.32s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+513it [32:58,  3.56s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+514it [33:02,  3.56s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+515it [33:12,  5.39s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+516it [33:15,  4.73s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+517it [33:18,  4.38s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+518it [33:21,  3.86s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+519it [33:24,  3.71s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+520it [33:28,  3.60s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+521it [33:30,  3.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+522it [33:33,  3.17s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+523it [33:36,  3.11s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+524it [33:40,  3.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+525it [33:44,  3.59s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+526it [33:47,  3.33s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+527it [33:50,  3.38s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+528it [33:53,  3.25s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+529it [33:57,  3.29s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+530it [34:00,  3.43s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+531it [34:03,  3.31s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+532it [34:07,  3.45s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+533it [34:10,  3.26s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+534it [34:15,  3.74s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+535it [34:18,  3.56s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+536it [34:21,  3.28s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+537it [34:23,  3.06s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+538it [34:26,  2.95s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+539it [34:29,  2.97s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+540it [34:32,  3.01s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+541it [34:35,  2.95s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+542it [34:38,  2.93s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+543it [34:41,  3.01s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+544it [34:44,  3.01s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+545it [34:47,  3.08s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+546it [34:51,  3.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+547it [34:54,  3.15s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+548it [34:57,  3.16s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+549it [35:00,  3.06s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+550it [35:05,  3.79s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+551it [35:09,  3.70s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+552it [35:19,  5.71s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+553it [35:22,  4.94s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+554it [35:25,  4.30s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+555it [35:28,  3.95s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+556it [35:31,  3.60s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+557it [35:34,  3.40s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+558it [35:38,  3.56s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+559it [35:41,  3.58s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+560it [35:44,  3.39s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+561it [35:47,  3.26s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+562it [35:51,  3.31s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+563it [35:53,  3.10s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+564it [35:56,  3.06s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+565it [36:01,  3.54s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+566it [36:04,  3.31s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+567it [36:07,  3.23s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+568it [36:09,  3.04s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+569it [36:13,  3.11s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+570it [36:16,  3.12s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+571it [36:19,  3.09s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+572it [36:22,  3.08s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+573it [36:25,  3.04s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+574it [36:28,  3.03s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+575it [36:31,  3.16s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+576it [36:35,  3.41s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+577it [36:38,  3.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+578it [36:42,  3.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+579it [36:44,  3.18s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+580it [36:48,  3.20s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+581it [36:52,  3.48s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+582it [36:55,  3.46s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+583it [36:59,  3.50s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+584it [37:02,  3.46s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+585it [37:05,  3.41s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+586it [37:09,  3.37s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+587it [37:12,  3.47s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+588it [37:16,  3.38s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+589it [37:20,  3.52s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+590it [37:22,  3.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+591it [37:26,  3.39s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+592it [37:29,  3.28s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+593it [37:32,  3.22s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+594it [37:35,  3.14s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+595it [37:38,  3.20s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+596it [37:41,  3.01s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+597it [37:44,  3.05s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+598it [37:47,  3.08s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+599it [37:50,  3.14s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+600it [37:55,  3.41s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+601it [37:57,  3.28s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+602it [38:00,  3.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+603it [38:04,  3.37s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+604it [38:07,  3.24s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+605it [38:11,  3.28s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+606it [38:14,  3.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+607it [38:17,  3.30s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+608it [38:20,  3.18s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+609it [38:23,  3.10s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+610it [38:26,  3.14s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+611it [38:30,  3.37s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+612it [38:33,  3.29s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+613it [38:37,  3.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+614it [38:45,  4.90s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+615it [38:54,  6.05s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+616it [38:58,  5.44s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+617it [39:01,  4.77s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+618it [39:04,  4.28s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+619it [39:07,  3.90s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+620it [39:13,  4.25s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+621it [39:16,  4.04s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+622it [39:19,  3.84s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+623it [39:23,  3.66s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+624it [39:26,  3.52s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+625it [39:29,  3.29s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+626it [39:32,  3.38s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+627it [39:35,  3.22s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+628it [39:38,  3.18s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+629it [39:41,  3.16s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+630it [39:44,  3.18s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+631it [39:48,  3.22s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+632it [39:51,  3.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+633it [39:55,  3.45s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+634it [39:58,  3.40s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+635it [40:01,  3.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+636it [40:05,  3.26s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+637it [40:08,  3.40s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+638it [40:11,  3.31s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+639it [40:14,  3.17s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+640it [40:18,  3.23s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+641it [40:20,  3.01s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+642it [40:23,  3.13s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+643it [40:27,  3.25s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+644it [40:31,  3.45s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+645it [40:34,  3.29s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+646it [40:38,  3.49s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+647it [40:41,  3.29s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+648it [40:44,  3.37s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+649it [40:48,  3.62s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+650it [40:52,  3.56s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+651it [40:55,  3.48s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+652it [40:58,  3.32s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+653it [41:08,  5.18s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+654it [41:10,  4.45s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+655it [41:13,  4.04s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+656it [41:17,  3.77s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+657it [41:20,  3.59s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+658it [41:23,  3.46s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+659it [41:26,  3.47s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+660it [41:30,  3.50s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+661it [41:40,  5.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+662it [41:43,  4.84s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+663it [41:47,  4.43s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+664it [41:51,  4.27s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+665it [41:55,  4.23s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+666it [41:58,  3.96s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+667it [42:01,  3.58s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+668it [42:04,  3.55s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+669it [42:07,  3.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+670it [42:10,  3.27s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+671it [42:13,  3.10s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+672it [42:23,  5.27s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+673it [42:26,  4.56s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+674it [42:31,  4.57s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+675it [42:34,  4.08s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+676it [42:38,  4.10s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+677it [42:42,  4.09s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+678it [42:45,  3.71s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+679it [42:48,  3.60s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+680it [42:51,  3.41s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+681it [42:54,  3.25s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+682it [42:57,  3.20s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+683it [43:00,  3.13s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+684it [43:10,  5.11s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+685it [43:13,  4.58s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+686it [43:16,  4.12s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+687it [43:19,  3.85s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+688it [43:22,  3.63s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+689it [43:26,  3.48s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+690it [43:29,  3.57s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+691it [43:32,  3.37s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+692it [43:35,  3.17s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+693it [43:40,  3.66s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+694it [43:43,  3.67s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+695it [43:46,  3.42s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+696it [43:49,  3.30s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+697it [43:53,  3.50s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+698it [43:56,  3.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+699it [44:06,  5.36s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+700it [44:10,  4.74s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+701it [44:13,  4.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+702it [44:16,  4.01s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+703it [44:20,  3.89s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+704it [44:23,  3.74s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+705it [44:26,  3.55s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+706it [44:29,  3.39s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+707it [44:32,  3.32s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+708it [44:35,  3.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+709it [44:39,  3.21s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+710it [44:42,  3.23s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+711it [44:45,  3.16s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+712it [44:49,  3.30s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+713it [44:51,  3.18s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+714it [44:54,  3.11s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+715it [44:57,  3.09s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+716it [45:01,  3.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+717it [45:04,  3.32s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+718it [45:08,  3.28s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+719it [45:11,  3.43s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+720it [45:14,  3.20s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+721it [45:18,  3.37s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+722it [45:21,  3.22s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+723it [45:24,  3.10s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+724it [45:27,  3.11s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+725it [45:30,  3.13s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+726it [45:33,  3.11s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+727it [45:37,  3.28s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+728it [45:40,  3.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+729it [45:43,  3.12s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+730it [45:45,  3.05s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+731it [45:49,  3.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+732it [45:53,  3.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+733it [45:56,  3.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+734it [46:00,  3.39s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+735it [46:04,  3.69s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+736it [46:07,  3.52s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+737it [46:11,  3.51s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+738it [46:14,  3.52s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+739it [46:17,  3.50s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+740it [46:21,  3.47s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+741it [46:24,  3.40s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+742it [46:27,  3.33s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+743it [46:31,  3.41s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+744it [46:34,  3.21s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+745it [46:37,  3.17s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+746it [46:40,  3.16s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+747it [46:43,  3.01s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+748it [46:46,  3.10s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+749it [46:49,  3.11s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+750it [46:52,  3.05s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+751it [46:55,  3.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+752it [46:59,  3.31s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+753it [47:02,  3.12s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+754it [47:05,  3.27s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+755it [47:08,  3.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+756it [47:11,  3.14s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+757it [47:14,  3.11s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+758it [47:17,  2.97s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+759it [47:21,  3.22s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+760it [47:24,  3.20s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+761it [47:27,  3.20s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+762it [47:30,  3.12s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+763it [47:33,  3.06s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+764it [47:36,  3.12s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+765it [47:39,  3.16s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+766it [47:43,  3.17s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+767it [47:46,  3.30s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+768it [47:50,  3.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+769it [47:53,  3.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+770it [47:56,  3.25s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+771it [47:59,  3.22s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+772it [48:03,  3.27s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+773it [48:06,  3.25s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+774it [48:15,  4.98s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+775it [48:18,  4.40s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+776it [48:21,  4.07s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+777it [48:24,  3.79s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+778it [48:27,  3.56s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+779it [48:31,  3.43s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+780it [48:34,  3.41s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+781it [48:37,  3.38s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+782it [48:40,  3.21s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+783it [48:45,  3.60s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+784it [48:48,  3.47s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+785it [48:51,  3.30s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+786it [48:53,  3.10s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+787it [48:56,  3.07s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+788it [48:59,  3.10s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+789it [49:03,  3.31s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+790it [49:07,  3.32s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+791it [49:16,  5.30s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+792it [49:26,  6.50s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+793it [49:29,  5.46s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+794it [49:33,  4.95s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+795it [49:36,  4.40s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+796it [49:38,  3.90s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+797it [49:42,  3.74s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+798it [49:45,  3.57s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+799it [49:48,  3.49s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+800it [49:52,  3.44s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+801it [49:55,  3.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+802it [49:58,  3.31s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+803it [50:01,  3.37s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+804it [50:05,  3.47s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+805it [50:08,  3.36s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+806it [50:11,  3.22s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+807it [50:15,  3.37s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+808it [50:18,  3.23s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+809it [50:21,  3.23s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+810it [50:24,  3.15s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+811it [50:27,  3.08s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+812it [50:30,  3.06s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+813it [50:34,  3.38s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+814it [50:37,  3.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+815it [50:40,  3.06s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+816it [50:42,  3.00s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+817it [50:46,  3.11s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+818it [50:49,  3.27s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+819it [50:52,  3.22s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+820it [50:55,  3.11s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+821it [50:59,  3.13s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+822it [51:02,  3.09s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+823it [51:05,  3.15s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+824it [51:08,  3.06s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+825it [51:12,  3.48s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+826it [51:22,  5.29s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+827it [51:24,  4.54s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+828it [51:27,  4.04s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+829it [51:30,  3.73s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+830it [51:34,  3.84s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+831it [51:37,  3.52s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+832it [51:40,  3.39s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+833it [51:44,  3.55s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+834it [51:47,  3.43s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+835it [51:51,  3.64s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+836it [51:55,  3.53s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+837it [51:58,  3.53s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+838it [52:01,  3.27s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+839it [52:04,  3.22s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+840it [52:09,  3.62s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+841it [52:12,  3.51s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+842it [52:15,  3.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+843it [52:18,  3.40s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+844it [52:22,  3.39s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+845it [52:25,  3.25s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+846it [52:28,  3.38s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+847it [52:31,  3.26s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+848it [52:34,  3.22s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+849it [52:38,  3.23s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+850it [52:41,  3.13s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+851it [52:43,  3.03s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+852it [52:47,  3.13s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+853it [52:50,  3.14s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+854it [52:53,  3.09s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+855it [52:56,  2.97s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+856it [52:58,  2.95s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+857it [53:02,  3.20s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+858it [53:05,  3.08s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+859it [53:08,  3.16s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+860it [53:11,  3.14s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+861it [53:14,  3.10s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+862it [53:18,  3.08s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+863it [53:21,  3.11s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+864it [53:23,  3.02s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+865it [53:27,  3.04s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+866it [53:30,  3.28s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+867it [53:34,  3.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+868it [53:43,  5.02s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+869it [53:46,  4.56s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+870it [53:49,  4.11s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+871it [53:53,  3.83s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+872it [53:56,  3.72s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+873it [53:59,  3.45s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+874it [54:02,  3.29s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+875it [54:06,  3.49s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+876it [54:09,  3.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+877it [54:11,  3.15s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+878it [54:14,  3.01s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+879it [54:17,  3.11s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+880it [54:21,  3.25s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+881it [54:24,  3.06s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+882it [54:27,  3.16s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+883it [54:30,  3.16s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+884it [54:34,  3.22s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+885it [54:37,  3.26s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+886it [54:41,  3.57s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+887it [54:45,  3.57s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+888it [54:48,  3.44s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+889it [54:51,  3.30s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+890it [54:55,  3.40s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+891it [54:58,  3.38s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+892it [55:01,  3.20s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+893it [55:04,  3.24s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+894it [55:07,  3.23s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+895it [55:10,  3.10s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+896it [55:13,  3.10s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+897it [55:16,  3.06s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+898it [55:19,  3.10s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+899it [55:23,  3.18s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+900it [55:26,  3.16s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+901it [55:29,  3.07s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+902it [55:32,  3.06s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+903it [55:35,  3.15s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+904it [55:38,  3.04s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+905it [55:41,  3.16s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+906it [55:45,  3.22s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+907it [55:48,  3.18s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+908it [55:52,  3.45s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+909it [55:55,  3.38s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+910it [55:58,  3.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+911it [56:01,  3.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+912it [56:05,  3.42s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+913it [56:08,  3.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+914it [56:12,  3.44s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+915it [56:28,  7.13s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+916it [56:33,  6.50s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+917it [56:36,  5.50s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+918it [56:40,  5.18s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+919it [56:43,  4.59s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+920it [56:47,  4.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+921it [56:50,  3.86s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+922it [56:54,  3.86s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+923it [56:56,  3.56s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+924it [57:00,  3.61s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+925it [57:04,  3.68s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+926it [57:08,  3.66s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+927it [57:11,  3.71s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+928it [57:15,  3.64s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+929it [57:19,  3.88s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+930it [57:24,  4.03s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+931it [57:27,  3.91s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+932it [57:31,  3.76s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+933it [57:34,  3.62s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+934it [57:37,  3.41s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+935it [57:40,  3.20s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+936it [57:43,  3.32s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+937it [57:47,  3.46s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+938it [57:57,  5.40s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+939it [58:00,  4.71s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+940it [58:03,  4.23s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+941it [58:06,  3.75s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+942it [58:10,  3.85s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+943it [58:13,  3.58s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+944it [58:17,  3.62s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+945it [58:22,  4.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+946it [58:26,  3.97s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+947it [58:36,  5.96s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+948it [58:40,  5.25s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+949it [58:44,  4.88s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+950it [58:48,  4.64s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+951it [58:51,  4.26s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+952it [58:54,  3.91s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+953it [58:58,  3.69s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+954it [59:01,  3.76s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+955it [59:11,  5.52s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+956it [59:15,  5.16s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+957it [59:20,  4.87s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+958it [59:22,  4.27s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+959it [59:27,  4.36s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+960it [59:31,  4.11s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+961it [59:34,  3.85s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+962it [59:37,  3.76s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+963it [59:41,  3.60s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+964it [59:44,  3.49s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+965it [59:47,  3.53s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+966it [59:51,  3.49s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+967it [59:54,  3.49s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+968it [59:58,  3.61s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+969it [1:00:01,  3.49s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+970it [1:00:05,  3.47s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+971it [1:00:08,  3.31s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+972it [1:00:12,  3.52s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+973it [1:00:15,  3.38s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+974it [1:00:18,  3.46s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+975it [1:00:23,  3.81s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+976it [1:00:26,  3.68s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+977it [1:00:29,  3.41s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+978it [1:00:32,  3.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+979it [1:00:36,  3.28s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+980it [1:00:39,  3.37s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+981it [1:00:43,  3.37s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+982it [1:00:46,  3.49s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+983it [1:00:49,  3.33s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+984it [1:00:52,  3.17s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+985it [1:00:55,  3.24s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+986it [1:00:59,  3.29s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+987it [1:01:02,  3.31s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+988it [1:01:06,  3.47s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+989it [1:01:16,  5.47s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+990it [1:01:19,  4.78s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+991it [1:01:23,  4.33s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+992it [1:01:26,  3.92s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+993it [1:01:31,  4.21s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+994it [1:01:35,  4.36s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+995it [1:01:39,  4.04s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+996it [1:01:41,  3.68s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+997it [1:01:44,  3.48s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+998it [1:01:47,  3.36s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+999it [1:01:51,  3.55s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1000it [1:01:55,  3.63s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1001it [1:01:59,  3.58s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1002it [1:02:02,  3.60s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1003it [1:02:06,  3.53s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1004it [1:02:10,  3.65s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1005it [1:02:13,  3.57s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1006it [1:02:16,  3.38s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1007it [1:02:19,  3.28s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1008it [1:02:22,  3.28s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1009it [1:02:25,  3.21s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1010it [1:02:30,  3.62s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1011it [1:02:39,  5.28s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1012it [1:02:42,  4.63s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1013it [1:02:46,  4.29s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1014it [1:02:49,  3.93s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1015it [1:02:52,  3.71s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1016it [1:02:56,  3.70s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1017it [1:02:59,  3.51s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1018it [1:03:02,  3.40s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1019it [1:03:05,  3.30s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1020it [1:03:08,  3.31s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1021it [1:03:12,  3.45s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1022it [1:03:16,  3.62s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1023it [1:03:19,  3.49s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1024it [1:03:24,  3.74s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1025it [1:03:27,  3.57s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1026it [1:03:30,  3.56s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1027it [1:03:34,  3.51s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1028it [1:03:37,  3.46s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1029it [1:03:40,  3.30s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1030it [1:03:43,  3.13s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1031it [1:03:46,  3.29s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1032it [1:03:50,  3.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1033it [1:03:53,  3.39s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1034it [1:03:56,  3.27s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1035it [1:03:59,  3.21s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1036it [1:04:03,  3.20s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1037it [1:04:07,  3.70s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1038it [1:04:11,  3.58s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1039it [1:04:14,  3.55s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1040it [1:04:18,  3.56s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1041it [1:04:21,  3.41s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1042it [1:04:24,  3.31s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1043it [1:04:28,  3.44s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1044it [1:04:31,  3.47s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1045it [1:04:34,  3.29s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1046it [1:04:37,  3.29s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1047it [1:04:41,  3.48s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1048it [1:04:45,  3.50s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1049it [1:04:48,  3.45s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1050it [1:04:52,  3.48s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1051it [1:04:57,  3.90s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1052it [1:05:00,  3.62s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1053it [1:05:04,  3.82s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1054it [1:05:08,  3.95s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1055it [1:05:11,  3.73s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1056it [1:05:15,  3.61s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1057it [1:05:18,  3.43s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1058it [1:05:21,  3.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1059it [1:05:25,  3.63s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1060it [1:05:28,  3.44s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1061it [1:05:31,  3.22s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1062it [1:05:35,  3.44s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1063it [1:05:38,  3.30s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1064it [1:05:41,  3.22s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1065it [1:05:44,  3.16s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1066it [1:05:47,  3.12s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1067it [1:05:51,  3.32s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1068it [1:05:54,  3.21s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1069it [1:05:57,  3.27s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1070it [1:06:00,  3.29s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1071it [1:06:04,  3.39s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1072it [1:06:07,  3.38s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1073it [1:06:11,  3.44s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1074it [1:06:14,  3.41s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1075it [1:06:17,  3.28s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1076it [1:06:20,  3.17s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1077it [1:06:23,  3.16s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1078it [1:06:26,  3.15s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1079it [1:06:29,  3.14s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1080it [1:06:33,  3.36s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1081it [1:06:36,  3.23s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1082it [1:06:40,  3.32s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1083it [1:06:44,  3.45s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1084it [1:06:47,  3.50s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1085it [1:06:50,  3.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1086it [1:06:54,  3.36s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1087it [1:06:57,  3.48s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1088it [1:07:01,  3.44s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1089it [1:07:04,  3.29s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1090it [1:07:07,  3.40s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1091it [1:07:12,  3.79s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1092it [1:07:15,  3.68s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1093it [1:07:19,  3.63s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1094it [1:07:23,  3.75s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1095it [1:07:27,  3.70s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1096it [1:07:30,  3.55s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1097it [1:07:33,  3.41s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1098it [1:07:36,  3.28s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1099it [1:07:39,  3.24s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1100it [1:07:42,  3.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1101it [1:07:45,  3.15s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1102it [1:07:48,  3.17s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1103it [1:07:52,  3.28s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1104it [1:07:55,  3.37s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1105it [1:07:59,  3.30s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1106it [1:08:15,  7.12s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1107it [1:08:18,  5.99s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1108it [1:08:21,  5.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1109it [1:08:25,  4.61s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1110it [1:08:28,  4.30s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1111it [1:08:31,  3.96s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1112it [1:08:35,  3.79s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1113it [1:08:38,  3.66s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1114it [1:08:41,  3.50s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1115it [1:08:45,  3.70s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1116it [1:08:49,  3.59s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1117it [1:08:52,  3.45s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1118it [1:08:56,  3.65s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1119it [1:08:59,  3.48s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1120it [1:09:02,  3.43s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1121it [1:09:05,  3.30s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1122it [1:09:08,  3.23s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1123it [1:09:12,  3.37s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1124it [1:09:15,  3.37s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1125it [1:09:19,  3.31s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1126it [1:09:21,  3.18s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1127it [1:09:24,  3.03s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1128it [1:09:27,  3.13s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1129it [1:09:31,  3.23s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1130it [1:09:34,  3.11s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1131it [1:09:37,  3.09s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1132it [1:09:40,  3.22s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1133it [1:09:44,  3.40s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1134it [1:09:47,  3.30s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1135it [1:09:51,  3.40s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1136it [1:09:54,  3.18s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1137it [1:09:57,  3.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1138it [1:10:02,  3.73s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1139it [1:10:05,  3.62s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1140it [1:10:08,  3.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1141it [1:10:11,  3.17s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1142it [1:10:14,  3.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1143it [1:10:17,  3.13s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1144it [1:10:20,  3.06s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1145it [1:10:23,  3.05s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1146it [1:10:26,  3.04s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1147it [1:10:29,  3.08s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1148it [1:10:32,  3.11s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1149it [1:10:35,  3.13s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1150it [1:10:38,  3.09s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1151it [1:10:42,  3.32s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1152it [1:10:45,  3.23s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1153it [1:10:49,  3.33s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1154it [1:10:52,  3.23s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1155it [1:10:55,  3.16s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1156it [1:10:58,  3.09s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1157it [1:11:01,  3.16s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1158it [1:11:05,  3.40s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1159it [1:11:09,  3.53s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1160it [1:11:12,  3.46s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1161it [1:11:16,  3.49s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1162it [1:11:25,  5.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1163it [1:11:29,  4.69s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1164it [1:11:39,  6.27s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1165it [1:11:41,  5.27s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1166it [1:11:45,  4.69s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1167it [1:11:48,  4.26s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1168it [1:11:52,  4.06s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1169it [1:11:55,  3.95s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1170it [1:11:59,  3.80s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1171it [1:12:02,  3.64s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1172it [1:12:05,  3.51s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1173it [1:12:09,  3.43s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1174it [1:12:13,  3.64s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1175it [1:12:16,  3.52s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1176it [1:12:19,  3.42s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1177it [1:12:22,  3.28s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1178it [1:12:25,  3.23s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1179it [1:12:28,  3.17s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1180it [1:12:31,  3.09s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1181it [1:12:34,  3.18s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1182it [1:12:38,  3.27s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1183it [1:12:42,  3.54s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1184it [1:12:45,  3.43s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1185it [1:12:49,  3.44s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1186it [1:12:52,  3.41s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1187it [1:12:56,  3.60s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1188it [1:12:59,  3.40s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1189it [1:13:02,  3.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1190it [1:13:13,  5.48s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1191it [1:13:16,  4.86s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1192it [1:13:19,  4.21s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1193it [1:13:22,  3.94s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1194it [1:13:26,  3.88s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1195it [1:13:29,  3.76s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1196it [1:13:38,  5.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1197it [1:13:41,  4.62s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1198it [1:13:45,  4.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1199it [1:13:47,  3.82s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1200it [1:13:51,  3.58s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1201it [1:13:54,  3.55s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1202it [1:13:57,  3.43s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1203it [1:14:00,  3.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1204it [1:14:03,  3.22s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1205it [1:14:07,  3.31s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1206it [1:14:10,  3.32s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1207it [1:14:13,  3.23s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1208it [1:14:23,  5.22s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1209it [1:14:26,  4.60s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1210it [1:14:30,  4.32s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1211it [1:14:34,  4.21s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1212it [1:14:37,  3.81s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1213it [1:14:39,  3.53s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1214it [1:14:42,  3.36s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1215it [1:14:45,  3.24s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1216it [1:14:49,  3.27s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1217it [1:14:52,  3.22s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1218it [1:14:56,  3.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1219it [1:14:59,  3.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1220it [1:15:02,  3.32s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1221it [1:15:06,  3.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1222it [1:15:09,  3.32s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1223it [1:15:12,  3.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1224it [1:15:16,  3.43s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1225it [1:15:19,  3.29s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1226it [1:15:22,  3.31s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1227it [1:15:25,  3.32s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1228it [1:15:28,  3.17s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1229it [1:15:32,  3.30s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1230it [1:15:42,  5.40s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1231it [1:15:45,  4.71s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1232it [1:15:48,  4.23s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1233it [1:15:52,  3.95s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1234it [1:15:55,  3.80s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1235it [1:15:59,  3.74s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1236it [1:16:02,  3.51s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1237it [1:16:04,  3.28s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1238it [1:16:08,  3.24s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1239it [1:16:11,  3.39s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1240it [1:16:15,  3.52s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1241it [1:16:18,  3.38s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1242it [1:16:22,  3.42s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1243it [1:16:27,  3.95s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1244it [1:16:30,  3.65s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1245it [1:16:33,  3.55s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1246it [1:16:36,  3.36s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1247it [1:16:39,  3.20s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1248it [1:16:43,  3.39s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1249it [1:16:47,  3.59s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1250it [1:16:50,  3.50s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1251it [1:16:54,  3.59s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1252it [1:16:58,  3.72s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1253it [1:17:08,  5.51s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1254it [1:17:11,  4.90s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1255it [1:17:15,  4.51s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1256it [1:17:18,  4.05s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1257it [1:17:21,  3.83s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1258it [1:17:24,  3.72s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1259it [1:17:27,  3.50s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1260it [1:17:31,  3.61s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1261it [1:17:36,  3.81s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1262it [1:17:38,  3.51s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1263it [1:17:42,  3.56s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1264it [1:17:45,  3.48s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1265it [1:17:49,  3.44s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1266it [1:17:52,  3.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1267it [1:17:54,  3.14s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1268it [1:17:58,  3.17s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1269it [1:18:01,  3.09s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1270it [1:18:04,  3.04s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1271it [1:18:08,  3.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1272it [1:18:11,  3.41s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1273it [1:18:14,  3.36s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1274it [1:18:17,  3.25s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1275it [1:18:21,  3.31s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1276it [1:18:24,  3.31s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1277it [1:18:27,  3.26s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1278it [1:18:36,  4.95s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1279it [1:18:39,  4.44s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1280it [1:18:43,  4.06s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1281it [1:18:46,  3.79s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1282it [1:18:49,  3.63s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1283it [1:18:53,  3.63s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1284it [1:18:56,  3.55s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1285it [1:18:59,  3.42s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1286it [1:19:03,  3.41s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1287it [1:19:06,  3.52s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1288it [1:19:10,  3.43s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1289it [1:19:13,  3.42s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1290it [1:19:16,  3.43s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1291it [1:19:20,  3.44s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1292it [1:19:24,  3.54s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1293it [1:19:27,  3.40s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1294it [1:19:31,  3.54s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1295it [1:19:34,  3.45s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1296it [1:19:37,  3.26s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1297it [1:19:40,  3.15s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1298it [1:19:42,  2.97s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1299it [1:19:46,  3.13s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1300it [1:19:48,  3.07s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1301it [1:19:52,  3.13s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1302it [1:19:55,  3.29s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1303it [1:20:06,  5.55s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1304it [1:20:09,  4.80s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1305it [1:20:13,  4.40s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1306it [1:20:16,  4.06s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1307it [1:20:19,  3.77s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1308it [1:20:22,  3.56s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1309it [1:20:25,  3.43s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1310it [1:20:28,  3.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1311it [1:20:32,  3.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1312it [1:20:36,  3.55s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1313it [1:20:39,  3.56s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1314it [1:20:43,  3.51s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1315it [1:20:46,  3.39s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1316it [1:20:49,  3.39s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1317it [1:20:53,  3.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1318it [1:20:55,  3.20s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1319it [1:21:00,  3.52s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1320it [1:21:04,  3.75s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1321it [1:21:08,  3.69s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1322it [1:21:10,  3.46s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1323it [1:21:14,  3.40s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1324it [1:21:16,  3.22s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1325it [1:21:20,  3.18s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1326it [1:21:23,  3.25s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1327it [1:21:26,  3.22s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1328it [1:21:29,  3.21s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1329it [1:21:33,  3.25s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1330it [1:21:36,  3.21s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1331it [1:21:39,  3.16s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1332it [1:21:42,  3.21s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1333it [1:21:46,  3.29s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1334it [1:21:49,  3.41s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1335it [1:21:52,  3.28s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1336it [1:21:56,  3.39s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1337it [1:21:59,  3.29s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1338it [1:22:03,  3.41s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1339it [1:22:06,  3.27s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1340it [1:22:09,  3.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1341it [1:22:12,  3.20s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1342it [1:22:15,  3.25s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1343it [1:22:19,  3.22s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1344it [1:22:22,  3.22s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1345it [1:22:25,  3.23s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1346it [1:22:29,  3.31s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1347it [1:22:31,  3.15s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1348it [1:22:34,  3.16s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1349it [1:22:38,  3.15s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1350it [1:22:41,  3.28s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1351it [1:22:45,  3.54s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1352it [1:22:48,  3.42s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1353it [1:22:58,  5.21s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1354it [1:23:08,  6.69s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1355it [1:23:11,  5.58s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1356it [1:23:16,  5.26s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1357it [1:23:20,  5.04s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1358it [1:23:23,  4.55s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1359it [1:23:26,  4.09s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1360it [1:23:30,  4.02s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1361it [1:23:33,  3.71s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1362it [1:23:36,  3.43s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1363it [1:23:39,  3.38s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1364it [1:23:43,  3.45s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1365it [1:23:46,  3.39s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1366it [1:23:49,  3.26s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1367it [1:23:52,  3.18s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1368it [1:23:56,  3.29s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1369it [1:23:59,  3.18s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1370it [1:24:02,  3.30s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1371it [1:24:06,  3.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1372it [1:24:09,  3.36s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1373it [1:24:13,  3.43s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1374it [1:24:16,  3.29s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1375it [1:24:18,  3.05s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1376it [1:24:21,  3.15s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1377it [1:24:25,  3.16s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1378it [1:24:28,  3.26s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1379it [1:24:31,  3.24s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1380it [1:24:34,  3.15s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1381it [1:24:38,  3.33s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1382it [1:24:41,  3.24s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1383it [1:24:44,  3.07s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1384it [1:24:47,  3.15s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1385it [1:24:50,  3.21s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1386it [1:24:53,  3.10s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1387it [1:24:57,  3.25s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1388it [1:25:00,  3.23s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1389it [1:25:03,  3.15s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1390it [1:25:06,  3.11s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1391it [1:25:09,  3.18s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1392it [1:25:12,  3.13s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1393it [1:25:17,  3.61s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1394it [1:25:20,  3.42s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1395it [1:25:23,  3.39s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1396it [1:25:26,  3.27s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1397it [1:25:29,  3.16s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1398it [1:25:33,  3.18s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1399it [1:25:36,  3.12s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1400it [1:25:39,  3.28s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1401it [1:25:42,  3.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1402it [1:25:45,  3.11s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1403it [1:25:48,  3.05s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1404it [1:25:53,  3.64s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1405it [1:25:56,  3.52s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1406it [1:26:00,  3.60s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1407it [1:26:04,  3.61s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1408it [1:26:07,  3.57s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1409it [1:26:11,  3.52s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1410it [1:26:14,  3.59s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1411it [1:26:17,  3.48s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1412it [1:26:21,  3.39s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1413it [1:26:24,  3.37s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1414it [1:26:28,  3.44s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1415it [1:26:30,  3.27s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1416it [1:26:34,  3.21s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1417it [1:26:37,  3.30s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1418it [1:26:40,  3.24s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1419it [1:26:44,  3.29s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1420it [1:26:47,  3.30s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1421it [1:26:51,  3.45s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1422it [1:26:54,  3.38s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1423it [1:26:57,  3.24s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1424it [1:27:00,  3.10s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1425it [1:27:03,  3.30s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1426it [1:27:07,  3.36s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1427it [1:27:10,  3.37s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1428it [1:27:14,  3.46s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1429it [1:27:17,  3.22s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1430it [1:27:20,  3.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1431it [1:27:24,  3.41s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1432it [1:27:27,  3.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1433it [1:27:30,  3.21s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1434it [1:27:33,  3.18s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1435it [1:27:37,  3.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1436it [1:27:39,  3.14s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1437it [1:27:42,  3.06s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1438it [1:27:46,  3.29s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1439it [1:27:49,  3.22s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1440it [1:27:53,  3.56s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1441it [1:27:56,  3.37s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1442it [1:28:00,  3.29s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1443it [1:28:03,  3.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1444it [1:28:06,  3.38s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1445it [1:28:10,  3.54s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1446it [1:28:14,  3.45s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1447it [1:28:17,  3.42s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1448it [1:28:20,  3.24s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1449it [1:28:23,  3.14s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1450it [1:28:26,  3.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1451it [1:28:29,  3.13s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1452it [1:28:32,  3.11s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1453it [1:28:35,  3.10s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1454it [1:28:38,  3.08s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1455it [1:28:42,  3.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1456it [1:28:45,  3.16s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1457it [1:28:49,  3.49s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1458it [1:28:52,  3.40s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1459it [1:28:55,  3.25s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1460it [1:28:58,  3.13s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1461it [1:29:02,  3.45s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1462it [1:29:06,  3.65s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1463it [1:29:15,  5.15s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1464it [1:29:18,  4.49s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1465it [1:29:23,  4.65s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1466it [1:29:26,  4.30s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1467it [1:29:30,  4.12s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1468it [1:29:33,  3.92s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1469it [1:29:37,  3.69s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1470it [1:29:40,  3.59s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1471it [1:29:43,  3.49s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1472it [1:29:46,  3.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1473it [1:29:50,  3.56s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1474it [1:29:54,  3.49s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1475it [1:29:58,  3.61s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1476it [1:30:00,  3.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1477it [1:30:04,  3.38s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1478it [1:30:07,  3.28s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1479it [1:30:10,  3.22s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1480it [1:30:14,  3.38s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1481it [1:30:17,  3.36s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1482it [1:30:20,  3.28s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1483it [1:30:24,  3.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1484it [1:30:27,  3.41s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1485it [1:30:30,  3.36s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1486it [1:30:33,  3.21s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1487it [1:30:37,  3.25s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1488it [1:30:41,  3.61s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1489it [1:30:44,  3.42s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1490it [1:30:47,  3.31s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1491it [1:30:50,  3.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1492it [1:30:54,  3.30s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1493it [1:30:57,  3.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1494it [1:31:01,  3.49s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1495it [1:31:06,  3.85s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1496it [1:31:09,  3.70s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1497it [1:31:12,  3.50s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1498it [1:31:16,  3.69s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1499it [1:31:19,  3.52s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1500it [1:31:22,  3.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1501it [1:31:27,  3.84s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1502it [1:31:30,  3.60s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1503it [1:31:42,  5.93s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1504it [1:31:45,  5.18s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1505it [1:31:48,  4.66s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1506it [1:31:52,  4.21s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1507it [1:31:55,  3.92s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1508it [1:31:59,  3.96s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1509it [1:32:02,  3.68s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1510it [1:32:06,  3.90s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1511it [1:32:12,  4.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1512it [1:32:15,  3.98s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1513it [1:32:18,  3.82s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1514it [1:32:22,  3.75s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1515it [1:32:25,  3.62s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1516it [1:32:29,  3.56s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1517it [1:32:31,  3.28s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1518it [1:32:34,  3.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1519it [1:32:38,  3.24s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1520it [1:32:41,  3.26s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1521it [1:32:44,  3.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1522it [1:32:50,  4.00s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1523it [1:32:54,  3.88s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1524it [1:32:57,  3.84s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1525it [1:33:01,  3.69s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1526it [1:33:05,  3.76s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1527it [1:33:08,  3.67s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1528it [1:33:11,  3.56s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1529it [1:33:15,  3.51s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1530it [1:33:18,  3.39s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1531it [1:33:22,  3.75s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1532it [1:33:26,  3.67s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1533it [1:33:30,  3.92s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1534it [1:33:33,  3.64s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1535it [1:33:37,  3.54s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1536it [1:33:40,  3.37s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1537it [1:33:43,  3.41s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1538it [1:33:53,  5.28s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1539it [1:34:02,  6.54s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1540it [1:34:06,  5.60s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1541it [1:34:10,  5.06s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1542it [1:34:13,  4.68s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1543it [1:34:22,  5.85s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1544it [1:34:25,  5.07s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1545it [1:34:28,  4.39s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1546it [1:34:31,  3.97s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1547it [1:34:35,  3.84s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1548it [1:34:38,  3.87s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1549it [1:34:41,  3.61s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1550it [1:34:45,  3.53s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1551it [1:34:48,  3.44s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1552it [1:34:52,  3.61s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1553it [1:34:55,  3.53s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1554it [1:34:58,  3.39s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1555it [1:35:01,  3.25s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1556it [1:35:05,  3.28s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1557it [1:35:08,  3.29s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1558it [1:35:11,  3.31s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1559it [1:35:26,  6.63s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1560it [1:35:36,  7.78s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1561it [1:35:40,  6.50s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1562it [1:35:43,  5.50s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1563it [1:35:46,  4.82s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1564it [1:35:49,  4.21s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1565it [1:35:52,  3.90s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1566it [1:35:55,  3.69s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1567it [1:35:58,  3.48s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1568it [1:36:01,  3.38s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1569it [1:36:04,  3.28s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1570it [1:36:08,  3.28s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1571it [1:36:11,  3.14s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1572it [1:36:14,  3.32s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1573it [1:36:18,  3.31s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1574it [1:36:21,  3.32s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1575it [1:36:24,  3.14s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1576it [1:36:26,  3.04s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1577it [1:36:31,  3.59s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1578it [1:36:35,  3.65s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1579it [1:36:37,  3.22s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1580it [1:36:40,  3.20s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1581it [1:36:44,  3.33s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1582it [1:36:47,  3.33s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1583it [1:36:50,  3.22s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1584it [1:36:56,  3.81s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1585it [1:36:59,  3.73s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1586it [1:37:03,  3.67s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1587it [1:37:07,  3.82s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1588it [1:37:10,  3.66s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1589it [1:37:13,  3.51s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1590it [1:37:17,  3.52s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1591it [1:37:20,  3.38s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1592it [1:37:23,  3.30s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1593it [1:37:26,  3.15s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1594it [1:37:29,  3.31s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1595it [1:37:33,  3.32s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1596it [1:37:36,  3.31s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1597it [1:37:40,  3.38s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1598it [1:37:43,  3.32s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1599it [1:37:52,  5.18s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1600it [1:37:55,  4.52s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1601it [1:37:58,  4.01s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1602it [1:38:02,  3.95s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1603it [1:38:05,  3.73s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1604it [1:38:09,  3.77s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1605it [1:38:12,  3.52s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1606it [1:38:16,  3.60s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1607it [1:38:19,  3.57s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1608it [1:38:23,  3.61s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1609it [1:38:26,  3.41s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1610it [1:38:29,  3.28s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1611it [1:38:32,  3.27s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1612it [1:38:35,  3.29s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1613it [1:38:39,  3.27s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1614it [1:38:42,  3.25s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1615it [1:38:45,  3.16s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1616it [1:38:48,  3.06s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1617it [1:38:51,  3.10s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1618it [1:38:55,  3.28s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1619it [1:38:57,  3.17s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1620it [1:39:00,  3.12s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1621it [1:39:05,  3.44s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1622it [1:39:08,  3.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1623it [1:39:11,  3.30s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1624it [1:39:15,  3.42s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1625it [1:39:18,  3.31s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1626it [1:39:21,  3.29s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1627it [1:39:25,  3.46s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1628it [1:39:28,  3.26s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1629it [1:39:31,  3.29s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1630it [1:39:34,  3.31s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1631it [1:39:37,  3.25s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1632it [1:39:41,  3.33s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1633it [1:39:44,  3.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1634it [1:39:47,  3.25s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1635it [1:39:50,  3.07s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1636it [1:39:54,  3.33s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1637it [1:39:57,  3.22s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1638it [1:40:01,  3.38s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1639it [1:40:04,  3.25s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1640it [1:40:07,  3.22s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1641it [1:40:10,  3.20s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1642it [1:40:14,  3.32s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1643it [1:40:17,  3.26s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1644it [1:40:20,  3.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1645it [1:40:24,  3.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1646it [1:40:27,  3.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1647it [1:40:30,  3.32s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1648it [1:40:33,  3.29s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1649it [1:40:37,  3.49s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1650it [1:40:41,  3.41s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1651it [1:40:44,  3.53s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1652it [1:40:48,  3.48s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1653it [1:40:51,  3.37s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1654it [1:40:54,  3.23s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1655it [1:40:57,  3.12s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1656it [1:41:00,  3.26s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1657it [1:41:04,  3.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1658it [1:41:08,  3.56s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1659it [1:41:11,  3.40s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1660it [1:41:15,  3.66s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1661it [1:41:19,  3.66s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1662it [1:41:22,  3.60s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1663it [1:41:25,  3.42s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1664it [1:41:35,  5.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1665it [1:41:38,  4.68s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1666it [1:41:41,  4.16s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1667it [1:41:44,  3.85s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1668it [1:41:48,  3.68s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1669it [1:41:52,  3.96s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1670it [1:41:56,  3.94s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1671it [1:41:59,  3.70s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1672it [1:42:02,  3.39s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1673it [1:42:06,  3.57s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1674it [1:42:09,  3.41s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1675it [1:42:13,  3.49s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1676it [1:42:16,  3.50s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1677it [1:42:19,  3.42s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1678it [1:42:25,  3.99s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1679it [1:42:28,  3.88s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1680it [1:42:32,  3.75s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1681it [1:42:36,  4.01s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1682it [1:42:45,  5.53s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1683it [1:42:49,  4.97s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1684it [1:42:52,  4.48s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1685it [1:42:56,  4.11s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1686it [1:43:06,  5.91s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1687it [1:43:09,  5.05s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1688it [1:43:12,  4.47s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1689it [1:43:15,  4.06s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1690it [1:43:18,  3.87s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1691it [1:43:22,  3.74s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1692it [1:43:26,  3.89s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1693it [1:43:30,  3.78s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1694it [1:43:33,  3.70s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1695it [1:43:37,  3.73s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1696it [1:43:40,  3.60s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1697it [1:43:44,  3.54s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1698it [1:43:47,  3.47s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1699it [1:43:50,  3.32s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1700it [1:43:53,  3.37s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1701it [1:43:57,  3.31s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1702it [1:44:00,  3.30s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1703it [1:44:04,  3.47s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1704it [1:44:07,  3.50s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1705it [1:44:11,  3.44s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1706it [1:44:14,  3.50s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1707it [1:44:18,  3.59s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1708it [1:44:22,  3.67s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1709it [1:44:25,  3.41s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1710it [1:44:28,  3.46s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1711it [1:44:32,  3.55s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1712it [1:44:36,  3.54s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1713it [1:44:39,  3.41s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1714it [1:44:42,  3.31s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1715it [1:44:46,  3.49s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1716it [1:44:49,  3.41s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1717it [1:44:52,  3.36s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1718it [1:44:55,  3.33s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1719it [1:44:59,  3.33s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1720it [1:45:02,  3.44s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1721it [1:45:06,  3.41s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1722it [1:45:09,  3.33s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1723it [1:45:12,  3.28s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1724it [1:45:15,  3.25s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1725it [1:45:18,  3.25s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1726it [1:45:21,  3.15s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1727it [1:45:24,  3.09s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1728it [1:45:28,  3.18s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1729it [1:45:31,  3.18s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1730it [1:45:35,  3.48s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1731it [1:45:38,  3.44s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1732it [1:45:42,  3.45s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1733it [1:45:45,  3.48s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1734it [1:45:48,  3.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1735it [1:45:52,  3.40s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1736it [1:45:55,  3.33s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1737it [1:45:58,  3.13s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1738it [1:46:00,  2.99s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1739it [1:46:04,  3.05s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1740it [1:46:07,  3.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1741it [1:46:10,  3.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1742it [1:46:14,  3.47s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1743it [1:46:18,  3.49s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1744it [1:46:22,  3.69s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1745it [1:46:26,  3.58s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1746it [1:46:29,  3.48s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1747it [1:46:32,  3.48s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1748it [1:46:36,  3.51s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1749it [1:46:40,  3.65s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1750it [1:46:43,  3.47s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1751it [1:46:46,  3.32s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1752it [1:46:49,  3.17s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1753it [1:46:52,  3.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1754it [1:46:55,  3.21s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1755it [1:46:58,  3.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1756it [1:47:01,  3.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1757it [1:47:04,  3.12s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1758it [1:47:08,  3.31s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1759it [1:47:12,  3.39s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1760it [1:47:21,  5.29s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1761it [1:47:26,  5.14s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1762it [1:47:29,  4.43s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1763it [1:47:33,  4.16s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1764it [1:47:36,  3.99s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1765it [1:47:39,  3.76s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1766it [1:47:42,  3.51s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1767it [1:47:46,  3.44s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1768it [1:47:49,  3.56s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1769it [1:48:04,  6.94s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1770it [1:48:08,  6.02s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1771it [1:48:12,  5.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1772it [1:48:15,  4.71s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1773it [1:48:18,  4.17s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1774it [1:48:22,  4.07s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1775it [1:48:25,  3.67s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1776it [1:48:28,  3.62s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1777it [1:48:31,  3.54s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1778it [1:48:35,  3.43s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1779it [1:48:38,  3.48s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1780it [1:48:43,  3.74s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1781it [1:48:46,  3.75s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1782it [1:48:50,  3.66s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1783it [1:48:53,  3.55s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1784it [1:48:57,  3.80s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1785it [1:49:00,  3.52s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1786it [1:49:04,  3.43s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1787it [1:49:07,  3.36s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1788it [1:49:10,  3.38s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1789it [1:49:14,  3.41s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1790it [1:49:17,  3.52s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1791it [1:49:21,  3.52s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1792it [1:49:24,  3.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1793it [1:49:28,  3.49s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1794it [1:49:31,  3.44s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1795it [1:49:35,  3.58s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1796it [1:49:38,  3.37s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1797it [1:49:41,  3.38s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1798it [1:49:46,  3.65s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1799it [1:49:48,  3.45s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1800it [1:49:52,  3.59s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1801it [1:49:56,  3.51s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1802it [1:49:59,  3.46s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1803it [1:50:02,  3.41s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1804it [1:50:05,  3.32s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1805it [1:50:08,  3.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1806it [1:50:13,  3.48s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1807it [1:50:16,  3.44s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1808it [1:50:20,  3.51s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1809it [1:50:23,  3.53s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1810it [1:50:27,  3.58s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1811it [1:50:30,  3.42s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1812it [1:50:33,  3.33s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1813it [1:50:36,  3.25s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1814it [1:50:40,  3.46s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1815it [1:50:43,  3.42s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1816it [1:50:47,  3.37s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1817it [1:50:50,  3.29s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1818it [1:50:53,  3.25s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1819it [1:50:56,  3.13s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1820it [1:50:59,  3.15s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1821it [1:51:04,  3.74s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1822it [1:51:07,  3.60s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1823it [1:51:10,  3.43s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1824it [1:51:13,  3.30s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1825it [1:51:16,  3.14s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1826it [1:51:19,  3.10s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1827it [1:51:22,  3.11s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1828it [1:51:26,  3.23s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1829it [1:51:29,  3.28s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1830it [1:51:33,  3.42s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1831it [1:51:36,  3.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1832it [1:51:40,  3.43s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1833it [1:51:43,  3.52s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1834it [1:51:47,  3.49s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1835it [1:51:50,  3.32s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1836it [1:51:53,  3.21s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1837it [1:51:56,  3.20s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1838it [1:51:59,  3.16s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1839it [1:52:02,  3.18s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1840it [1:52:06,  3.25s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1841it [1:52:08,  3.11s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1842it [1:52:12,  3.13s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1843it [1:52:15,  3.11s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1844it [1:52:17,  3.03s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1845it [1:52:21,  3.12s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1846it [1:52:24,  3.15s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1847it [1:52:27,  3.07s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1848it [1:52:30,  3.17s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1849it [1:52:34,  3.26s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1850it [1:52:37,  3.22s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1851it [1:52:40,  3.17s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1852it [1:52:44,  3.30s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1853it [1:52:47,  3.26s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1854it [1:52:50,  3.30s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1855it [1:52:53,  3.25s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1856it [1:52:56,  3.13s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1857it [1:52:59,  3.12s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1858it [1:53:02,  3.13s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1859it [1:53:06,  3.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1860it [1:53:10,  3.53s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1861it [1:53:13,  3.47s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1862it [1:53:17,  3.39s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1863it [1:53:20,  3.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1864it [1:53:23,  3.39s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1865it [1:53:27,  3.42s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1866it [1:53:30,  3.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1867it [1:53:32,  3.05s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1868it [1:53:36,  3.13s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1869it [1:53:39,  3.11s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1870it [1:53:43,  3.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1871it [1:53:46,  3.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1872it [1:53:50,  3.46s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1873it [1:53:53,  3.39s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1874it [1:54:03,  5.30s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1875it [1:54:06,  4.71s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1876it [1:54:09,  4.30s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1877it [1:54:12,  3.93s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1878it [1:54:16,  3.82s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1879it [1:54:19,  3.67s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1880it [1:54:22,  3.39s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1881it [1:54:25,  3.19s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1882it [1:54:27,  3.05s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1883it [1:54:30,  3.01s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1884it [1:54:34,  3.28s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1885it [1:54:38,  3.43s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1886it [1:54:49,  5.60s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1887it [1:54:52,  4.98s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1888it [1:54:56,  4.52s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1889it [1:54:59,  4.26s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1890it [1:55:02,  3.94s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1891it [1:55:06,  3.79s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1892it [1:55:09,  3.67s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1893it [1:55:13,  3.56s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1894it [1:55:16,  3.52s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1895it [1:55:19,  3.34s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1896it [1:55:23,  3.43s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1897it [1:55:26,  3.51s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1898it [1:55:30,  3.63s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1899it [1:55:34,  3.77s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1900it [1:55:37,  3.58s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1901it [1:55:41,  3.43s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1902it [1:55:43,  3.28s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1903it [1:55:47,  3.24s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1904it [1:55:50,  3.18s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1905it [1:55:54,  3.52s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1906it [1:55:58,  3.81s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1907it [1:56:02,  3.70s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1908it [1:56:05,  3.51s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1909it [1:56:08,  3.41s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1910it [1:56:11,  3.39s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1911it [1:56:15,  3.40s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1912it [1:56:19,  3.71s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1913it [1:56:23,  3.66s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1914it [1:56:27,  3.73s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1915it [1:56:30,  3.56s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1916it [1:56:33,  3.53s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1917it [1:56:36,  3.35s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1918it [1:56:41,  3.60s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1919it [1:56:44,  3.57s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1920it [1:56:48,  3.67s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1921it [1:56:51,  3.40s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1922it [1:56:53,  3.22s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1923it [1:56:57,  3.24s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1924it [1:57:00,  3.33s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1925it [1:57:04,  3.46s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1926it [1:57:08,  3.50s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1927it [1:57:11,  3.32s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1928it [1:57:14,  3.26s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1929it [1:57:18,  3.43s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1930it [1:57:21,  3.33s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1931it [1:57:25,  3.56s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1932it [1:57:27,  3.32s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1933it [1:57:31,  3.33s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1934it [1:57:35,  3.74s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1935it [1:57:38,  3.45s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1936it [1:57:42,  3.46s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1937it [1:57:45,  3.33s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1938it [1:57:48,  3.39s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1939it [1:57:52,  3.53s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1940it [1:57:55,  3.43s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1941it [1:57:58,  3.33s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1942it [1:58:01,  3.21s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1943it [1:58:05,  3.30s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1944it [1:58:08,  3.33s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1945it [1:58:12,  3.36s/it]INFO:__main__:got accomplishments, now updating DB 
+
+ ======
+1946it [1:58:15,  3.26s/it]1946it [1:58:15,  3.65s/it]
+Traceback (most recent call last):
+  File "/usr/lib64/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib64/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/ec2-user/autojobs/root/auto_scripts/accolades.py", line 29, in <module>
+    for document in tqdm(documents):
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/tqdm/std.py", line 1195, in __iter__
+    for obj in iterable:
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/pymongo/cursor.py", line 1207, in next
+    if len(self.__data) or self._refresh():
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/pymongo/cursor.py", line 1144, in _refresh
+    self.__send_message(g)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/pymongo/cursor.py", line 999, in __send_message
+    response = client._run_operation_with_response(
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/pymongo/mongo_client.py", line 1368, in _run_operation_with_response
+    return self._retryable_read(
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/pymongo/mongo_client.py", line 1471, in _retryable_read
+    return func(session, server, sock_info, slave_ok)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/pymongo/mongo_client.py", line 1360, in _cmd
+    return server.run_operation_with_response(
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/pymongo/server.py", line 136, in run_operation_with_response
+    _check_command_response(
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/pymongo/helpers.py", line 163, in _check_command_response
+    raise CursorNotFound(errmsg, code, response,
+pymongo.errors.CursorNotFound: cursor id 6687009328537855613 not found, full error: {'ok': 0.0, 'errmsg': 'cursor id 6687009328537855613 not found', 'code': 43, 'codeName': 'CursorNotFound', '$clusterTime': {'clusterTime': Timestamp(1708343897, 35), 'signature': {'hash': b'%\x1c\x97\x9c]\xb8\xa4\xc3\x9e\xaeF\xae\xb3\xe4\xdc2\xb8\x81 \x8f', 'keyId': 7299465883565424690}}, 'operationTime': Timestamp(1708343897, 35)}
