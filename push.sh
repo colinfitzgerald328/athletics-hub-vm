@@ -1,1 +1,1 @@
-diff_output=$(git diff) && git add . && git commit -m "$(echo "$diff_output" | curl -X POST -d @- https://athletics-hub.uc.r.appspot.com/api/generate-commit-message -H "Content-Type: text/plain")" && git push origin master
+diff_output=$(git diff) && git add . && git commit -m "$(echo "$diff_output" | curl -X POST -d @- https://athletics-hub.uc.r.appspot.com/v1/generate-commit-message -H "Content-Type: text/plain")" && git push origin master
