@@ -1,4 +1,4 @@
-import os 
+import os
 from ..meta.database_connector import DatabaseConnector
 from ..meta.ai_services import GoogleGenAIAdaptor
 
@@ -11,7 +11,6 @@ import pytz
 from typing import List, Dict
 from bs4 import BeautifulSoup
 from tqdm import tqdm
-import json
 
 # set up logging
 import logging
@@ -90,9 +89,7 @@ def get_todays_summaries() -> List[Dict[str, str]]:
         thread_title = get_thread_title(thread_link)
         thread_text = get_thread_text(thread_link)
         result = summarize_thread_text(thread_title, thread_text)
-        thread_summaries.append(
-            {"thread_link": thread_link, "thread_summary": result}
-        )
+        thread_summaries.append({"thread_link": thread_link, "thread_summary": result})
     return thread_summaries
 
 
@@ -121,13 +118,17 @@ def log_today_summary():
     collection = DatabaseConnector().get_collection(LETSRUN_COLLECTION_NAME)
     today_summaries = get_todays_summaries()
     md_doc = summarize_today_narrative(today_summaries)
+
     # now insert the document
     # Create a dictionary with the document and the current date as keys
     insert_doc = {"document": md_doc, "date": get_current_date_in_pacific()}
 
     # Insert the document into the collection
-    collection.insert_one(insert_doc)
-    logger.info("SUCCESSFULLY INSERTED SUMMARY")
+    try:
+        collection.insert_one(insert_doc)
+        logger.info("SUCCESSFULLY INSERTED SUMMARY")
+    except Exception as e:
+        logger.exception(f"[log_today_summary] an error occurred, message was {str(e)}")
 
 
 log_today_summary()
