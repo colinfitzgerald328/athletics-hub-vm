@@ -10,7 +10,7 @@ DATABASE_USERNAME = os.getenv("DATABASE_USERNAME")
 class DatabaseConnector:
 
     def get_client(self):
-        uri = uri = "mongodb+srv://jimmyneutron:1WcevHGwqQMuP1kh@trackathletes.tqfgaze.mongodb.net/?retryWrites=true&w=majority"
+        uri = f"mongodb+srv://{DATABASE_USERNAME}:{DATABASE_PASSWORD}@{DATABASE_NAME}.tqfgaze.mongodb.net/?retryWrites=true&w=majority"
         client = MongoClient(uri)
         return client
 
