@@ -2,7 +2,7 @@ import os
 from ..meta.database_connector import DatabaseConnector
 from ..meta.ai_services import GoogleGenAIAdaptor
 
-LETSRUN_COLLECTION_NAME = os.getenv("LETSRUN_COLLECTION_NAME")
+LETSRUN_COLLECTION_NAME = os.getenv("LETSRUN_COLLECTION_NAME", "")
 
 
 import requests
@@ -63,7 +63,7 @@ def get_thread_title(thread_link: str) -> str:
     return thread_title
 
 
-def summarize_thread_text(thread_title: str, thread_text: str) -> Dict[str, str]:
+def summarize_thread_text(thread_title: str, thread_text: str) -> str:
     """
     Summarizes the thread text based on the thread title and the thread text
     """
@@ -100,13 +100,13 @@ def summarize_today_narrative(snippets: List[Dict[str, str]]) -> str:
     # cast the list of summaries into a string for the prompt
     str_snippets = str(snippets)
     prompt = f"""
-        The following are snippets of text detailing the top threads in the world of track 
-        and field today from a forum called Letsrun.com 
+        The following are snippets of text detailing the top threads in the world of track
+        and field today from a forum called Letsrun.com
         Summarize these snippets into a .md (markdown) document.
         {str_snippets}
-        
-        Expected response for each thread 
-        
+
+        Expected response for each thread
+
         ## [Title for thread](<thread_link>)
         > Block quote explaining the thread - do not mention the word thread but rather summarize the content
     """

@@ -47,18 +47,6 @@ def get_mappings(aaAthleteID: str) -> List[str]:
     return mappings
 
 
-def get_mappings(aaAthleteID: str) -> str:
-    athlete_info = get_athlete_disciplines_and_gender(str(aaAthleteID))
-    split_disciplines = athlete_info["disciplines"].split(", ")
-    augmented = [athlete_info["gender"] + " " + i for i in split_disciplines]
-    mappings = []
-    for i in augmented:
-        for e in event_mappings:
-            if i == e:
-                mappings.append({"event": i, "code": event_mappings.get(e)})
-    return mappings
-
-
 def get_pb_for_discipline(aaAthleteId: str, discipline: str) -> str:
     headers = {
         "Content-Type": "application/json",

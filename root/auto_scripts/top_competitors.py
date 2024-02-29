@@ -1,7 +1,7 @@
 import requests
 from datetime import datetime
 import concurrent.futures
-from typing import List, Dict
+from typing import List, Dict, Union
 from itertools import chain
 import os
 import time
@@ -29,7 +29,7 @@ data = json.load(f)
 # he provides details and a json on how to reproduce World Athletics scores for events
 
 
-def time_string_to_seconds(time_str: str) -> float:
+def time_string_to_seconds(time_str: str) -> Union[float, str]:
     if not time_str:
         return "N/A"
     try:
@@ -57,7 +57,7 @@ def time_string_to_seconds(time_str: str) -> float:
     return total_seconds
 
 
-def get_coefs(gender: str, event: str) -> Dict:
+def get_coefs(gender: str, event: str) -> Union[Dict, None]:
     if gender == "Women's":
         subsection = "f"
     else:
@@ -69,7 +69,7 @@ def get_coefs(gender: str, event: str) -> Dict:
         return None
 
 
-def score_event(gender: str, event: str, time_seconds: float) -> float:
+def score_event(gender: str, event: str, time_seconds: float) -> Union[float, str]:
     try:
         coefs = get_coefs(gender, event)
         if not coefs:
@@ -92,7 +92,7 @@ def get_results_for_competition(
     discipline_code: str,
     competition_id: int,
     event_id: int,
-) -> Dict:
+) -> Union[Dict, None]:
     found_table = None
     # if there is no competition or event id, don't send the request
     # the server will internally error (500)

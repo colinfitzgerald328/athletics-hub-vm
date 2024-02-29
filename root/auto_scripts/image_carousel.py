@@ -1,6 +1,7 @@
+from typing_extensions import Union
 import requests
 from bs4 import BeautifulSoup
-from typing import List
+from typing import List, Any
 import re
 from tqdm import tqdm
 from ..meta.database_connector import DatabaseConnector
@@ -12,7 +13,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
-def extract_subject(string: str) -> str:
+def extract_subject(string: str) -> Any:
     try:
         results = re.findall("\w+-\w+", string)
         if len(results) >= 2:
@@ -23,7 +24,7 @@ def extract_subject(string: str) -> str:
         return None
 
 
-def get_hq_images_for_athlete(query: str, last_name: str) -> List[str]:
+def get_hq_images_for_athlete(query: str, last_name: str) -> Union[List[str], None]:
     results = []
     candidates = []
 
