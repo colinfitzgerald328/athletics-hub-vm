@@ -1,6 +1,6 @@
 import os
 from ..meta.database_connector import DatabaseConnector
-from ..meta.ai_services import GoogleGenAIAdaptor
+from ..meta.ai_services import GoogleGenAIAdaptor, OpenAIAIAdaptor
 
 LETSRUN_COLLECTION_NAME = os.getenv("LETSRUN_COLLECTION_NAME", "")
 
@@ -75,7 +75,7 @@ def summarize_thread_text(thread_title: str, thread_text: str) -> str:
         Here is the thread title: {thread_title}
         Here is the thread text: {thread_text}
     """
-    response = GoogleGenAIAdaptor().generate(prompt)
+    response = OpenAIAIAdaptor().generate(prompt)
     return response
 
 
@@ -110,7 +110,7 @@ def summarize_today_narrative(snippets: List[Dict[str, str]]) -> str:
         ## [Title for thread](<thread_link>)
         > Block quote explaining the thread - do not mention the word thread but rather summarize the content
     """
-    response = GoogleGenAIAdaptor().generate(prompt)
+    response = OpenAIAIAdaptor().generate(prompt)
     return response
 
 
