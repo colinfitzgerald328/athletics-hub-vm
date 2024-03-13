@@ -122,6 +122,7 @@ def log_today_summary():
     # now insert the document
     # Create a dictionary with the document and the current date as keys
     insert_doc = {"document": md_doc, "date": get_current_date_in_pacific()}
+    logger.info(f"[log_today_summary] inserting document {insert_doc}")
 
     # Insert the document into the collection
     try:

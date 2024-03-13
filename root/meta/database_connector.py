@@ -1,11 +1,11 @@
 import os
 from pymongo.mongo_client import MongoClient
 
-DATABASE_PASSWORD = os.getenv("DATABASE_PASSWORD")
-DATABASE_STRING_NAME = os.getenv("DATABASE_STRING_NAME")
-DATABASE_NAME = os.getenv("DATABASE_NAME")
-COLLECTION_NAME = os.getenv("COLLECTION_NAME")
-DATABASE_USERNAME = os.getenv("DATABASE_USERNAME")
+DATABASE_PASSWORD = os.environ.get("DATABASE_PASSWORD")
+DATABASE_STRING_NAME = os.environ.get("DATABASE_STRING_NAME")
+DATABASE_NAME = os.environ.get("DATABASE_NAME")
+COLLECTION_NAME = os.environ.get("COLLECTION_NAME")
+DATABASE_USERNAME = os.environ.get("DATABASE_USERNAME")
 
 
 class DatabaseConnector:
