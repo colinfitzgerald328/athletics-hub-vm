@@ -75,7 +75,7 @@ def summarize_thread_text(thread_title: str, thread_text: str) -> str:
         Here is the thread title: {thread_title}
         Here is the thread text: {thread_text}
     """
-    response = OpenAIAIAdaptor().generate(prompt)
+    response = OpenAIAIAdaptor().generate_response(prompt)
     return response
 
 
@@ -110,7 +110,7 @@ def summarize_today_narrative(snippets: List[Dict[str, str]]) -> str:
         ## [Title for thread](<thread_link>)
         > Block quote explaining the thread - do not mention the word thread but rather summarize the content
     """
-    response = OpenAIAIAdaptor().generate(prompt)
+    response = OpenAIAIAdaptor().generate_response(prompt)
     return response
 
 
